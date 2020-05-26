@@ -1,5 +1,42 @@
 @import './font';
 
-.anso {
-    background-color: $orange;
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%vh;
+    padding: 0;
+    margin: 0;
+    
+}
+// -----  debut barre nav homepage -----
+header {
+    li{
+        list-style-type: none;
+        display: inline;
+    }
+}
+li {
+    &:nth-child(9), &:nth-child(10), &:nth-child(11), &:nth-child(12){
+        float: right;
+        padding-right:10px ;
+        
+    }
+}
+.home-avatar {
+    max-width: 32px;
+}
+#text, input[type="search"] {
+    border: 1px solid $orange;
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    background: url(/images/homepage/resources/search.ico) right no-repeat;
+    background-size: 15px;
+    margin-left: 30%;
+}
+::placeholder {
+    color: $orange;
+    padding: 5px;
 }
