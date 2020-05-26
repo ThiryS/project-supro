@@ -1,0 +1,22 @@
+{
+  "name": "project-supro",
+  "version": "1.0.0",
+  "description": "mode page",
+  "main": "index.html",
+  "scripts": {
+    "scss": "node-sass --watch assets/scss -o assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiryS/project-supro.git"
+  },
+  "author": "SanA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiryS/project-supro/issues"
+  },
+  "homepage": "https://github.com/ThiryS/project-supro#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
