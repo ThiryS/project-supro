@@ -11,13 +11,19 @@ html, body {
 
 header {
   width: 100%;
-  height: 500px; }
+  height: 200px; }
+
+.home-logo-supro-nav {
+  position: relative;
+  left: 50px; }
 
 .home-menu-nav, ul {
   position: relative;
   top: 40px;
-  left: 100px;
-  max-width: 200px; }
+  left: 30px;
+  max-width: 200px;
+  margin-left: 130px;
+  margin-right: 250px; }
 
 .home-menu-nav, li, a {
   text-decoration: none;
@@ -25,12 +31,13 @@ header {
   padding: 5px;
   right: 100px;
   color: #222;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500; }
 
 .home-ico-nav, ul {
   display: inline-block;
-  left: 1080px;
-  top: -40px;
+  left: 590px;
+  top: -30px;
   margin: 0;
   padding: 0; }
 
@@ -41,14 +48,14 @@ header {
 #text, input[type="search"] {
   border: 1px solid #f68773;
   position: relative;
-  right: 200px;
-  top: 40px;
-  height: 40px;
-  width: 240px;
+  right: -550px;
+  top: 15px;
+  height: 30px;
+  width: 200px;
   border-radius: 20px;
   background: url(/images/homepage/resources/search.ico) right no-repeat;
   background-size: 20px;
-  margin-left: 30%;
+  margin-left: 25%;
   opacity: 0.4; }
 
 ::placeholder {
