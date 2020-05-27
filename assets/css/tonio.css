@@ -87,10 +87,9 @@ body {
     opacity: 35%; }
   .articles .black {
     display: inline-block;
-    position: relative;
     width: 15px;
     height: 15px;
     background-color: black; }
-    .articles .black .row4 p {
+    .articles .black .row4 {
       display: inline-block;
-      position: absolute; }
+      position: relative; }
