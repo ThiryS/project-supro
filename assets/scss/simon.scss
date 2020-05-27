@@ -1,5 +1,68 @@
 @import './font';
 
-.classTestSimon{
-    color: salmon;
-};
+html, body, .grid-container { height: 100%; margin: 0; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr 0.6fr 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 0.6fr 1.1fr 2.4fr 0.5fr;
+  gap: 1px 1px;
+  grid-template-areas: "nav nav nav nav nav nav" "banner banner banner banner banner banner" ". form1 form1 form2 form2 ." ". scrollbox map map map ." "footer footer footer footer footer footer";
+}
+
+.nav { grid-area: nav; }
+
+.banner { 
+  grid-area: banner;
+  background-color: #3c3c3c;
+  text-align: center;
+  color: white;
+ }
+
+.form1 { 
+  grid-area: form1; 
+  margin: auto;
+}
+
+.form2 { 
+  grid-area: form2; 
+  margin: auto;
+}
+
+.scrollbox { 
+  grid-area: scrollbox;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  overflow-y: scroll;
+  margin-right: 30px;
+  margin-top: 60px;
+ }
+.inline{
+  display: inline-block;
+  position: relative;
+}
+
+.footer { grid-area: footer; }
+
+.map { 
+  grid-area: map;
+  margin-top: 60px;
+ }
+
+.borderFrom{
+  border: 3px #3c3c3c;
+}
+
+/* For presentation only, no need to copy the code below 
+.grid-container * { 
+ border: 1px solid red;
+ position: relative;
+}
+
+.grid-container *:after { 
+ content:attr(class);
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+*/
