@@ -34,14 +34,14 @@ header {
   font-family: 'Roboto', sans-serif;
   font-weight: 500; }
 
-.home-ico-nav, ul {
+header .home-ico-nav, ul {
   display: inline-block;
   left: 590px;
   top: -30px;
   margin: 0;
   padding: 0; }
 
-.home-logo-supro-nav, img {
+header .home-logo-supro-nav, img {
   position: relative;
   top: 50px; }
 
@@ -66,3 +66,26 @@ header {
   opacity: 1;
   font-family: 'Roboto', sans-serif;
   font-weight: 500; }
+
+.home-part1 {
+  margin-left: 20px;
+  margin-right: 50px;
+  display: grid;
+  grid-template-rows: 300px;
+  grid-template-columns: 100px 500px auto; }
+
+.un {
+  border: 1px solid black; }
+
+.home-reseau-sect1 {
+  width: 600px;
+  height: auto; }
+
+.deux {
+  border: 1px solid black;
+  background-image: url(/images/homepage/resources/abc.jpg);
+  background-size: 900px;
+  background-repeat: no-repeat; }
+
+.trois {
+  border: 1px solid black; }
