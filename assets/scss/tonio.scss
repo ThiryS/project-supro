@@ -1,5 +1,170 @@
 @import './font';
 
-.classtonio {
-	background-color:blue;
-}
+body { 
+    width:100%;
+    margin:auto;
+    padding:auto;
+    background-color:white;
+
+    nav {
+        margin-bottom:10px;
+        margin-top:10px;
+        padding:50px;
+        padding-bottom: 70px;
+        width:100%;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+       
+
+        ul{  
+            img { 
+                float:left;
+                position:relative;
+                padding-right: 100px;
+                
+                                            }
+                                        
+                                
+            li { 
+                
+                list-style-type:none;
+                float:left;
+                position:relative;
+            
+            
+            a { 
+                padding:20px 30px;
+                list-style-type: none;
+                text-decoration: none;
+                text-align: center;
+                color:$black;
+                }
+           
+            }
+        }
+        .shop {  
+            a{
+            color:red;}
+        }
+    }          
+           
+        
+        
+    }
+    .searching { 
+        position:relative;
+        float:right;
+        padding-left:400px;
+        
+        opacity: 35%;
+        
+    .images { 
+        float:right;
+        position: relative;
+    }
+                
+    .rechercher { 
+        position:relative;
+        float:left;
+        padding-right: 100px;
+    
+        
+              
+    }
+       
+        input {
+            float:left;
+            position:relative;
+        
+
+           
+            
+        }
+        button { 
+            position:relative;
+            float:right;
+            background-color: white;
+            text-decoration:none;
+            border-left:1px transparent;
+                   
+            
+        }
+    
+    }       
+       
+        
+   
+
+    .submenu {
+        margin-left: 250px;
+        padding:20px 0px;
+        display:inline-block;
+        a {
+        text-decoration: none;
+        list-style-type: none;
+        color:$black;
+        text-align: center;
+        padding:20px 15px;
+        font-size:12px;
+
+        }
+
+
+
+
+
+    }
+    .shoes { 
+        h2 {
+            margin-left:250px;
+             
+        }
+       p{
+            display:inline-block;
+            margin-right: 50px;
+
+            span { opacity: 35%;
+
+            }
+           
+        }
+
+        .itemsort { 
+            margin-left:700px;
+
+            .shopby { 
+                margin-left:250px;
+
+            }
+        }
+
+       
+    }
+    .articles {
+        display: grid;
+        grid-template-columns: 300px 300px 300px 300px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: 1px 50px;
+        margin-left: 250px;
+        margin-right: 250px;
+
+        .prix {
+            opacity: 35%;
+        }
+        .black {
+            display:inline-block;
+            position:relative;
+            width:15px;
+            height:15px;
+            background-color: black;
+
+         .row4 { 
+                  p{ display: inline-block;
+                    position:absolute;
+                  }
+                }
+
+        }
+       
+      }
+      
+    

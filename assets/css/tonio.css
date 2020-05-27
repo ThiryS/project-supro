@@ -1,3 +1,96 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-.classtonio {
-  background-color: blue; }
+body {
+  width: 100%;
+  margin: auto;
+  padding: auto;
+  background-color: white; }
+  body nav {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 50px;
+    padding-bottom: 70px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+    body nav ul img {
+      float: left;
+      position: relative;
+      padding-right: 100px; }
+    body nav ul li {
+      list-style-type: none;
+      float: left;
+      position: relative; }
+      body nav ul li a {
+        padding: 20px 30px;
+        list-style-type: none;
+        text-decoration: none;
+        text-align: center;
+        color: #222; }
+    body nav .shop a {
+      color: red; }
+
+.searching {
+  position: relative;
+  float: right;
+  padding-left: 400px;
+  opacity: 35%; }
+  .searching .images {
+    float: right;
+    position: relative; }
+  .searching .rechercher {
+    position: relative;
+    float: left;
+    padding-right: 100px; }
+  .searching input {
+    float: left;
+    position: relative; }
+  .searching button {
+    position: relative;
+    float: right;
+    background-color: white;
+    text-decoration: none;
+    border-left: 1px transparent; }
+
+.submenu {
+  margin-left: 250px;
+  padding: 20px 0px;
+  display: inline-block; }
+  .submenu a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #222;
+    text-align: center;
+    padding: 20px 15px;
+    font-size: 12px; }
+
+.shoes h2 {
+  margin-left: 250px; }
+
+.shoes p {
+  display: inline-block;
+  margin-right: 50px; }
+  .shoes p span {
+    opacity: 35%; }
+
+.shoes .itemsort {
+  margin-left: 700px; }
+  .shoes .itemsort .shopby {
+    margin-left: 250px; }
+
+.articles {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1px 50px;
+  margin-left: 250px;
+  margin-right: 250px; }
+  .articles .prix {
+    opacity: 35%; }
+  .articles .black {
+    display: inline-block;
+    position: relative;
+    width: 15px;
+    height: 15px;
+    background-color: black; }
+    .articles .black .row4 p {
+      display: inline-block;
+      position: absolute; }
