@@ -3,15 +3,56 @@ html, body, .grid-container {
   height: 100%;
   margin: 0; }
 
-.grid-container {
+.grid-container-contact {
   display: grid;
   grid-template-columns: 1fr 1.4fr 0.6fr 1fr 1fr 1fr;
   grid-template-rows: 0.4fr 0.6fr 1.1fr 2.4fr 0.5fr;
   gap: 1px 1px;
-  grid-template-areas: "nav nav nav nav nav nav" "banner banner banner banner banner banner" ". form1 form1 form2 form2 ." ". scrollbox map map map ." "footer footer footer footer footer footer"; }
+  grid-template-areas: "contactnav contactnav contactnav contactnav contactnav contactnav" "banner banner banner banner banner banner" ". form1 form1 form2 form2 ." ". scrollbox map map map ." "footer footer footer footer footer footer"; }
 
-.nav {
-  grid-area: nav; }
+.contactnav {
+  grid-area: contactnav;
+  /*SCC de Tonio pour le nav*/
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  .contactnav ul img {
+    float: left;
+    position: relative;
+    padding-right: 100px; }
+  .contactnav ul li {
+    list-style-type: none;
+    float: left;
+    position: relative; }
+    .contactnav ul li a {
+      padding: 20px 30px;
+      list-style-type: none;
+      text-decoration: none;
+      text-align: center;
+      color: #222; }
+  .contactnav .contact a {
+    color: red; }
+
+.searching {
+  position: relative;
+  float: right;
+  padding-left: 400px;
+  opacity: 35%; }
+  .searching .images {
+    float: right;
+    position: relative; }
+  .searching .rechercher {
+    position: relative;
+    float: left;
+    padding-right: 100px; }
+  .searching input {
+    float: left;
+    position: relative; }
+  .searching button {
+    position: relative;
+    float: right;
+    background-color: white;
+    text-decoration: none;
+    border-left: 1px transparent; }
 
 .banner {
   grid-area: banner;
@@ -21,11 +62,18 @@ html, body, .grid-container {
 
 .form1 {
   grid-area: form1;
-  margin: auto; }
+  margin: auto;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin-right: 10px; }
 
 .form2 {
   grid-area: form2;
-  margin: auto; }
+  margin: auto;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  width: 100%;
+  margin-left: 10px; }
 
 .scrollbox {
   grid-area: scrollbox;
@@ -49,16 +97,16 @@ html, body, .grid-container {
 .borderFrom {
   border: 3px #3c3c3c; }
 
-/* For presentation only, no need to copy the code below 
-.grid-container * { 
- border: 1px solid red;
- position: relative;
-}
+.container-form1 {
+  display: flex;
+  flex-wrap: wrap; }
 
-.grid-container *:after { 
- content:attr(class);
- position: absolute;
- top: 0;
- left: 0;
-}
-*/
+.item {
+  width: 100%;
+  flex: 0 50%; }
+
+.margin {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px; }
