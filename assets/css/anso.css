@@ -25,14 +25,16 @@ header {
   margin-left: 130px;
   margin-right: 250px; }
 
-header .home-menu-nav, li, a {
-  text-decoration: transparent;
+header .home-menu-nav, li {
   display: inline;
-  padding: 5px;
   right: 100px;
-  color: #222;
   font-family: 'Roboto', sans-serif;
+  padding: 5px;
   font-weight: 500; }
+
+header ul li a {
+  text-decoration: none;
+  color: #222; }
 
 header .home-ico-nav, ul {
   display: inline-block;
@@ -112,3 +114,7 @@ header .home-logo-supro-nav, img {
   font-weight: 800;
   padding: 5px;
   margin-left: 100px; }
+
+.home-sect1-text4, a {
+  text-decoration: underline;
+  color: #222; }
