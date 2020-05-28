@@ -1,6 +1,6 @@
 @import './font';
 
-html, body,{ height: 100%; margin: 0; }
+html, body{ height: 100%; margin: 0; }
 
 /* Page Contact */
 
@@ -201,52 +201,81 @@ margin-right: 500px;
 .grid-container-pruduct {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.5fr 1.5fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 1px 1px;
-  grid-template-areas: "navproduc navproduc navproduc navproduc navproduc navproduc" ". pruduct pruduct pruduct pruduct ." ". infopruduct infopruduct infopruduct infopruduct ." ". releted releted releted releted ." ". upsell upsell upsell upsell ." ". footerpr footerpr footerpr footerpr .";
+  grid-template-areas: "navproduct navproduct navproduct navproduct navproduct navproduct" ". productpro productpro productpro productpro ." ". infoproduc infoproduc infoproduc infoproduc ." ". releted releted releted releted ." ". upsell upsell upsell upsell ." ". footerproduct footerproduct footerproduct footerproduct .";
 }
 
-.footerpr {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 1px 1px;
-  grid-template-areas: "suproadress help aboutsup onlineshop" "copyright socialmedia socialmedia payement";
-  grid-area: footer;
+.navproduct { 
+  grid-area: navproduct;
+  /*SCC de Tonio pour le nav*/
+  width:100%;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  ul{
+    img { 
+        float:left;
+        position:relative;
+        padding-right: 100px;
+
+         }
+
+
+    li { 
+
+        list-style-type:none;
+        float:left;
+        position:relative;
+
+
+    a { 
+        padding:20px 30px;
+        list-style-type: none;
+        text-decoration: none;
+        text-align: center;
+        color:$black;
+        }
+
+    }
+}
+.product {
+    a{
+    color:red;}
 }
 
-.copyright { grid-area: copyright; }
 
-.socialmedia { grid-area: socialmedia; }
+ }
 
-.payement { grid-area: payement; }
-
-.suproadress { grid-area: suproadress; }
-
-.help { grid-area: help; }
-
-.aboutsup { grid-area: aboutsup; }
-
-.onlineshop { grid-area: onlineshop; }
-
-.upsell {
+.productpro {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1.7fr 0.3fr;
+  gap: 1px 1px;
+  grid-template-areas: "pictureprod descripic" "otherpic mediapic";
+  grid-area: productpro;
+}
+
+.pictureprod { grid-area: pictureprod; }
+
+.otherpic { grid-area: otherpic; }
+
+.descripic { grid-area: descripic; }
+
+.mediapic { grid-area: mediapic; }
+
+.infoproduc {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.4fr 1.6fr;
   gap: 1px 1px;
-  grid-template-areas: "uptitle uptitle uptitle uptitle" "up1 up2 up3 up4";
-  grid-area: upsell;
+  grid-template-areas: "navinfos navinfos navinfos" "descinfo descinfo pisctureinfo";
+  grid-area: infoproduc;
 }
 
-.up1 { grid-area: up1; }
+.navinfos { grid-area: navinfos; }
 
-.up2 { grid-area: up2; }
+.descinfo { grid-area: descinfo; }
 
-.up3 { grid-area: up3; }
-
-.up4 { grid-area: up4; }
-
-.uptitle { grid-area: uptitle; }
+.pisctureinfo { grid-area: pisctureinfo; }
 
 .releted {
   display: grid;
@@ -267,49 +296,73 @@ margin-right: 500px;
 
 .rel4 { grid-area: rel4; }
 
-.infopruduct {
+.upsell {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.3fr 1.7fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 1.6fr;
   gap: 1px 1px;
-  grid-template-areas: "munup munup" "infosp picturep";
-  grid-area: infopruduct;
+  grid-template-areas: "uptitle uptitle uptitle uptitle" "up1 up2 up3 up4";
+  grid-area: upsell;
 }
 
-.infosp { grid-area: infosp; }
+.uptitle { grid-area: uptitle; }
 
-.picturep { grid-area: picturep; }
+.up1 { grid-area: up1; }
 
-.munup { grid-area: munup; }
+.up2 { grid-area: up2; }
 
-.pruduct {
+.up3 { grid-area: up3; }
+
+.up4 { grid-area: up4; }
+
+.footerproduct {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1.6fr 0.4fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1.3fr 0.7fr;
   gap: 1px 1px;
-  grid-template-areas: "picturepro descrp" "otherpictp catp";
-  grid-area: pruduct;
+  grid-template-areas: "suproinfos suphelp aboutsup onlinesup" "copyright media media payementfoot";
+  grid-area: footerproduct;
+  a{
+    color: #8d828d;
+    text-decoration:none;
+  }
+  color: #8d828d;
 }
 
-.picturepro { grid-area: picturepro; }
+.suproinfos { 
+  grid-area: suproinfos;
+  margin: auto;
+ }
 
-.descrp { grid-area: descrp; }
+.suphelp { 
+  grid-area: suphelp;
+  margin: auto;
+  margin-bottom: 40px;
+ }
 
-.otherpictp { grid-area: otherpictp; }
+.aboutsup { 
+  grid-area: aboutsup;
+  margin: auto;
+ }
 
-.catp { grid-area: catp; }
+.onlinesup { 
+  grid-area: onlinesup;
+  margin: auto;
+ }
 
-.navproduc { grid-area: navproduc; }
+.copyright { 
+  grid-area: copyright;
+  margin: auto;
+ }
 
-/* For presentation only, no need to copy the code below */
-.grid-container * { 
- border: 1px solid red;
- position: relative;
-}
+.media { 
+  grid-area: media;
+  margin: auto;
+ }
 
-.grid-container *:after { 
- content:attr(class);
- position: absolute;
- top: 0;
- left: 0;
-}
+.payementfoot { 
+  grid-area: payementfoot;
+  margin: auto;
+ }
+
+
