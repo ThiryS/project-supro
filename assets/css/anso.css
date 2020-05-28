@@ -114,40 +114,46 @@ header .home-logo-supro-nav, img {
   letter-spacing: 0.1em;
   font-weight: 800;
   padding: 5px;
-  margin-left: 100px; }
+  position: relative;
+  right: -698px;
+  top: -90px;
+  display: inline; }
 
 .home-sect1-text4, a {
   text-decoration: underline;
   color: #222; }
+  .home-sect1-text4 span, a span {
+    display: inline-block;
+    border-bottom: 2px solid black;
+    padding-bottom: 2px; }
 
 /*------ homepage desktop section2--------*/
 .home-part2 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 300px;
+  grid-template-columns: 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 260px;
   margin-top: 80px; }
 
 .home-img1-sect2 {
-  border: 1px solid #222;
   background-image: url(/images/homepage/resources/banner_h1_1.jpg);
   background-position: right;
-  background-size: 480px;
+  background-size: cover;
   background-repeat: no-repeat; }
 
 .home-txt1-img1-sect2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 2.5em;
+  font-weight: 600;
+  font-size: 2.1em;
   position: relative;
-  top: 50px;
+  top: 30%;
   left: 30px; }
 
 .home-txt2-img1-sect2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 2.5em;
+  font-weight: 600;
+  font-size: 2.1em;
   position: relative;
-  top: 45px;
+  top: 28%;
   left: 30px; }
 
 .home-discover-img1-sect2 {
@@ -156,11 +162,17 @@ header .home-logo-supro-nav, img {
   letter-spacing: 0.1em;
   font-weight: 800;
   position: relative;
-  top: 90px;
+  top: 40%;
   left: 30px; }
+  .home-discover-img1-sect2 a {
+    color: #222;
+    text-decoration: underline; }
+    .home-discover-img1-sect2 a span {
+      display: inline-block;
+      border-bottom: 2px solid black;
+      padding-bottom: 2px; }
 
 .home-img2-sect2 {
-  border: 1px solid #222;
   background-image: url(/images/homepage/resources/banner_h1_2.jpg);
   background-position: center;
   background-size: 400px; }
@@ -168,8 +180,8 @@ header .home-logo-supro-nav, img {
 .home-txt1-img2-sect2 {
   color: white;
   position: relative;
-  top: 65px;
-  left: 180px;
+  top: 25%;
+  left: 160px;
   font-size: 0.7em;
   font-weight: 500; }
 
@@ -181,8 +193,8 @@ header .home-logo-supro-nav, img {
   font-weight: 500;
   line-height: 1em;
   position: relative;
-  left: 132px;
-  top: 75px; }
+  left: 110px;
+  top: 29%; }
 
 .home-txt3-img2-sect2 {
   font-size: 2em;
@@ -190,22 +202,173 @@ header .home-logo-supro-nav, img {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   position: relative;
-  top: 68px;
-  left: 145px; }
+  top: 27%;
+  left: 31%; }
 
 .home-img3-sect2 {
-  border: 1px solid #222;
   background-image: url(/images/homepage/resources/banner_h1_3.jpg);
-  background-size: 478px;
+  background-size: cover;
   background-repeat: no-repeat; }
 
 .home-discover-img2-sect2 {
   font-family: 'Roboto', sans-serif;
-  font-size: 0.5em;
+  font-size: 0.6em;
   letter-spacing: 0.1em;
   font-weight: 800;
   position: relative;
-  top: 108px;
-  left: 180px; }
+  top: 38%;
+  left: 150px; }
   .home-discover-img2-sect2 a {
     color: white; }
+    .home-discover-img2-sect2 a span {
+      display: inline-block;
+      border-bottom: 2px solid white;
+      padding-bottom: 2px; }
+
+.home-txt1-img3-sect2 {
+  position: relative;
+  left: 60%;
+  top: 22%;
+  color: #222;
+  opacity: 0.4;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+  font-weight: 500; }
+
+.home-txt2-img3-sect2 {
+  position: relative;
+  left: 60%;
+  top: 26%;
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px; }
+
+.home-txt3-img3-sect2 {
+  position: relative;
+  left: 60%;
+  top: 24%;
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px; }
+
+.home-discover-img3-sect2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.6em;
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  position: relative;
+  top: 35%;
+  left: 62%; }
+  .home-discover-img3-sect2 a {
+    color: #222; }
+    .home-discover-img3-sect2 a span {
+      display: inline-block;
+      border-bottom: 2px solid black;
+      padding-bottom: 2px; }
+
+/* ---- homepage desktop section 3*/
+.home-part3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px; }
+
+.txt1-topSellers-sect3 {
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  position: relative;
+  left: 17%;
+  top: 50px; }
+
+.txt2-topSellers-sect3 {
+  position: relative;
+  left: 17%;
+  top: -100%;
+  color: #999;
+  font-size: 0.7em;
+  font-family: 'Roboto', sans-serif; }
+
+/* ----- homepage desktop section 4 ----- */
+.home-part4 {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  grid-template-rows: 350px;
+  margin: 0 auto; }
+
+.home-img1-sect4 {
+  background-image: url(/images/homepage/resources/bsl1.jpg);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: top 50% left 60%; }
+
+.home-txt1-img1-sect4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  position: relative;
+  top: 75%;
+  left: 40%; }
+
+.home-txt2-img1-sect4 {
+  position: relative;
+  top: 78%;
+  left: 40%;
+  color: #999;
+  font-weight: 500; }
+
+.home-txt3-img1-sect4 {
+  position: relative;
+  top: 80%;
+  left: 40%;
+  font-size: 0.6em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 550;
+  letter-spacing: 0.1em; }
+  .home-txt3-img1-sect4 a {
+    text-decoration: none; }
+    .home-txt3-img1-sect4 a span {
+      display: inline-block;
+      border-bottom: 2px solid #222;
+      padding-bottom: 2px; }
+
+.home-img2-sect4 {
+  background-image: url(/images/homepage/resources/bsl2.jpg);
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+  background-position: top 10% left 20%; }
+
+.home-txt1-img2-sect4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.7em;
+  font-weight: 700;
+  position: relative;
+  top: 13%; }
+
+.home-txt2-img2-sect4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.7em;
+  font-weight: 700;
+  position: relative;
+  top: 13%; }
+
+.home-txt3-img2-sect4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.7em;
+  font-weight: 700;
+  position: relative;
+  top: 10%; }
+
+.home-txt4-img2-sect4 {
+  position: relative;
+  top: 17%;
+  color: #999;
+  font-weight: 500; }
+
+.home-txt5-img2-sect4 {
+  font-size: 0.6em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 550;
+  letter-spacing: 0.1em;
+  position: relative;
+  top: 20%; }
