@@ -1,20 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 body {
-  width: 100%;
-  margin: auto;
-  padding: auto;
+  padding-left: 100px;
+  margin-right: 100px;
   background-color: white; }
   body nav {
+    padding-right: 200px;
     margin-bottom: 10px;
-    margin-top: 10px;
-    padding: 50px;
+    padding-top: 20px;
     padding-bottom: 70px;
-    width: 100%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
     body nav ul img {
       float: left;
       position: relative;
-      padding-right: 100px; }
+      padding-right: 500px; }
     body nav ul li {
       list-style-type: none;
       float: left;
@@ -31,7 +29,7 @@ body {
 .searching {
   position: relative;
   float: right;
-  padding-left: 400px;
+  padding-left: 200px;
   opacity: 35%; }
   .searching .images {
     float: right;
@@ -48,10 +46,13 @@ body {
     float: right;
     background-color: white;
     text-decoration: none;
-    border-left: 1px transparent; }
+    border-left: 1px transparent;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    opacity: 50%; }
 
 .submenu {
-  margin-left: 250px;
+  margin-left: 600px;
   padding: 20px 0px;
   display: inline-block; }
   .submenu a {
@@ -62,34 +63,154 @@ body {
     padding: 20px 15px;
     font-size: 12px; }
 
-.shoes h2 {
-  margin-left: 250px; }
-
-.shoes p {
-  display: inline-block;
-  margin-right: 50px; }
-  .shoes p span {
-    opacity: 35%; }
-
-.shoes .itemsort {
-  margin-left: 700px; }
-  .shoes .itemsort .shopby {
-    margin-left: 250px; }
+.shoes {
+  height: 50px;
+  margin-left: 600px;
+  margin-top: 50px; }
+  .shoes .titreshoes {
+    display: inline-block;
+    padding-right: 100px; }
+  .shoes .shopby {
+    display: inline-block;
+    margin-left: 250px;
+    font-size: 20px;
+    list-style-type: bold; }
+  .shoes .items {
+    display: inline-block;
+    padding-right: 250px; }
+  .shoes .sort {
+    display: inline-block; }
+    .shoes .sort span {
+      opacity: 35%; }
 
 .articles {
   display: grid;
   grid-template-columns: 300px 300px 300px 300px;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  gap: 1px 50px;
-  margin-left: 250px;
-  margin-right: 250px; }
+  gap: 100px 50px;
+  margin-left: 450px;
+  margin-right: 450px;
+  height: 2100px; }
   .articles .prix {
     opacity: 35%; }
   .articles .black {
     display: inline-block;
+    position: absolute;
     width: 15px;
     height: 15px;
-    background-color: black; }
-    .articles .black .row4 {
+    background-color: #222;
+    border-radius: 35px; }
+  .articles .textblack {
+    margin-left: 30px;
+    opacity: 35%; }
+  .articles .blue {
+    display: inline-block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    border-radius: 35px; }
+  .articles .textblue {
+    margin-left: 30px;
+    opacity: 35%; }
+  .articles .brown {
+    display: inline-block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: brown;
+    border-radius: 35px; }
+  .articles .textbrown {
+    margin-left: 30px;
+    opacity: 35%; }
+  .articles .xs {
+    display: inline-block;
+    position: absolute;
+    border: 1px solid grey;
+    padding: 10px;
+    opacity: 35%; }
+  .articles .s {
+    display: inline-block;
+    position: absolute;
+    margin-left: 50px;
+    border: 1px solid grey;
+    padding: 10px;
+    opacity: 35%; }
+  .articles .m {
+    display: inline-block;
+    position: absolute;
+    margin-left: 90px;
+    border: 1px solid grey;
+    padding: 10px;
+    opacity: 35%; }
+  .articles .price {
+    margin-top: 100px; }
+  .articles .scroller {
+    width: 300px;
+    height: 100px;
+    overflow-x: scroll;
+    scrollbar-color: rebeccapurple #ff6600;
+    scrollbar-width: thin; }
+  .articles .brand input {
+    margin: 10px;
+    margin-left: 150px; }
+  .articles .brand label {
+    opacity: 35%; }
+  .articles .brand .compare {
+    padding-top: 50px; }
+  .articles .brand p {
+    opacity: 35%; }
+  .articles .blueshort {
+    display: inline-block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    border-radius: 35px;
+    margin-left: 25px; }
+  .articles .blackshort {
+    display: inline-block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 35px; }
+  .articles .mxs {
+    display: inline-block;
+    background-color: lightgrey;
+    border-radius: 30px;
+    font-size: 14px;
+    opacity: 60%; }
+
+.numeropage {
+  display: inline-block;
+  padding-left: 900px; }
+  .numeropage a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    padding: 20px 10px; }
+    .numeropage a span {
       display: inline-block;
-      position: relative; }
+      border-bottom: 2px solid black;
+      padding-bottom: 2px; }
+  .numeropage form {
+    display: inline-block; }
+    .numeropage form .next {
+      display: inline-block;
+      border-radius: 10px; }
+
+footer {
+  grid-area: footer;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 300px;
+  padding-bottom: 50px;
+  margin-left: 450px; }
+  footer a {
+    color: #8d828d;
+    text-decoration: none;
+    text-align: center;
+    padding-right: 10px; }
+  footer .footerimg {
+    padding-left: 350px; }
