@@ -298,10 +298,11 @@ header .home-logo-supro-nav, img {
   margin: 0 auto; }
 
 .home-img1-sect4 {
+  border: 1px solid #222;
   background-image: url(/images/homepage/resources/bsl1.jpg);
   background-size: 200px;
   background-repeat: no-repeat;
-  background-position: top 50% left 60%; }
+  background-position: top 48% left 60%; }
 
 .home-txt1-img1-sect4 {
   font-family: 'Roboto', sans-serif;
@@ -333,8 +334,9 @@ header .home-logo-supro-nav, img {
       padding-bottom: 2px; }
 
 .home-img2-sect4 {
+  border: 1px solid #222;
   background-image: url(/images/homepage/resources/bsl2.jpg);
-  background-size: 300px 300px;
+  background-size: 350px 350px;
   background-repeat: no-repeat;
   background-position: top 10% left 20%; }
 
@@ -371,4 +373,12 @@ header .home-logo-supro-nav, img {
   font-weight: 550;
   letter-spacing: 0.1em;
   position: relative;
-  top: 20%; }
+  top: 28%; }
+
+.home-part5 {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  grid-template-rows: 350px; }
+
+.home-sect5-img1 {
+  border: 1px solid #222; }
