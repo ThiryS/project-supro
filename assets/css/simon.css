@@ -3,6 +3,7 @@ html, body, .grid-container {
   height: 100%;
   margin: 0; }
 
+/* Page Contact */
 .grid-container-contact {
   display: grid;
   grid-template-columns: 1fr 1.4fr 0.6fr 1fr 1fr 1fr;
@@ -81,18 +82,27 @@ html, body, .grid-container {
   border-radius: 5px;
   overflow-y: scroll;
   margin-right: 30px;
-  margin-top: 60px; }
+  margin-top: 60px;
+  height: 450px; }
 
 .inline {
   display: inline-block;
   position: relative; }
 
-.footer {
-  grid-area: footer; }
+footer {
+  grid-area: footer;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 100px; }
+  footer a {
+    color: #8d828d;
+    text-decoration: none; }
 
 .map {
   grid-area: map;
-  margin-top: 60px; }
+  margin-top: 60px;
+  margin: auto; }
 
 .borderFrom {
   border: 3px #3c3c3c; }
@@ -101,12 +111,38 @@ html, body, .grid-container {
   display: flex;
   flex-wrap: wrap; }
 
+.container-scrollbox {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #cccccc; }
+
 .item {
   width: 100%;
-  flex: 0 50%; }
+  flex: 0 45%; }
 
-.margin {
-  margin-top: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 5px; }
+.h5contact {
+  border-bottom: 1px solid #cccccc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.marginBottom {
+  margin-bottom: 15px; }
+
+.marginfooter {
+  margin-right: 500px; }
+
+.BlackBoutton {
+  background-color: black;
+  Color: white;
+  font-weight: bold;
+  padding: 10px 40px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none; }
+
+.marginLeft {
+  margin-left: 10px; }
+
+/* Page Product */
