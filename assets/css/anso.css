@@ -297,7 +297,6 @@ header .home-logo-supro-nav, img {
   margin: 0 auto; }
 
 .home-img1-sect4 {
-  border: 1px solid #222;
   background-image: url(/images/homepage/resources/bsl1.jpg);
   background-size: 200px;
   background-repeat: no-repeat;
@@ -333,7 +332,6 @@ header .home-logo-supro-nav, img {
       padding-bottom: 2px; }
 
 .home-img2-sect4 {
-  border: 1px solid #222;
   background-image: url(/images/homepage/resources/bsl2.jpg);
   background-size: 350px 350px;
   background-repeat: no-repeat;
@@ -367,14 +365,12 @@ header .home-logo-supro-nav, img {
   grid-template-rows: 500px; }
 
 .home-sect5-img1 {
-  border: 1px solid #222;
   background-image: url(/images/homepage/resources/bsl3.jpg);
-  background-size: 300px 300px;
+  background-size: 350px 350px;
   background-repeat: no-repeat;
   background-position: top 65% left 100%; }
 
 .home-sect5-img2 {
-  border: 1px solid #222;
   background-image: url(/images/homepage/resources/bsl4.jpg);
   background-size: 200px;
   background-repeat: no-repeat;
@@ -385,14 +381,14 @@ header .home-logo-supro-nav, img {
   font-size: 1.7em;
   font-weight: 700;
   position: relative;
-  top: 22%;
-  left: 40%;
+  top: 25%;
+  left: 33%;
   letter-spacing: 0.2px; }
 
 .home-sect5-img1-price {
   position: relative;
   top: 30%;
-  left: 40%;
+  left: 33%;
   color: #999;
   font-weight: 500; }
 
@@ -403,8 +399,35 @@ header .home-logo-supro-nav, img {
   letter-spacing: 0.1em;
   position: relative;
   top: 35%;
-  left: 40%; }
+  left: 33%; }
   .home-sect5-img1-shopnow a span {
+    display: inline-block;
+    border-bottom: 2px solid #222;
+    padding-bottom: 2px; }
+
+.home-sect5-img2-txt1, .home-sect5-img2-txt2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  position: relative;
+  top: 68%;
+  left: 35%; }
+
+.home-sect5-img2-price {
+  position: relative;
+  top: 70%;
+  left: 35%;
+  color: #999;
+  font-weight: 500; }
+
+.home-sect5-img2-shopnow {
+  font-size: 0.6em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 550;
+  letter-spacing: 0.1em;
+  position: relative;
+  left: 35%;
+  top: 75%; }
+  .home-sect5-img2-shopnow a span {
     display: inline-block;
     border-bottom: 2px solid #222;
     padding-bottom: 2px; }
