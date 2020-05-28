@@ -4,7 +4,6 @@
 
 html, body {
   height: 100%vh;
-  width: 100%;
   padding: 0;
   margin: 0;
   background: #f2ede9; }
@@ -268,7 +267,7 @@ header .home-logo-supro-nav, img {
       border-bottom: 2px solid black;
       padding-bottom: 2px; }
 
-/* ---- homepage desktop section 3*/
+/* ---- homepage desktop section 3 ----*/
 .home-part3 {
   display: grid;
   grid-template-columns: 1fr;
@@ -302,26 +301,26 @@ header .home-logo-supro-nav, img {
   background-image: url(/images/homepage/resources/bsl1.jpg);
   background-size: 200px;
   background-repeat: no-repeat;
-  background-position: top 48% left 60%; }
+  background-position: top 48% left 80%; }
 
 .home-txt1-img1-sect4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
   position: relative;
-  top: 75%;
-  left: 40%; }
+  top: 73%;
+  left: 55%; }
 
 .home-txt2-img1-sect4 {
   position: relative;
-  top: 78%;
-  left: 40%;
+  top: 76%;
+  left: 55%;
   color: #999;
   font-weight: 500; }
 
 .home-txt3-img1-sect4 {
   position: relative;
   top: 80%;
-  left: 40%;
+  left: 55%;
   font-size: 0.6em;
   font-family: 'Roboto', sans-serif;
   font-weight: 550;
@@ -338,28 +337,14 @@ header .home-logo-supro-nav, img {
   background-image: url(/images/homepage/resources/bsl2.jpg);
   background-size: 350px 350px;
   background-repeat: no-repeat;
-  background-position: top 10% left 20%; }
+  background-position: top 10% left 22%; }
 
-.home-txt1-img2-sect4 {
+.home-txt1-img2-sect4, .home-txt2-img2-sect4, .home-txt3-img2-sect4 {
   font-family: 'Roboto', sans-serif;
   font-size: 1.7em;
   font-weight: 700;
   position: relative;
   top: 13%; }
-
-.home-txt2-img2-sect4 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.7em;
-  font-weight: 700;
-  position: relative;
-  top: 13%; }
-
-.home-txt3-img2-sect4 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.7em;
-  font-weight: 700;
-  position: relative;
-  top: 10%; }
 
 .home-txt4-img2-sect4 {
   position: relative;
@@ -375,10 +360,51 @@ header .home-logo-supro-nav, img {
   position: relative;
   top: 28%; }
 
+/* ----  section 5 ------*/
 .home-part5 {
   display: grid;
-  grid-template-columns: 1.3fr 1fr;
-  grid-template-rows: 350px; }
+  grid-template-columns: 1.2fr 1fr;
+  grid-template-rows: 500px; }
 
 .home-sect5-img1 {
-  border: 1px solid #222; }
+  border: 1px solid #222;
+  background-image: url(/images/homepage/resources/bsl3.jpg);
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+  background-position: top 65% left 100%; }
+
+.home-sect5-img2 {
+  border: 1px solid #222;
+  background-image: url(/images/homepage/resources/bsl4.jpg);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: top 50% left 50%; }
+
+.home-sect5-img1-txt1, .home-sect5-img1-txt2, .home-sect5-img1-txt3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.7em;
+  font-weight: 700;
+  position: relative;
+  top: 22%;
+  left: 40%;
+  letter-spacing: 0.2px; }
+
+.home-sect5-img1-price {
+  position: relative;
+  top: 30%;
+  left: 40%;
+  color: #999;
+  font-weight: 500; }
+
+.home-sect5-img1-shopnow {
+  font-size: 0.6em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 550;
+  letter-spacing: 0.1em;
+  position: relative;
+  top: 40%;
+  left: 40%; }
+  .home-sect5-img1-shopnow a span {
+    display: inline-block;
+    border-bottom: 2px solid #222;
+    padding-bottom: 2px; }
