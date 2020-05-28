@@ -65,11 +65,11 @@ body {
 
 .shoes {
   height: 50px;
-  margin-left: 600px;
+  margin-left: 500px;
   margin-top: 50px; }
   .shoes .titreshoes {
     display: inline-block;
-    padding-right: 100px; }
+    padding-right: 200px; }
   .shoes .shopby {
     display: inline-block;
     margin-left: 250px;
@@ -77,7 +77,7 @@ body {
     list-style-type: bold; }
   .shoes .items {
     display: inline-block;
-    padding-right: 250px; }
+    padding-right: 200px; }
   .shoes .sort {
     display: inline-block; }
     .shoes .sort span {
@@ -93,11 +93,13 @@ body {
   height: 2100px; }
   .articles .prix {
     opacity: 35%; }
+  .articles .noir, .articles .bleu, .articles .brun {
+    padding-bottom: 10px; }
   .articles .black {
     display: inline-block;
     position: absolute;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     background-color: #222;
     border-radius: 35px; }
   .articles .textblack {
@@ -106,8 +108,8 @@ body {
   .articles .blue {
     display: inline-block;
     position: absolute;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     background-color: blue;
     border-radius: 35px; }
   .articles .textblue {
@@ -116,8 +118,8 @@ body {
   .articles .brown {
     display: inline-block;
     position: absolute;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     background-color: brown;
     border-radius: 35px; }
   .articles .textbrown {
@@ -144,13 +146,13 @@ body {
     padding: 10px;
     opacity: 35%; }
   .articles .price {
-    margin-top: 100px; }
-  .articles .scroller {
-    width: 300px;
-    height: 100px;
-    overflow-x: scroll;
-    scrollbar-color: rebeccapurple #ff6600;
-    scrollbar-width: thin; }
+    margin-top: 100px;
+    padding-top: 10px; }
+  .articles .prix {
+    padding-top: 15px; }
+  .articles .range-field {
+    width: 10px;
+    height: 10px; }
   .articles .brand input {
     margin: 10px;
     margin-left: 150px; }

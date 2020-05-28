@@ -105,14 +105,14 @@ body {
     }
     .shoes { 
         height:50px;
-        margin-left:600px;
+        margin-left:500px;
         margin-top: 50px;
         
         
 
         .titreshoes {
             display: inline-block;
-            padding-right:100px;
+            padding-right:200px;
         }
         
         
@@ -128,7 +128,7 @@ body {
         }
         .items { 
             display: inline-block;
-            padding-right: 250px;
+            padding-right: 200px;
             
             
         }
@@ -156,14 +156,18 @@ body {
             opacity: 35%;
             
         }
+        .noir, .bleu, .brun {
+            padding-bottom: 10px;
+        }
         
         .black {
             display:inline-block;
             position:absolute;
-            width:15px;
-            height:15px;
+            width:20px;
+            height:20px;
             background-color:$black;
             border-radius:35px;
+            
         }
         
         .textblack {
@@ -174,8 +178,8 @@ body {
         .blue {
             display:inline-block;
             position:absolute;
-            width:15px;
-            height:15px;
+            width:20px;
+            height:20px;
             background-color: blue;
             border-radius:35px;
         }
@@ -188,8 +192,8 @@ body {
         .brown {
             display:inline-block;
             position:absolute;
-            width:15px;
-            height:15px;
+            width:20px;
+            height:20px;
             background-color: brown;
             border-radius:35px;
         }
@@ -216,6 +220,7 @@ body {
             border:1px solid grey;
             padding:10px;
             opacity:35% ;
+ 
             
         }
         .m {
@@ -228,15 +233,16 @@ body {
         }
         .price { 
             margin-top: 100px;
+            padding-top:10px;
         }
-        
-        .scroller {
-            width: 300px;
-            height: 100px;
-            overflow-x: scroll;
-            scrollbar-color: rebeccapurple rgb(255, 102, 0);
-            scrollbar-width: thin;
-          }
+        .prix {
+            padding-top:15px;
+        }
+       
+        .range-field {
+            width: 10px;
+            height: 10px;
+        }
 
         .brand { 
 
@@ -331,5 +337,6 @@ body {
         .footerimg {
             padding-left:350px;
         }
-       }
+    }
+
        
