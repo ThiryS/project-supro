@@ -181,19 +181,19 @@ header .home-logo-supro-nav, img {
   color: white;
   position: relative;
   top: 25%;
-  left: 160px;
+  left: 42%;
   font-size: 0.7em;
   font-weight: 500; }
 
 .home-txt2-img2-sect2 {
-  font-size: 2em;
+  font-size: 1.8em;
   letter-spacing: 0.3px;
   color: white;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   line-height: 1em;
   position: relative;
-  left: 110px;
+  left: 35%;
   top: 29%; }
 
 .home-txt3-img2-sect2 {
@@ -203,7 +203,7 @@ header .home-logo-supro-nav, img {
   font-weight: 500;
   position: relative;
   top: 27%;
-  left: 31%; }
+  left: 35%; }
 
 .home-img3-sect2 {
   background-image: url(/images/homepage/resources/banner_h1_3.jpg);
