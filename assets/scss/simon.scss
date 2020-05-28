@@ -1,6 +1,6 @@
 @import './font';
 
-html, body, .grid-container { height: 100%; margin: 0; }
+html, body,{ height: 100%; margin: 0; }
 
 /* Page Contact */
 
@@ -197,3 +197,119 @@ margin-right: 500px;
 }
 
 /* Page Product */
+
+.grid-container-pruduct {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1.5fr 1fr 1fr 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "navproduc navproduc navproduc navproduc navproduc navproduc" ". pruduct pruduct pruduct pruduct ." ". infopruduct infopruduct infopruduct infopruduct ." ". releted releted releted releted ." ". upsell upsell upsell upsell ." ". footerpr footerpr footerpr footerpr .";
+}
+
+.footerpr {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "suproadress help aboutsup onlineshop" "copyright socialmedia socialmedia payement";
+  grid-area: footer;
+}
+
+.copyright { grid-area: copyright; }
+
+.socialmedia { grid-area: socialmedia; }
+
+.payement { grid-area: payement; }
+
+.suproadress { grid-area: suproadress; }
+
+.help { grid-area: help; }
+
+.aboutsup { grid-area: aboutsup; }
+
+.onlineshop { grid-area: onlineshop; }
+
+.upsell {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 1.6fr;
+  gap: 1px 1px;
+  grid-template-areas: "uptitle uptitle uptitle uptitle" "up1 up2 up3 up4";
+  grid-area: upsell;
+}
+
+.up1 { grid-area: up1; }
+
+.up2 { grid-area: up2; }
+
+.up3 { grid-area: up3; }
+
+.up4 { grid-area: up4; }
+
+.uptitle { grid-area: uptitle; }
+
+.releted {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 1.6fr;
+  gap: 1px 1px;
+  grid-template-areas: "reltitle reltitle reltitle reltitle" "rel1 rel2 rel3 rel4";
+  grid-area: releted;
+}
+
+.reltitle { grid-area: reltitle; }
+
+.rel1 { grid-area: rel1; }
+
+.rel2 { grid-area: rel2; }
+
+.rel3 { grid-area: rel3; }
+
+.rel4 { grid-area: rel4; }
+
+.infopruduct {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.3fr 1.7fr;
+  gap: 1px 1px;
+  grid-template-areas: "munup munup" "infosp picturep";
+  grid-area: infopruduct;
+}
+
+.infosp { grid-area: infosp; }
+
+.picturep { grid-area: picturep; }
+
+.munup { grid-area: munup; }
+
+.pruduct {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1.6fr 0.4fr;
+  gap: 1px 1px;
+  grid-template-areas: "picturepro descrp" "otherpictp catp";
+  grid-area: pruduct;
+}
+
+.picturepro { grid-area: picturepro; }
+
+.descrp { grid-area: descrp; }
+
+.otherpictp { grid-area: otherpictp; }
+
+.catp { grid-area: catp; }
+
+.navproduc { grid-area: navproduc; }
+
+/* For presentation only, no need to copy the code below */
+.grid-container * { 
+ border: 1px solid red;
+ position: relative;
+}
+
+.grid-container *:after { 
+ content:attr(class);
+ position: absolute;
+ top: 0;
+ left: 0;
+}
