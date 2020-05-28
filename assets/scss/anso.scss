@@ -14,7 +14,7 @@ html, body {
 
     
 }
-// -----  debut barre navbar homepage ----- //
+// ----- homepage navbar desktop ----- //
 header {
     width: 100%;
     height: 200px;
@@ -24,9 +24,6 @@ header {
     position: relative;
     left: 50px;
 }
-
-
-
 .home-menu-nav, ul {
     position: relative;
     top: 40px;
@@ -48,20 +45,12 @@ header {
    ul{
        li{
            a{
-               text-decoration: none;
-               color: $black;
-           }
-       }
+            text-decoration: none;
+            color: $black;
+            }
+        }
    }
 }
- 
-    
-      
-
-  
-
-
-
 header .home-ico-nav, ul {
     display: inline-block;
     left: 590px;
@@ -95,18 +84,14 @@ header .home-logo-supro-nav, img {
      font-family:'Roboto', sans-serif;
      font-weight: 500;
     }
-   
- 
-
+    /*------- homepage desktop section1-------*/
 .home-part1{
     margin-left: 20px;
     margin-right: 50px;
     display: grid;
     grid-template-rows:350px;
     grid-template-columns: 100px 500px auto;
-   
 }
-
 .home-ico-sect1 {
     text-align: center;
     position: relative;
@@ -115,17 +100,11 @@ header .home-logo-supro-nav, img {
     line-height: 1.5;
 }
 
-.deux {
-    
+.home-deux {
     background-image: url(/images/homepage/resources/abc.jpg) ;
     background-size: 1000px;
     background-repeat: no-repeat;
-   
-    
-
 }
-
-
 .home-sect1-text1 {
     color: $orange;
     font-family: 'Roboto', sans-serif;
@@ -138,27 +117,120 @@ header .home-logo-supro-nav, img {
     margin-left: 100px;
 }
 .home-sect1-text2 {
-    font-size: 4em;
+    font-size: 4.2em;
     font-weight: 900;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    margin-left: 100px;
+    letter-spacing: 0.9px;
+}
+.home-sect1-text4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.6em;
+    letter-spacing: 0.1em;
+    font-weight:800 ;
     padding: 5px;
     margin-left: 100px;
 }
-
-
-
-    
-
-.home-sect1-text4 {
-      font-family: 'Roboto', sans-serif;
-      font-size: 0.6em;
-      letter-spacing: 0.1em;
-      font-weight:800 ;
-      padding: 5px;
-      margin-left: 100px;
-    }
 .home-sect1-text4, a {
-        text-decoration: underline;
-        color: $black;
-    }
+     text-decoration: underline;
+    color: $black;
+    
+}
+/*------ homepage desktop section2--------*/
+.home-part2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 300px;
+        margin-top: 80px;
+       
+       
+}
+
+.home-img1-sect2 {
+    border: 1px solid $black;
+    background-image: url(/images/homepage/resources/banner_h1_1.jpg);
+    background-position: right;
+    background-size: 480px;
+    background-repeat: no-repeat;
+    
+}
+.home-txt1-img1-sect2{
+     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size:2.5em ;
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+.home-txt2-img1-sect2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size:2.5em ;
+    position: relative;
+    top: 45px;
+    left:30px ;
+}
+.home-discover-img1-sect2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.6em;
+    letter-spacing: 0.1em;
+    font-weight:800 ;
+    position: relative;
+    top: 90px;
+    left:30px ;
+}
+
+.home-img2-sect2 {
+    border: 1px solid $black;
+    background-image: url(/images/homepage/resources/banner_h1_2.jpg);
+    background-position: center;
+    background-size:400px ;
+}
+.home-txt1-img2-sect2 {
+    color: $white;
+    position: relative;
+    top: 65px;
+    left: 180px;
+    font-size: 0.7em;
+    font-weight: 500;
+}
+.home-txt2-img2-sect2 {
+    font-size: 2em;
+    letter-spacing:0.3px;
+    color: $white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 1em;
+    position: relative;
+    left: 132px;
+    top: 75px;
+}
+.home-txt3-img2-sect2 {
+    font-size: 2em;
+    color: $white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    position: relative;
+    top:68px ;
+    left:145px ;
+}
+
+.home-img3-sect2 {
+    border: 1px solid $black;
+    background-image: url(/images/homepage/resources/banner_h1_3.jpg);
+    background-size: 478px;
+    background-repeat: no-repeat;
+}
+.home-discover-img2-sect2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.5em;
+    letter-spacing: 0.1em;
+    font-weight:800 ;
+    position: relative;
+    top: 108px;
+    left: 180px;
+    a{
+        color: $white;
+     }
+ }
