@@ -1,6 +1,6 @@
 @import './font';
 
-html, body{ height: 100%; margin: 0; }
+html, body{ height: 100%; margin: 0; font-family: 'Roboto', sans-serif; }
 
 /* Page Contact */
 
@@ -9,7 +9,7 @@ html, body{ height: 100%; margin: 0; }
   grid-template-columns: 1fr 1.4fr 0.6fr 1fr 1fr 1fr;
   grid-template-rows: 0.4fr 0.6fr 1.1fr 2.4fr 0.5fr;
   gap: 1px 1px;
-  grid-template-areas: "contactnav contactnav contactnav contactnav contactnav contactnav" "banner banner banner banner banner banner" ". form1 form1 form2 form2 ." ". scrollbox map map map ." "footer footer footer footer footer footer";
+  grid-template-areas: "contactnav contactnav contactnav contactnav contactnav contactnav" "banner banner banner banner banner banner" ". form1 form1 form2 form2 ." ". scrollbox map map map ." "footerContact footerContact footerContact footerContact footerContact footerContact";
 }
 
 .contactnav { 
@@ -130,8 +130,8 @@ button {
   position: relative;
 }
 
-footer { 
-  grid-area: footer;
+.footerContact { 
+  grid-area: footerContact;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
@@ -191,6 +191,9 @@ margin-right: 500px;
   border-radius: 3px;
   cursor: pointer; 
   text-decoration: none;
+}
+.BlackBoutton:hover{
+  opacity: 0.7;
 }
 .marginLeft{
   margin-left: 10px;
@@ -256,7 +259,15 @@ margin-right: 500px;
 
 .pictureprod { grid-area: pictureprod; }
 
-.otherpic { grid-area: otherpic; }
+.otherpic { 
+  grid-area: otherpic;
+  margin-top: auto;
+  align-items: center;
+  img{
+    padding-left: 20px;
+  }
+
+ }
 
 .descripic { grid-area: descripic; }
 
@@ -271,9 +282,32 @@ margin-right: 500px;
   grid-area: infoproduc;
 }
 
-.navinfos { grid-area: navinfos; }
+.navinfos { 
+  grid-area: navinfos;
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  p{
+    text-align: center;
+    padding-top: 30px;
+    color: #555555;
+  }
+ }
 
-.descinfo { grid-area: descinfo; }
+.descinfo { 
+  grid-area: descinfo;
+
+p{
+  color: #555555;
+}
+ul{
+  color: #555555;
+  li{
+    padding-bottom: 20px;
+  }
+}
+  
+
+ }
 
 .pisctureinfo { grid-area: pisctureinfo; }
 
@@ -286,7 +320,11 @@ margin-right: 500px;
   grid-area: releted;
 }
 
-.reltitle { grid-area: reltitle; }
+.reltitle { 
+  grid-area: reltitle;
+  margin: auto;
+  text-align: center;
+ }
 
 .rel1 { grid-area: rel1; }
 
@@ -305,7 +343,10 @@ margin-right: 500px;
   grid-area: upsell;
 }
 
-.uptitle { grid-area: uptitle; }
+.uptitle { 
+  grid-area: uptitle;
+  margin: auto;
+ }
 
 .up1 { grid-area: up1; }
 
@@ -337,7 +378,7 @@ margin-right: 500px;
 .suphelp { 
   grid-area: suphelp;
   margin: auto;
-  margin-bottom: 40px;
+  margin-bottom: 255px;
  }
 
 .aboutsup { 
@@ -366,3 +407,6 @@ margin-right: 500px;
  }
 
 
+.pproductp{
+color: #555555;
+}
