@@ -369,7 +369,8 @@ header .home-logo-supro-nav, img {
   grid-template-columns: 1.2fr 1fr;
   grid-template-rows: 500px;
   margin-right: 150px;
-  margin-left: 150px; }
+  margin-left: 150px;
+  margin-bottom: 150px; }
 
 .home-sect5-img1 {
   background-image: url(/images/homepage/resources/bsl3.jpg);
@@ -443,7 +444,7 @@ header .home-logo-supro-nav, img {
 .home-sect6 {
   display: grid;
   grid-template-columns: 600px 1fr;
-  grid-template-rows: 150px; }
+  grid-template-rows: 120px; }
 
 .home-sect6-part1 {
   border: 1px solid #222; }
@@ -483,4 +484,111 @@ header .home-logo-supro-nav, img {
 
 /*  ------------- Section7 -------------*/
 .home-sect7 {
-  display: grid; }
+  display: grid;
+  grid-template-columns: 220px 220px 220px;
+  grid-template-rows: 380px;
+  grid-gap: 80px;
+  margin-left: 165px; }
+
+.h-s7-part1 {
+  border: 1px solid #222;
+  background-image: url(/images/homepage/resources/prd_09_1_1_5.jpg);
+  background-repeat: no-repeat;
+  background-size: 220px 220px; }
+
+.h-s7-part2 {
+  border: 1px solid #222;
+  background-image: url(/images/homepage/resources/prd_08_1_6.jpg);
+  background-repeat: no-repeat;
+  background-size: 220px 220px; }
+
+.h-s7-part3 {
+  border: 1px solid #222;
+  background-image: url(/images/homepage/resources/prd_07_1_2.jpg);
+  background-repeat: no-repeat;
+  background-size: 220px 220px; }
+
+.h-s7-part1-txt {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  position: relative;
+  top: 63%; }
+
+.h-s7-part1-star {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  position: relative;
+  top: 65%; }
+
+.h-s7-part1-price {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  position: relative;
+  top: 68%;
+  color: #999; }
+
+.h-s7-part2-txt {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  position: relative;
+  top: 63%; }
+
+.h-s7-part2-star {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  position: relative;
+  top: 65%; }
+
+.h-s7-part2-price1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  position: relative;
+  top: 68.3%;
+  color: #999;
+  text-decoration: line-through; }
+
+.h-s7-part2-price2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  position: relative;
+  top: 65%;
+  left: 20%; }
+
+.h-s7-part3-rond-marron {
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  background: brown;
+  position: relative;
+  top: 68%; }
+
+.h-s7-part3-rond-noir {
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  background: #222;
+  position: relative;
+  top: 65.4%;
+  left: 7%; }
+
+.h-s7-part3-txt {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  position: relative;
+  top: 63%; }
+
+.h-s7-part3-price {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  position: relative;
+  top: 65%;
+  color: #999; }
