@@ -20,9 +20,9 @@
 
             <div class="searching">
                 
-                <form class="rechercher" method="GET" action="rechercher.php">
+                <form class="rechercher" method="GET" action="#">
                     <input type="text" placeholder="Start Searching">
-                    <button class="loupe" type="submit" value=""><img src="images/shop/resources/search-outline.svg" alt="outline" width="26px" height="27px"/></button>
+                    <button class="loupe" type="submit" value="#"><img src="images/shop/resources/search-outline.svg" alt="outline" width="26px" height="27px"/></button>
                 </form>
 
                 <div class="images">
@@ -44,6 +44,7 @@
             <a href="#">Shoes</a>
 
         </div>
+        
         <div class="shoes">
            
             
@@ -60,6 +61,7 @@
             <p class="description">Calvin Klein Logo Sweatpants</p>
             <P class="prix">$86.00</P>
         </div> 
+        
         <div>
             <img src="images/shop/resources/prd_02_1_2_1.jpg" alt="articles"/>
             <p class="description">Short Sleeved Hoodie</p>
@@ -70,6 +72,7 @@
             <div class="blueshort"> </div>
             </div>
         </div>
+        
         <div>
             <img src="images/shop/resources/prd_14_1.jpg" alt="articles"/>
             <p class="description">Woleen Tee</p>
@@ -78,32 +81,59 @@
         </div>
         <div class="row4">
             <h3>COLOR</h3>
+            
             <div class="noir">
             <div class="black"> </div>
             <div class="textblack">Black</div>
             </div>
+            
             <div class="bleu">
             <div class="blue"> </div>
             <div class="textblue">Blue</div>
             </div>
+            
             <div class="brun">
             <div class="brown"></div>
             <div class="textbrown">Brown</div>
             </div>
+            
             <div class="size">
                 <h3>SIZE</h3>
-                <div class="xs">XS</div>
-                <div class="s">S </div>
-                <div class="m">M</div>
+                <button class="xs">XS</button>
+                <button class="s">S </button>
+                <button class="m">M</button>
             </div>
+            
             <div class="price">
                 <h3>PRICE</h3>
-            <p class ="prix">$29</p>
+                        
             <div class="scroller">
               
-                <form class="range-field">
-                <input class="border-0" type="range" min="0" max="100" />
-                </form>
+                <div>
+                    <scrollbar>
+                        <label id="fPrice"></label>
+                        <label>$ </label>
+                        <input type="range" id="fromPrice" value="50" min="29" max="96" 
+                            oninput="document.getElementById('fPrice').innerHTML = this.value" />
+                        
+                    </scrollbar>
+                  
+
+                <img class="graduation" src="images/shop/resources/supro_shopbarre.png" alt="barre"/>
+
+                <script>
+                    function ti() {
+                        var fP = document.getElementById('fPrice').innerHTML;
+                                        
+                        if (fP != '')
+                            window.location.replace(window.location.href + '?min_Price=' + fP);
+                    }
+                </script>
+                                   
+                </div>
+                
+               
+                
                 
             </div>
             
@@ -117,6 +147,7 @@
             <p class="description">Brown Jacket</p>
             <P class="prix"> <strike>$89.00</strike> <b>$80.00</b> </P>
         </div>
+        
         <div>
             <img src="images/shop/resources/prd_12_1_4.jpg" alt="articles"/>
             <p class="description">Pink Leather Watch</p>
@@ -126,55 +157,67 @@
                 <p class="mxs">XS</p>
             </div>
         </div>
+        
         <div>
             <img src="images/shop/resources/prd_01_1_1_1.jpg" alt="articles"/>
             <p class="description">Cuffed Beanie</p>
             <P class="prix">$68.00 </P>
         </div>
+        
         <div class="brand">
             <h2>Brand</h2>
             <div>
             <label for="creative">Creative</label>
             <input type="checkbox" class="creative" name="creative" checked>
             </div>
+        
         <div>   
             <label for="wellness">Wellness</label>
             <input type="checkbox" class="wellness" name="wellness" checked>
+        </div>
+        
+        <div>  
             <h2 class="compare">Compare Products</h2>
             <p>You have no item to compare</p>
-
-
-        </div> 
+        </div>    
+        
         </div>
+        
         <div>
             <img src="images/shop/resources/prd_02_1_2_2.jpg" alt="articles"/>
             <p class="description">Metallic Frame Glasses Trendy</p>
             <p> ⭐⭐⭐⭐⭐</p>
             <P class="prix">$60.50 </P>
         </div>
+        
         <div>
             <img src="images/shop/resources/prd_03_1_1.jpg" alt="articles"/>
             <p class="description">Flower Designs Blouse</p>
             <p>⭐⭐⭐⭐⭐</p>
             <P class="prix">$89.90 </P>
         </div>
+        
         <div>
             <img src="images/shop/resources/prd_04_1.jpg" alt="articles"/>
             <p class="description">Leather Shop Bag</p>
             <P class="prix">$59.90 </P>
         </div>
+        
         <div></div>
+        
         <div>
             <img src="images/shop/resources/prd_14_1_2.jpg" alt="articles"/>
             <p class="description">Denim Jacket</p>
             <p>⭐⭐⭐⭐⭐</p>
             <P class="prix">$45.00 </P>
         </div>
+        
         <div>
             <img src="images/shop/resources/prd_15_1_1.jpg" alt="articles"/>
             <p class="description">Hooded Sweatshirt</p>
             <P class="prix">$68.00 </P>
         </div>
+        
         <div>
             <img src="images/shop/resources/prd_16_2.jpg" alt="articles"/>
             <p class="description">Autumn Coat with Pockets</p>
@@ -182,6 +225,7 @@
         </div>
       
     </div>
+    
     <div class="numeropage">
        <div>
         <a href="#"><span>01</span></a>

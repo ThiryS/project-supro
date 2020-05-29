@@ -30,7 +30,7 @@ body {
   position: relative;
   float: right;
   padding-left: 200px;
-  opacity: 35%; }
+  opacity: 50%; }
   .searching .images {
     float: right;
     position: relative; }
@@ -39,17 +39,20 @@ body {
     float: left;
     padding-right: 100px; }
   .searching input {
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-right: 1px transparent;
     float: left;
-    position: relative; }
+    position: relative;
+    height: 28px; }
   .searching button {
     position: relative;
     float: right;
     background-color: white;
     text-decoration: none;
-    border-left: 1px transparent;
+    border-left: 1px solid transparent;
     border-top-right-radius: 35px;
-    border-bottom-right-radius: 35px;
-    opacity: 50%; }
+    border-bottom-right-radius: 35px; }
 
 .submenu {
   margin-left: 600px;
@@ -130,29 +133,39 @@ body {
     position: absolute;
     border: 1px solid grey;
     padding: 10px;
-    opacity: 35%; }
+    opacity: 35%;
+    width: 39.5px; }
   .articles .s {
     display: inline-block;
     position: absolute;
     margin-left: 50px;
     border: 1px solid grey;
     padding: 10px;
-    opacity: 35%; }
+    opacity: 35%;
+    width: 39.5px; }
   .articles .m {
     display: inline-block;
     position: absolute;
-    margin-left: 90px;
+    margin-left: 100px;
     border: 1px solid grey;
     padding: 10px;
-    opacity: 35%; }
+    opacity: 35%;
+    width: 39.5px; }
   .articles .price {
     margin-top: 100px;
     padding-top: 10px; }
   .articles .prix {
     padding-top: 15px; }
-  .articles .range-field {
-    width: 10px;
-    height: 10px; }
+  .articles .scroller scrollbar {
+    opacity: 50%;
+    object-position: top; }
+    .articles .scroller scrollbar #fromPrice {
+      color: #f68773;
+      width: 263px;
+      scrollbar-color: #f68773;
+      text-decoration: #f68773; }
+  .articles .scroller img {
+    padding-top: 2px; }
   .articles .brand input {
     margin: 10px;
     margin-left: 150px; }
@@ -200,6 +213,8 @@ body {
     display: inline-block; }
     .numeropage form .next {
       display: inline-block;
+      margin: 0px;
+      padding: 0px;
       border-radius: 10px; }
 
 footer {
