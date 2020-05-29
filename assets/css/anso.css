@@ -446,12 +446,6 @@ header .home-logo-supro-nav, img {
   grid-template-columns: 600px 1fr;
   grid-template-rows: 120px; }
 
-.home-sect6-part1 {
-  border: 1px solid #222; }
-
-.home-sect6-part2 {
-  border: 1px solid #222; }
-
 .home-sect6-part1-txt1 {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
@@ -479,9 +473,6 @@ header .home-logo-supro-nav, img {
   font-weight: 600;
   font-family: 'Roboto', sans-serif; }
 
-.home-sect6-part2-txt1 {
-  color: #222; }
-
 /*  ------------- Section7 -------------*/
 .home-sect7 {
   display: grid;
@@ -491,19 +482,16 @@ header .home-logo-supro-nav, img {
   margin-left: 165px; }
 
 .h-s7-part1 {
-  border: 1px solid #222;
   background-image: url(/images/homepage/resources/prd_09_1_1_5.jpg);
   background-repeat: no-repeat;
   background-size: 220px 220px; }
 
 .h-s7-part2 {
-  border: 1px solid #222;
   background-image: url(/images/homepage/resources/prd_08_1_6.jpg);
   background-repeat: no-repeat;
   background-size: 220px 220px; }
 
 .h-s7-part3 {
-  border: 1px solid #222;
   background-image: url(/images/homepage/resources/prd_07_1_2.jpg);
   background-repeat: no-repeat;
   background-size: 220px 220px; }
@@ -575,8 +563,8 @@ header .home-logo-supro-nav, img {
   border-radius: 20px;
   background: #222;
   position: relative;
-  top: 65.4%;
-  left: 7%; }
+  top: 65.3%;
+  left: 8%; }
 
 .h-s7-part3-txt {
   font-family: 'Roboto', sans-serif;
@@ -592,3 +580,265 @@ header .home-logo-supro-nav, img {
   position: relative;
   top: 65%;
   color: #999; }
+
+/*  ------------ Section 8 ----------------*/
+.home-sect8 {
+  display: grid;
+  grid-template-columns: 220px 220px 220px;
+  grid-template-rows: 380px;
+  grid-gap: 80px;
+  margin-left: 165px; }
+
+.h-s8-part1 {
+  background-image: url(/images/homepage/resources/prd_06_1_2.jpg);
+  background-repeat: no-repeat;
+  background-size: 220px 220px; }
+
+.h-s8-part2 {
+  background-image: url(/images/homepage/resources/prd_05_1_2.jpg);
+  background-repeat: no-repeat;
+  background-size: 220px 220px; }
+
+.h-s8-part3 {
+  background-image: url(/images/homepage/resources/prd_04_1_1.jpg);
+  background-repeat: no-repeat;
+  background-size: 220px 220px; }
+
+.h-s8-part2-txt {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  position: relative;
+  top: 63%; }
+
+.h-s8-part2-price {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  position: relative;
+  top: 65%;
+  color: #999; }
+
+.h-s8-part2-size1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  background: #222;
+  opacity: 0.3;
+  position: relative;
+  top: 68%; }
+
+.h-s8-part2-size2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  background: #222;
+  opacity: 0.3;
+  position: relative;
+  top: 65.3%;
+  left: 7%; }
+
+.h-s8-part3-txt {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  position: relative;
+  top: 63%; }
+
+.h-s8-part3-price {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  position: relative;
+  top: 65%;
+  color: #999; }
+
+.h-discover {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px; }
+  .h-discover a {
+    text-decoration: underline;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.6em;
+    letter-spacing: 0.1em;
+    font-weight: 800;
+    padding: 5px;
+    position: relative;
+    left: 45%; }
+    .h-discover a span span {
+      display: inline-block;
+      border-bottom: 2px solid #222;
+      padding-bottom: 2px; }
+
+.home-sect9 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 400px;
+  background-image: url(/images/homepage/resources/deals_image.jpg);
+  background-size: 1280px 400px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.h-s9-part1 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  top: 20%;
+  left: 10%; }
+
+.h-s9-txt1 {
+  color: #999;
+  font-size: 0.7em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500; }
+
+.h-s9-txt2 {
+  font-size: 1.4em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  position: relative;
+  top: 5%; }
+
+.h-s9-price1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  position: relative;
+  top: 9.7%;
+  color: #999;
+  text-decoration: line-through; }
+
+.h-s9-price2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  position: relative;
+  top: 5.4%;
+  left: 12%;
+  color: #222; }
+
+.h-s9-save {
+  width: 47px;
+  height: 15px;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  background-color: #f68773;
+  font-weight: 600;
+  position: relative;
+  top: 9%;
+  text-align: center;
+  font-size: 0.5em;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding: 3px; }
+
+.h-s9-stock {
+  width: 47px;
+  height: 15px;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  background-color: green;
+  position: relative;
+  top: 4%;
+  left: 12.3%;
+  text-align: center;
+  font-size: 0.5em;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding: 3px;
+  text-align: center;
+  font-weight: 600; }
+
+.h-s9-countnumber {
+  width: 370px;
+  height: 30px;
+  margin-top: 13px;
+  position: relative;
+  top: 12%;
+  background: white; }
+
+.h-s9-counttxt {
+  width: 370px;
+  height: 30px;
+  position: relative;
+  top: 12%;
+  background: white; }
+
+.h-s9-count-day {
+  position: absolute;
+  left: 5%;
+  top: 20%;
+  padding-top: 5px;
+  font-size: 1.3em;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif; }
+
+.h-s9-count-hour {
+  position: absolute;
+  font-size: 1.3em;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 10px;
+  padding-left: 100px; }
+
+.h-s9-count-mns {
+  position: absolute;
+  font-size: 1.3em;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 200px;
+  padding-top: 10px; }
+
+.h-s9-count-sec {
+  position: absolute;
+  font-size: 1.3em;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 10px;
+  padding-left: 300px; }
+
+.h-s9-count-daytxt {
+  position: absolute;
+  font-size: 0.7em;
+  color: #999;
+  font-family: 'Roboto', sans-serif;
+  left: 6%;
+  padding-top: 5px;
+  top: 10%; }
+
+.h-s9-count-hourtxt {
+  position: absolute;
+  font-size: 0.7em;
+  color: #999;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 99px;
+  top: 10%;
+  padding-top: 5px; }
+
+.h-s9-count-mnstxt {
+  position: absolute;
+  font-size: 0.7em;
+  color: #999;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 199px;
+  top: 10%;
+  padding-top: 5px; }
+
+.h-s9-count-sectxt {
+  position: absolute;
+  font-size: 0.7em;
+  color: #999;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 293px;
+  top: 10%;
+  padding-top: 5px; }
+
+.h-s9-shopnow {
+  position: relative;
+  top: 20%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.6em;
+  letter-spacing: 0.1em;
+  font-weight: 600; }
