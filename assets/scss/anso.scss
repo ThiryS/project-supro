@@ -298,8 +298,9 @@ header .home-logo-supro-nav, img {
         /* ---- homepage desktop section 3 ----*/
 .home-part3 {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1000px;
     grid-template-rows: 100px;
+    margin-right: 200px;
     
 }
 .txt1-topSellers-sect3 {
@@ -322,16 +323,19 @@ header .home-logo-supro-nav, img {
 /* ----- homepage desktop section 4 ----- */
  .home-part4 {
      display: grid;
-     grid-template-columns: 1fr 1.3fr;
+     grid-template-columns: 1fr 1.2fr;
      grid-template-rows: 350px;
-     margin: 0 auto;
+     margin-right: 250px;
+     grid-gap:60px;
+     
+     
  }
 .home-img1-sect4 {
       
       background-image: url(/images/homepage/resources/bsl1.jpg);
       background-size: 200px;
       background-repeat: no-repeat;
-      background-position: top 48% left 80%;
+      background-position: top 48% left 90%;
 }
 
 
@@ -339,20 +343,20 @@ header .home-logo-supro-nav, img {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     position: relative;
-    top: 73%;
-    left: 55%;
+    top: 75%;
+    left: 45%;
 }
 .home-txt2-img1-sect4 {
         position: relative;
-        top: 76%;
-        left: 55%;
+        top: 78%;
+        left: 45%;
         color: $grey;
         font-weight: 500;
 }
 .home-txt3-img1-sect4 {
     position: relative;
-    top: 80%;
-    left: 55%;
+    top: 85%;
+    left: 45%;
     font-size: 0.6em;
     font-family: 'Roboto', sans-serif;
     font-weight: 550;
@@ -369,9 +373,10 @@ header .home-logo-supro-nav, img {
 .home-img2-sect4 {
    
     background-image: url(/images/homepage/resources/bsl2.jpg);
-    background-size: 350px 350px;
+    background-size: 320px 320px;
     background-repeat: no-repeat;
-    background-position:top 10% left 22%;
+    background-position:top 10% left 60% ;
+    
 }
 .home-txt1-img2-sect4, .home-txt2-img2-sect4, .home-txt3-img2-sect4   {
     font-family: 'Roboto', sans-serif;
@@ -379,14 +384,16 @@ header .home-logo-supro-nav, img {
     font-weight: 700;
     position: relative;
     top: 13%;
+    left: 5%;
     
 }
 
 .home-txt4-img2-sect4 {
     position: relative;
-    top: 17%;
+    top:17%;
     color:$grey;
     font-weight: 500;
+    left: 5%;
 }
 .home-txt5-img2-sect4 {
     font-size: 0.6em;
@@ -395,19 +402,22 @@ header .home-logo-supro-nav, img {
     letter-spacing: 0.1em;
     position: relative;
     top: 28%;
+    left: 5%;
 }
         /* ----  section 5 ------*/
 .home-part5 {
     display: grid;
     grid-template-columns: 1.2fr 1fr;
     grid-template-rows: 500px;
+    margin-right: 150px;
+    margin-left: 150px;
 }
 .home-sect5-img1 {
    
     background-image: url(/images/homepage/resources/bsl3.jpg);
     background-size: 350px 350px;
     background-repeat: no-repeat;
-    background-position: top 65% left 100%;
+    background-position: top 65% left 80%;
 }
 
 .home-sect5-img2 {
@@ -415,7 +425,7 @@ header .home-logo-supro-nav, img {
     background-image: url(/images/homepage/resources/bsl4.jpg);
     background-size:200px;
     background-repeat: no-repeat;
-    background-position: top 50% left 50%;
+    background-position: top 50% left 80%;
 }
 .home-sect5-img1-txt1, .home-sect5-img1-txt2, .home-sect5-img1-txt3 {
     font-family: 'Roboto', sans-serif;
@@ -423,13 +433,13 @@ header .home-logo-supro-nav, img {
     font-weight: 700;
     position: relative;
     top: 25%;
-    left: 33%;
+    left: 5%;
     letter-spacing: 0.2px;
 }
 .home-sect5-img1-price {
     position: relative;
     top: 30%;
-    left: 33%;
+    left: 5%;
     color:$grey;
     font-weight: 500
 }
@@ -440,7 +450,7 @@ header .home-logo-supro-nav, img {
     letter-spacing: 0.1em;
     position: relative;
     top: 35%;
-    left: 33%;
+    left: 5%;
         a {
             span{
                 display:inline-block;
@@ -454,12 +464,12 @@ header .home-logo-supro-nav, img {
     font-weight: 700;
     position: relative;
     top: 68%;
-    left: 35%;
+    left: 45%;
 }
 .home-sect5-img2-price  {
     position: relative;
     top: 70%;
-    left: 35%;
+    left: 45%;
     color:$grey;
     font-weight: 500
 }
@@ -469,7 +479,7 @@ header .home-logo-supro-nav, img {
     font-weight: 550;
     letter-spacing: 0.1em;
     position: relative;
-    left:35%;
+    left:45%;
     top: 75%;
     a {
         span{
@@ -479,6 +489,68 @@ header .home-logo-supro-nav, img {
         }
     }
 }
+/* ---------- section 6 ---------*/
+.home-sect6 {
+    display: grid;
+    grid-template-columns:600px 1fr ;
+    grid-template-rows: 150px;
+    
+   
+}
+.home-sect6-part1 {
+    border: 1px solid $black;
+}
+.home-sect6-part2 {
+    border: 1px solid $black;
+    
+   
+}
+.home-sect6-part1-txt1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    position: relative;
+    left: 28%;
+}
+.home-sect6-part1-txt2 {
+    color: $grey;
+    font-size: 0.7em;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 5%;
+    left: 28%;
+}
+.home-sect6-part2-txt{
+    position: relative;
+    left: 17%;
+    color: $grey;
+}
+.home-sect6-part2-txt1, .home-sect6-part2-txt2, .home-sect6-part2-txt3,
+.home-sect6-part2-txt4, .home-sect6-part2-txt5 {
+        padding-right: 25px;
+        font-size: 0.7em;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+}
+.home-sect6-part2-txt1{
+    color: $black;
+}
+/*  ------------- Section7 -------------*/
+.home-sect7{
+    display: grid;
+}
+h-s7-part1-txt
+h-s7-part1-star
+h-s7-part1-price
+    
+
+
+
+
+   
+
+    
+
 
 
 
