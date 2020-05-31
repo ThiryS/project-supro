@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  width: 100%;
+  background-color: white;
+  font-family: 'Roboto', sans-serif; }
+  body nav {
+    padding-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    width: 100%;
+    padding-bottom: 70px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+    body nav ul img {
+      float: left;
+      position: relative;
+      padding-right: 200px; }
+    body nav ul li {
+      list-style-type: none;
+      float: left;
+      position: relative; }
+      body nav ul li a {
+        padding: 20px 30px;
+        list-style-type: none;
+        text-decoration: none;
+        text-align: center;
+        color: #222; }
+    body nav .about a {
+      color: red; }
+    body nav .searching {
+      left: 400px;
+      display: inline-block;
+      position: relative;
+      opacity: 50%; }
+      body nav .searching .images {
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        padding-left: 100px; }
+      body nav .searching .rechercher {
+        position: relative;
+        padding-right: 100px; }
+      body nav .searching input {
+        border-top-left-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-right: 1px transparent;
+        float: left;
+        position: relative;
+        height: 28px; }
+      body nav .searching button {
+        position: relative;
+        float: right;
+        background-color: white;
+        text-decoration: none;
+        border-left: 1px solid transparent;
+        border-top-right-radius: 35px;
+        border-bottom-right-radius: 35px; }
+  body .aboutus {
+    height: 140px;
+    color: white;
+    background-color: #3E3E3E;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 50px; }
+  body .submenu {
+    margin-left: 355px;
+    padding: 20px 0px;
+    display: inline-block;
+    position: relative; }
+    body .submenu a {
+      display: inline-block;
+      text-decoration: none;
+      list-style-type: none;
+      color: #222;
+      text-align: center;
+      padding: 20px 15px;
+      font-size: 12px; }
+    body .submenu .subaboutus {
+      display: inline-block;
+      position: relative; }
+  body .footerabout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1.3fr 0.7fr;
+    gap: 1px 1px;
+    grid-template-areas: "suproinfos suphelp aboutsup onlinesup" "copyright media media payementfoot";
+    grid-area: footerproduct;
+    color: #8d828d; }
+    body .footerabout a {
+      color: #8d828d;
+      text-decoration: none; }
+  body .suproinfos {
+    grid-area: suproinfos;
+    margin: auto; }
+  body .suphelp {
+    grid-area: suphelp;
+    margin: auto;
+    margin-bottom: 36px; }
+  body .aboutsup {
+    grid-area: aboutsup;
+    margin: auto; }
+  body .onlinesup {
+    grid-area: onlinesup;
+    margin: auto; }
+  body .copyright {
+    grid-area: copyright;
+    margin: auto; }
+  body .media {
+    grid-area: media;
+    margin: auto; }
+  body .payementfoot {
+    grid-area: payementfoot;
+    margin: auto; }
+  body .pproductp {
+    color: #555555; }

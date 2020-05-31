@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 body {
-  padding-left: 100px;
-  margin-right: 10px;
+  width: 100%;
   background-color: white;
   font-family: 'Roboto', sans-serif; }
   body nav {
     padding-right: 10px;
     margin-bottom: 10px;
     padding-top: 20px;
+    width: 100%;
     padding-bottom: 70px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
     body nav ul img {
@@ -27,15 +27,17 @@ body {
     body nav .shop a {
       color: red; }
     body nav .searching {
+      left: 400px;
+      display: inline-block;
       position: relative;
-      float: right;
       opacity: 50%; }
       body nav .searching .images {
-        float: right;
-        position: relative; }
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        padding-left: 100px; }
       body nav .searching .rechercher {
         position: relative;
-        float: left;
         padding-right: 100px; }
       body nav .searching input {
         border-top-left-radius: 35px;
@@ -218,9 +220,7 @@ body {
       bottom: 5px;
       opacity: 50%; }
   body footer {
-    grid-area: footer;
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
     padding-top: 300px;
     padding-bottom: 50px;
     margin-left: 450px; }
@@ -230,19 +230,18 @@ body {
       text-align: center;
       padding-right: 10px; }
     body footer .footerimg {
-      padding-left: 500px; }
+      padding-left: 700px; }
 
-@media screen and (min-width: 301px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   body {
     margin: 0px;
-    padding: 0px;
-    width: 100%; }
+    padding: 0px; }
     body nav {
       padding-right: 0px;
       margin-bottom: 0px;
       padding-top: 0px;
       padding-bottom: 60px;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+      border-bottom: 1px solid rgba(0, 0, 0, 0); }
       body nav ul img {
         float: left;
         position: relative;
@@ -253,7 +252,7 @@ body {
         float: left;
         position: relative; }
         body nav ul li a {
-          padding: 20px 20px;
+          padding: 10px 10px;
           list-style-type: none;
           text-decoration: none;
           text-align: center;
@@ -264,8 +263,9 @@ body {
         position: relative;
         float: right;
         margin-left: 0px;
-        padding-left: 200px;
+        padding-left: 0px;
         padding-top: 26px;
+        left: 0px;
         opacity: 50%; }
         body nav .searching .images {
           float: right;
@@ -273,23 +273,50 @@ body {
         body nav .searching .rechercher {
           position: relative;
           float: left;
-          padding-right: 0px; }
+          padding-right: 0px;
+          width: 50px; }
+        body nav .searching button {
+          position: relative;
+          float: right;
+          left: 60px;
+          background-color: white;
+          text-decoration: none;
+          border-left: 1px solid transparent;
+          border-top-right-radius: 35px;
+          border-bottom-right-radius: 35px; }
+        body nav .searching input {
+          border-top-left-radius: 35px;
+          border-bottom-left-radius: 35px;
+          border-right: 1px transparent;
+          float: left;
+          position: absolute;
+          height: 28px;
+          margin-left: -133px; }
     body .shoes {
       display: none; }
     body .submenu {
       margin-left: 0px; }
     body .articles {
-      display: grid;
-      grid-template-columns: 150px 150px 150px 150px;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-      gap: 100px 25px;
+      display: block;
       margin-left: 0px;
       margin-right: 0px;
       height: 2100px; }
-      body .articles .row4 {
-        grid-row-start: 5; }
+      body .articles .brand {
+        display: none; }
+    body .numeropage {
+      display: block;
+      position: relative;
+      padding-left: 675px; }
+      body .numeropage a {
+        text-decoration: none;
+        list-style-type: none;
+        color: black;
+        padding: 20px 10px; }
+        body .numeropage a span {
+          border-bottom: 2px solid black;
+          padding-bottom: 2px; }
     body .footer {
-      display: inline-block;
+      display: inline;
       padding-top: 5px;
       padding-bottom: 5px;
       margin-left: 5px; }
@@ -299,6 +326,7 @@ body {
         text-align: center;
         padding-right: 10px; }
       body .footer .footerimg {
-        padding-left: 350px; }
-      body .footer .brand {
-        display: none; } }
+        display: inline;
+        padding-left: 0px; }
+      body .footer .marginfooter {
+        display: inline; } }

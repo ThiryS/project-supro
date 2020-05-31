@@ -1,0 +1,199 @@
+@import './font';
+
+body { 
+    
+    width:100%;
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+
+
+    nav {
+        
+        padding-right:10px;
+        margin-bottom:10px;
+        padding-top: 20px;
+        width:100%;
+        padding-bottom: 70px;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+       
+
+        ul{  
+            img { 
+                float:left;
+                position:relative;
+                padding-right:200px ;
+                
+            }
+                                        
+                                
+            li { 
+                
+                list-style-type:none;
+                float:left;
+                position:relative;
+            
+            
+            a { 
+                padding:20px 30px;
+                list-style-type: none;
+                text-decoration: none;
+                text-align: center;
+                color:$black;
+                }
+           
+            }
+        }
+        .about {  
+            a{
+            color:red;}
+        }
+
+        .searching {
+            left:400px;
+            display:inline-block; 
+            position:relative;
+            
+            
+            
+            opacity: 50%;
+            
+        .images { 
+            display:inline-block;
+            position: absolute;
+            width: 100%;
+            padding-left: 100px;
+        }
+                    
+        .rechercher {
+            
+            position:relative;
+            
+            padding-right: 100px;
+            
+                  
+        }
+           
+        input {
+            border-top-left-radius: 35px;
+            border-bottom-left-radius: 35px;
+            border-right: 1px transparent;
+            float:left;
+            position:relative;
+            height:28px;
+          
+            
+        }
+            
+        button { 
+            position:relative;
+            float:right;
+            background-color: white;
+            text-decoration:none;
+            border-left:1px solid transparent;
+            border-top-right-radius:35px;
+            border-bottom-right-radius: 35px;
+            
+        }
+        
+        }       
+    }
+    
+    .aboutus {
+        height : 140px; 
+        color:white; 
+        background-color: #3E3E3E;
+        text-align: center;
+        vertical-align: center;
+        padding-top: 50px;
+
+    }
+           
+        
+        
+    
+
+    
+    .submenu {
+        margin-left:355px;
+        padding:20px 0px;
+        display:inline-block;
+        position: relative;
+        
+        a {
+            display: inline-block;
+        text-decoration: none;
+        list-style-type: none;
+        color:$black;
+        text-align: center;
+        padding:20px 15px;
+        font-size:12px;
+
+        }
+
+        .subaboutus { 
+
+            display:inline-block;
+            position: relative;
+        }
+    }
+
+
+
+
+
+    .footerabout {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1.3fr 0.7fr;
+        gap: 1px 1px;
+        grid-template-areas: "suproinfos suphelp aboutsup onlinesup" "copyright media media payementfoot";
+        grid-area: footerproduct;
+        a{
+          color: #8d828d;
+          text-decoration:none;
+        }
+        color: #8d828d;
+      }
+      
+      .suproinfos { 
+        grid-area: suproinfos;
+        margin: auto;
+       }
+      
+      .suphelp { 
+        grid-area: suphelp;
+        margin: auto;
+        margin-bottom:36px
+       }
+      
+      .aboutsup { 
+        grid-area: aboutsup;
+        margin: auto;
+       }
+      
+      .onlinesup { 
+        grid-area: onlinesup;
+        margin: auto;
+       }
+      
+      .copyright { 
+        grid-area: copyright;
+        margin: auto;
+       }
+      
+      .media { 
+        grid-area: media;
+        margin: auto;
+       }
+      
+      .payementfoot { 
+        grid-area: payementfoot;
+        margin: auto;
+       }
+      
+      
+      .pproductp{
+      color: #555555;
+      }
+    
+}

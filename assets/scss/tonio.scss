@@ -2,8 +2,8 @@
 
 
 body { 
-    padding-left:100px;
-    margin-right:10px;
+    
+    width:100%;
     background-color:white;
     font-family: 'Roboto', sans-serif;
 
@@ -13,7 +13,7 @@ body {
         padding-right:10px;
         margin-bottom:10px;
         padding-top: 20px;
-        
+        width:100%;
         padding-bottom: 70px;
         border-bottom: 1px solid rgba(0,0,0,0.1);
        
@@ -49,21 +49,26 @@ body {
             color:red;}
         }
 
-        .searching { 
+        .searching {
+            left:400px;
+            display:inline-block; 
             position:relative;
-            float:right;
+            
             
             
             opacity: 50%;
             
         .images { 
-            float:right;
-            position: relative;
+            display:inline-block;
+            position: absolute;
+            width: 100%;
+            padding-left: 100px;
         }
                     
-        .rechercher { 
+        .rechercher {
+            
             position:relative;
-            float:left;
+            
             padding-right: 100px;
             
                   
@@ -369,9 +374,9 @@ body {
     
     
     footer { 
-        grid-area: footer;
-        display: flex;
-        flex-wrap: wrap;
+        
+        display:block;
+        
         
         padding-top: 300px;
         padding-bottom:50px;
@@ -379,31 +384,32 @@ body {
 
         
         a{
-          color: #8d828d;
+           color: #8d828d;
           text-decoration:none;
           text-align: center;
           padding-right:10px;
                   }
         .footerimg {
-            padding-left:500px;
+            
+            padding-left:700px;
         }
    
     }
 }
 
-@media screen and (min-width: 301px) and (max-width: 768px) { 
+@media screen and (max-width: 768px) { 
     body {
         margin:0px;
         padding:0px;
-        width:100%;
+        
 
         nav {
+
             padding-right:0px;
             margin-bottom:0px;
             padding-top: 0px;
-            
             padding-bottom:60px;
-            border-bottom: 1px solid rgba(0,0,0,0.1);
+            border-bottom: 1px solid rgba(0,0,0,0.0);
            
     
             ul{  
@@ -425,7 +431,7 @@ body {
                 
                     a { 
                         
-                        padding:20px 20px;
+                        padding:10px 10px;
                         list-style-type: none;
                         text-decoration: none;
                         text-align: center;
@@ -446,8 +452,10 @@ body {
                 position:relative;
                 float:right;
                 margin-left:0px;
-                padding-left:200px;
+                padding-left:0px;
                 padding-top: 26px;
+                left:0px;
+                
 
                 
             
@@ -455,15 +463,40 @@ body {
             
                 .images { 
                     float:right;
-                    position: relative;
+                    position:relative;
                 }
                     
                 .rechercher { 
                     position:relative;
                     float:left;
                     padding-right:0px;
+                    width:50px;
             
                   
+                }
+
+                button { 
+                    position:relative;
+                    float:right;
+                    left:60px;
+                    background-color: white;
+                    text-decoration:none;
+                    border-left:1px solid transparent;
+                    border-top-right-radius:35px;
+                    border-bottom-right-radius: 35px;
+                    
+                }
+
+                input {
+                    border-top-left-radius: 35px;
+                    border-bottom-left-radius: 35px;
+                    border-right: 1px transparent;
+                    float:left;
+                    position:absolute;
+                    height:28px;
+                    margin-left:-133px;
+                  
+                    
                 }
             }
         }
@@ -479,25 +512,45 @@ body {
 
 
     .articles {
-        display: grid;
-        grid-template-columns: 150px 150px 150px 150px;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-        gap: 100px 25px;
+        display:block;
+       
         margin-left:0px;
         margin-right:0px;
         height: 2100px;
 
-        .row4 { 
-
-            grid-row-start: 5;
+        .brand {
+            display:none;
+        
         }
+
+        
+    }
+
+    .numeropage { 
+
+        display:block ; 
+        position:relative;
+        padding-left:675px;
+        
+
+        a { 
+            text-decoration: none;
+            list-style-type: none;
+            color:black;
+            padding:20px 10px;
+
+            span { 
+                 
+                 border-bottom: 2px solid black;
+                 padding-bottom:2px;
+            }
+        }
+            
     }
         
-    .footer { 
-        
-        display: inline-block;
-        
-            
+    .footer {            
+
+        display:inline;
         padding-top: 5px;
         padding-bottom:5px;
         margin-left: 5px;
@@ -509,14 +562,20 @@ body {
           text-align: center;
           padding-right:10px;
           }
+
         .footerimg {
-            padding-left:350px;
+            display:inline;
+            padding-left:0px;
         }
-        .brand {
-            display:none;
+
+        .marginfooter { 
+            display:inline;
+            
+        }
         
-        }
        
+    
+    
     }
     
     }
