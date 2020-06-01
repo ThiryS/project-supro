@@ -6,8 +6,7 @@ html, body {
   height: 100%vh;
   padding: 0;
   margin: 0;
-  background: #f2ede9;
-  width: auto; }
+  background: #f2ede9; }
 
 header {
   width: 100%;
@@ -689,8 +688,7 @@ header .home-logo-supro-nav, img {
   height: 300px;
   position: relative;
   top: 20%;
-  left: 15%;
-  border: 1px solid black; }
+  left: 15%; }
 
 .h-s9-txt1 {
   color: #999;
@@ -850,8 +848,7 @@ header .home-logo-supro-nav, img {
 .home-sect10 {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 100px;
-  border: 1px solid #222; }
+  grid-template-rows: 100px; }
 
 /* ----- Section 10 ---------*/
 .h-s10-txt1 {
@@ -880,11 +877,11 @@ header .home-logo-supro-nav, img {
   top: -20px; }
 
 /* ------------  Section 11 -----------------*/
-.container-home-sect11 {
+.container-home-sect11, .container-home-sect12 {
   max-width: 90%;
   height: auto;
   margin: 0 auto;
-  border: 1px solid black; }
+  margin-top: 10px; }
 
 .home-sct11 {
   display: grid;
@@ -893,15 +890,17 @@ header .home-logo-supro-nav, img {
   grid-gap: 25px; }
 
 .h-s11-img1 {
-  border: 1px solid black;
   grid-row: 1 / 2;
   grid-column: 2 / 3;
   background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/latest2_1.jpg);
   background-repeat: no-repeat;
   background-size: 250px 170px; }
+  .h-s11-img1 img {
+    position: relative;
+    left: 43%;
+    top: 68px; }
 
 .h-s11-img2 {
-  border: 1px solid black;
   grid-row: 1 / 2;
   grid-column: 3 / 4;
   background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/blog9.jpg);
@@ -911,21 +910,36 @@ header .home-logo-supro-nav, img {
   height: auto; }
 
 .h-s11-img3 {
-  border: 1px solid black;
   grid-row: 1 / 2;
   grid-column: 4 / 5;
   background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/blog8.jpg);
   background-size: 250px 170px;
   background-repeat: no-repeat; }
 
-.h-s11-img1-txt1, .h-s11-img2-txt1, .h-s11-img3-txt1 {
+.h-s11-img1-txt1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  position: relative;
+  top: 43%; }
+
+.h-s11-img2-txt1, .h-s11-img3-txt1 {
   font-family: 'Roboto', sans-serif;
   font-size: 0.7em;
   font-weight: 600;
   position: relative;
   top: 53%; }
 
-.h-s11-img1-txt2, .h-s11-img2-txt2, .h-s11-img3-txt2 {
+.h-s11-img1-txt2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.5em;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  position: relative;
+  top: 45%;
+  color: #f68773; }
+
+.h-s11-img2-txt2, .h-s11-img3-txt2 {
   font-family: 'Roboto', sans-serif;
   font-size: 0.5em;
   letter-spacing: 0.1em;
@@ -940,7 +954,7 @@ header .home-logo-supro-nav, img {
   font-size: 0.5em;
   font-weight: 600;
   position: relative;
-  top: 52.5%;
+  top: 42.5%;
   left: 22%; }
 
 .h-s11-img2-txt3 {
@@ -960,3 +974,140 @@ header .home-logo-supro-nav, img {
   position: relative;
   top: 52.5%;
   left: 13%; }
+
+/* ---------------  section 12 ------------*/
+.h-s12-part1 {
+  display: grid;
+  grid-template-columns: 370px 550px;
+  grid-template-rows: 100px; }
+
+.h-s12-part1-txt1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  position: relative;
+  left: 120px; }
+
+.h-s12-part1-txt2 {
+  color: #999;
+  font-size: 0.7em;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  grid-row: 1/2;
+  grid-column: 1 / 2;
+  top: 30%;
+  left: 120px; }
+
+.h-s12-part2-email {
+  color: #999;
+  font-size: 0.7em;
+  font-family: 'Roboto', sans-serif;
+  opacity: 0.7;
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+  position: relative;
+  left: 110px;
+  top: 15px; }
+
+.h-s12-part2-img {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+  opacity: 0.5; }
+  .h-s12-part2-img img {
+    width: 3%;
+    position: relative;
+    top: 11px;
+    left: 80px; }
+
+.h-s12-part2-subscribe {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+  position: relative;
+  left: 480px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.6em;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  position: relative;
+  top: 15px; }
+
+.h-s12-part2-trait {
+  border-top: 1px solid #999;
+  opacity: 0.7;
+  width: 465px;
+  position: relative;
+  top: 10%;
+  left: 450px;
+  top: -66px; }
+
+/*  ---------------  section 13 -----------------*/
+.h-s13-part1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 170px;
+  position: relative; }
+
+.h-s13-part1-img1 {
+  background-image: url(/home/as/Documents/Becode/project-supro/images/shop/resources/prd_14_1_2.jpg);
+  background-size: 200px;
+  background-position: left;
+  background-repeat: no-repeat; }
+
+.h-s13-part1-img2 {
+  background-image: url(/home/as/Documents/Becode/project-supro/images/stores/resources/64e3011babb9cb666c04621c00230857.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.h-s13-part1-img3 {
+  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/prd_09_1_1_5.jpg);
+  background-size: 200px;
+  background-position: left;
+  background-repeat: no-repeat; }
+
+.h-s13-part1-img4 {
+  background-image: url(/home/as/Documents/Becode/project-supro/images/about/resources/ab2.jpg);
+  background-size: 200px;
+  background-position: left;
+  background-repeat: no-repeat; }
+
+.h-s13-part1-img5 {
+  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/blog6_1.jpg);
+  background-size: 250px;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.h-s13-part1-img6 {
+  background-image: url(/home/as/Documents/Becode/project-supro/images/shop/resources/prd_02_1_2_1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.h-s13-part1-img7 {
+  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/blog1.jpg);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat; }
+
+.carre {
+  width: 90px;
+  height: 50px;
+  background-color: #f68773;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .carre .h-s13-carre-txt1 {
+    text-align: center;
+    font-size: 0.6em;
+    font-weight: 600;
+    color: white;
+    position: relative;
+    top: 15%; }
+  .carre .h-s13-carre-txt2 {
+    color: white;
+    position: relative;
+    top: 23%;
+    text-align: center; }
