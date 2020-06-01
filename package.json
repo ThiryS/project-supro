@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/ThiryS/project-supro#readme",
   "dependencies": {
-    "node-sass": "^4.14.1"
-  }
+    "node-sass": "^4.14.1",
+    "sass": "^1.26.7"
+  },
+  "devDependencies": {}
 }
