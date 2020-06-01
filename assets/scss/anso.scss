@@ -1,15 +1,18 @@
 @import './font';
 $white:white;
 
-  *, ::before, ::after {
+   *, ::before, ::after {
       box-sizing: border-box;
-  }
+}
+
+
 
 html, body {
     height: 100%vh;
     padding: 0;
     margin: 0;
     background:rgb(242, 237, 233);
+    width: auto;
 }
 // ----- homepage navbar desktop ----- //
 header {
@@ -19,12 +22,12 @@ header {
 }
 .home-logo-supro-nav {
     position: relative;
-    left: 50px;
+    left: 30px;
 }
 .home-menu-nav, ul {
     position: relative;
     top: 40px;
-    left: 30px;
+    left: 10px;
     
     max-width: 200px;
     margin-left: 130px;
@@ -37,6 +40,7 @@ header {
     font-family: 'Roboto', sans-serif;
     padding: 5px;
     font-weight: 500;
+    font-size: 0.8em;
     }
 header {
    ul{
@@ -50,7 +54,7 @@ header {
 }
 header .home-ico-nav, ul {
     display: inline-block;
-    left: 590px;
+    left: 520px;
     top:-30px;
     margin: 0;
     padding: 0;
@@ -62,12 +66,12 @@ header .home-logo-supro-nav, img {
 #text, input[type="search"] {
      border: 1px solid $orange;
      position: relative;
-     right: -550px;
+     right: -400px;
      top: 15px;
      height: 30px;
-     width: 200px;
+     width: 190px;
      border-radius: 20px;
-     background: url(/images/homepage/resources/search.ico) right no-repeat ;
+     background: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/search.ico) right no-repeat ;
      background-size: 20px;
      margin-left: 25%;
      opacity: 0.4;
@@ -87,7 +91,7 @@ header .home-logo-supro-nav, img {
     margin-right: 50px;
     display: grid;
     grid-template-rows:350px;
-    grid-template-columns: 100px 500px auto;
+    grid-template-columns: 100px 500px 500px;
 }
 .home-ico-sect1 {
     text-align: center;
@@ -98,9 +102,8 @@ header .home-logo-supro-nav, img {
 }
 
 .home-deux {
-    background-image: url(/images/homepage/resources/abc.jpg) ;
+    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/abc.jpg) ;
     background-size: 1000px;
-    background-repeat: no-repeat;
 }
 .home-sect1-text1 {
     color: $orange;
@@ -111,7 +114,7 @@ header .home-logo-supro-nav, img {
     margin: 0;
     padding: 5px;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 95px;
 }
 .home-sect1-text2 {
     font-size: 4.2em;
@@ -152,7 +155,7 @@ header .home-logo-supro-nav, img {
 }
 
 .home-img1-sect2 {
-    background-image: url(/images/homepage/resources/banner_h1_1.jpg);
+    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/banner_h1_1.jpg);
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -194,7 +197,7 @@ header .home-logo-supro-nav, img {
 }
 
 .home-img2-sect2 {
-    background-image: url(/images/homepage/resources/banner_h1_2.jpg);
+    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/banner_h1_2.jpg);
     background-position: center;
     background-size:400px ;
   
@@ -229,7 +232,7 @@ header .home-logo-supro-nav, img {
 }
 
 .home-img3-sect2 {
-    background-image: url(/images/homepage/resources/banner_h1_3.jpg);
+    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/banner_h1_3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -314,7 +317,7 @@ header .home-logo-supro-nav, img {
 .txt2-topSellers-sect3 {
     position: relative;
     left:17%;
-    top: -100%; 
+    top: -120%; 
     color: $grey;
     font-size: 0.7em;
     font-family: 'Roboto', sans-serif;
@@ -332,10 +335,10 @@ header .home-logo-supro-nav, img {
  }
 .home-img1-sect4 {
       
-      background-image: url(/images/homepage/resources/bsl1.jpg);
+      background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/bsl1.jpg);
       background-size: 200px;
       background-repeat: no-repeat;
-      background-position: top 48% left 90%;
+    background-position: top 48% left 90%;
 }
 
 
@@ -343,7 +346,7 @@ header .home-logo-supro-nav, img {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     position: relative;
-    top: 75%;
+    top: 74%;
     left: 45%;
 }
 .home-txt2-img1-sect4 {
@@ -372,9 +375,9 @@ header .home-logo-supro-nav, img {
 }
 .home-img2-sect4 {
    
-    background-image: url(/images/homepage/resources/bsl2.jpg);
+    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/bsl2.jpg);
     background-size: 320px 320px;
-    background-repeat: no-repeat;
+     background-repeat: no-repeat;
     background-position:top 10% left 60% ;
     
 }
@@ -384,8 +387,7 @@ header .home-logo-supro-nav, img {
     font-weight: 700;
     position: relative;
     top: 13%;
-    left: 5%;
-    
+    left: 9%;
 }
 
 .home-txt4-img2-sect4 {
@@ -393,7 +395,7 @@ header .home-logo-supro-nav, img {
     top:17%;
     color:$grey;
     font-weight: 500;
-    left: 5%;
+    left: 9%;
 }
 .home-txt5-img2-sect4 {
     font-size: 0.6em;
@@ -402,7 +404,7 @@ header .home-logo-supro-nav, img {
     letter-spacing: 0.1em;
     position: relative;
     top: 28%;
-    left: 5%;
+    left: 9%;
 }
         /* ----  section 5 ------*/
 .home-part5 {
@@ -415,7 +417,7 @@ header .home-logo-supro-nav, img {
 }
 .home-sect5-img1 {
    
-    background-image: url(/images/homepage/resources/bsl3.jpg);
+    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/bsl3.jpg);
     background-size: 350px 350px;
     background-repeat: no-repeat;
     background-position: top 65% left 80%;
@@ -423,10 +425,11 @@ header .home-logo-supro-nav, img {
 
 .home-sect5-img2 {
    
-    background-image: url(/images/homepage/resources/bsl4.jpg);
+    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/bsl4.jpg);
     background-size:200px;
     background-repeat: no-repeat;
-    background-position: top 50% left 80%;
+    background-position: top 50% left 45%;
+    margin-left: 150px;
 }
 .home-sect5-img1-txt1, .home-sect5-img1-txt2, .home-sect5-img1-txt3 {
     font-family: 'Roboto', sans-serif;
@@ -465,12 +468,12 @@ header .home-logo-supro-nav, img {
     font-weight: 700;
     position: relative;
     top: 68%;
-    left: 45%;
+    left: 15%;
 }
 .home-sect5-img2-price  {
     position: relative;
     top: 70%;
-    left: 45%;
+    left: 15%;
     color:$grey;
     font-weight: 500
 }
@@ -480,7 +483,7 @@ header .home-logo-supro-nav, img {
     font-weight: 550;
     letter-spacing: 0.1em;
     position: relative;
-    left:45%;
+    left:15%;
     top: 75%;
     a {
         span{
@@ -524,6 +527,7 @@ header .home-logo-supro-nav, img {
 .home-sect6-part2-txt{
     position: relative;
     left: 17%;
+    top: 20%;
     color: $grey;
 }
 .home-sect6-part2-txt1, .home-sect6-part2-txt2, .home-sect6-part2-txt3,
@@ -548,20 +552,20 @@ header .home-logo-supro-nav, img {
 }
 .h-s7-part1 {
     // border: 1px solid $black;
-    background-image: url(/images/homepage/resources/prd_09_1_1_5.jpg);
+    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/prd_09_1_1_5.jpg);
     background-repeat: no-repeat;
     background-size:220px 220px  ;
 
 }
 .h-s7-part2{
     // border: 1px solid $black;
-    background-image: url(/images/homepage/resources/prd_08_1_6.jpg);
+    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/prd_08_1_6.jpg);
     background-repeat: no-repeat;
     background-size:220px 220px  ;
 }
 .h-s7-part3{
     // border: 1px solid $black;
-    background-image: url(/images/homepage/resources/prd_07_1_2.jpg);
+    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/prd_07_1_2.jpg);
     background-repeat: no-repeat;
     background-size:220px 220px  ;
 }
@@ -661,19 +665,19 @@ header .home-logo-supro-nav, img {
 }
 .h-s8-part1 {
     // border: 1px solid $black;
-    background-image: url(/images/homepage/resources/prd_06_1_2.jpg);
+    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/prd_06_1_2.jpg);
     background-repeat: no-repeat;
     background-size:220px 220px  ;
 
 }.h-s8-part2 {
     // border: 1px solid $black;
-    background-image: url(/images/homepage/resources/prd_05_1_2.jpg);
+    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/prd_05_1_2.jpg);
     background-repeat: no-repeat;
     background-size:220px 220px  ;
 
 }.h-s8-part3 {
     // border: 1px solid $black;
-    background-image: url(/images/homepage/resources/prd_04_1_1.jpg);
+    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/prd_04_1_1.jpg);
     background-repeat: no-repeat;
     background-size:220px 220px  ;
 
@@ -757,17 +761,19 @@ header .home-logo-supro-nav, img {
     grid-template-columns: 1fr;
     grid-template-rows: 400px;
     // border: 1px solid $black;
-    background-image: url(/images/homepage/resources/deals_image.jpg);
+    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/deals_image.jpg);
     background-size: 1280px 400px;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 .h-s9-part1{
     width: 400px;
     height:300px;
     position: relative;
     top: 20%;
-    left: 10%;
+    left: 15%;
+    border: 1px solid black;
 }
 .h-s9-txt1{
     color: $grey;
@@ -778,7 +784,6 @@ header .home-logo-supro-nav, img {
 .h-s9-txt2{
     font-size: 1.4em;
     font-family: 'Roboto', sans-serif;
-    
     font-weight: 600;
     position: relative;
     top: 5%;
@@ -807,7 +812,6 @@ font-family: 'Roboto', sans-serif;
     height: 15px;
     border-radius: 2px;
     border: 1px solid transparent;
-    background-color: $orange;
     font-weight: 600;
     position: relative;
     top: 9%;
@@ -815,9 +819,7 @@ font-family: 'Roboto', sans-serif;
     color: $white;
     font-family: 'Roboto', sans-serif;
     padding: 3px;
-    
-    
-
+    background-color:$orange;
 }
 .h-s9-stock{
     width: 47px;
@@ -841,21 +843,19 @@ font-family: 'Roboto', sans-serif;
     width: 370px;
     height: 30px;
     margin-top: 13px;
-    
     position: relative;
     top: 12%;
-    background: $white;
-    
-}
+    background: $white;}
+
 .h-s9-counttxt{
     width: 370px;
     height: 30px;
-    // border: 1px solid $black;
     position: relative;
-     top: 12%;
-     background: $white;
-    
+    top: 12%;
+    background: $white;
 }
+
+
 .h-s9-count-day{
     position: absolute;
     left: 5%;
@@ -864,7 +864,6 @@ font-family: 'Roboto', sans-serif;
     font-size: 1.3em;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
-    
 }
 .h-s9-count-hour{
     position: absolute;
@@ -872,7 +871,7 @@ font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     padding-top: 10px;
-    padding-left: 100px;
+    padding-left: 103px;
 }
 .h-s9-count-mns{
     position: absolute;
@@ -936,6 +935,124 @@ font-family: 'Roboto', sans-serif;
     letter-spacing: 0.1em;
     font-weight:600 ;
 }
+.home-sect10{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px;
+    border: 1px solid $black;
+}
+/* ----- Section 10 ---------*/
+.h-s10-txt1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    position: relative;
+    left: 15%;
+    top: 70px;
+}
+.h-s10-txt2{
+    color: $grey;
+    font-size: 0.7em;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: -20%;
+    left: 15%;
+}
+.h-s10-seeMore{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.6em;
+    letter-spacing: 0.1em;
+    font-weight:600 ;
+    position: relative;
+    left: 77%;
+    top: -20px;
+} /* ------------  Section 11 -----------------*/
+.container-home-sect11{
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.home-sct11{
+    display: grid;
+    grid-template-columns:  92px 250px 250px 250px;
+    grid-template-rows: 350px;
+    grid-gap:25px;
+    
+   
+}
+.h-s11-img1{
+    border:  1px solid black;
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/latest2_1.jpg);
+     background-repeat: no-repeat;
+    background-size: 250px 170px;
+}
+.h-s11-img2{
+    border: 1px solid black;
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/blog9.jpg);
+    background-repeat: no-repeat;
+    background-size:250px 170px ;
+    width: 100%;
+    height: auto;
+    
+}.h-s11-img3{
+    border: 1px solid black;
+    grid-row: 1 / 2;
+    grid-column: 4 / 5;
+    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/blog8.jpg);
+    background-size: 250px 170px;
+    background-repeat: no-repeat;
+}
+.h-s11-img1-txt1, .h-s11-img2-txt1, .h-s11-img3-txt1{
+    font-family: 'Roboto', sans-serif;
+    font-size:0.7em ;
+    font-weight: 600;
+    position: relative;
+    top: 53%;
+    
+}
+.h-s11-img1-txt2,.h-s11-img2-txt2, .h-s11-img3-txt2 {
+    font-family: 'Roboto', sans-serif;
+    font-size:0.5em ;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    position: relative;
+    top: 55%;
+    color: $orange;
+}
+
+.h-s11-img1-txt3{
+    color: $grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.5em;
+    font-weight:600 ;
+    position: relative;
+    top: 52.5%;
+    left: 22%;
+}
+.h-s11-img2-txt3{
+    color: $grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.5em;
+    font-weight:600 ;
+    position: relative;
+    top:52.5% ;
+    left: 25%;
+}
+.h-s11-img3-txt3 {
+    color: $grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.5em;
+    font-weight:600 ;
+    position: relative;
+    top:52.5% ;
+    left: 13%;
+}
+
 
 
 
