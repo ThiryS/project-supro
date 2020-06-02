@@ -13,7 +13,7 @@ body {
 
 
     nav {
-        width:auto;
+        width:122%;
         padding-right:10px;
         margin-bottom:10px;
         padding-top: 20px;
@@ -105,13 +105,13 @@ body {
     }
     
     .aboutus {
+        
         height : 140px; 
         color:white; 
         background-color: #3E3E3E;
         text-align: center;
-        vertical-align: center;
         padding-top: 50px;
-        width: 100%;
+        width: 122%;
 
     }
            
@@ -123,25 +123,41 @@ body {
     .submenu {
         margin-left:355px;
         
+
+        a{
+            text-decoration: none;
+            
+            color:$black;
+            opacity: 60%;
+        }
         
-        a {
+        
+        li {
             display: inline-block;
             position: relative;
+            
+
+            a{
             opacity: 60%;
-            text-decoration: none;
-            list-style-type: none;
+            
+            
             color:$black;
             text-align: center;
             padding:20px 15px;
             font-size:12px;
+            }
 
         }
 
         .subaboutus { 
+
+            
             display: inline-block;
             opacity: 100%;
             position: relative;
             padding-bottom: 150px;
+            
+            
         }
     }
 
@@ -152,6 +168,7 @@ body {
         
         .article1 {
             width:65%;
+            height:501px;
 
             img { 
                 
@@ -163,7 +180,8 @@ body {
             }
 
             h1 {
-                width:15%;
+                width:20%;
+                font-size: 30px;
                 
             }
 
@@ -179,15 +197,18 @@ body {
         }
 
         .article2 { 
-            width:50%;
-            padding-top: 230px;
+            width:47%;
+            height: 552px;
+            padding-top: 100px;
 
             img { 
                 float:left;
                 position: relative;
                 padding:50px;
+                padding-right: 190px;
             }
             h2 {
+                
                 font-style: italic;
                 padding-top: 60px;
             }
@@ -198,7 +219,9 @@ body {
             .cofounder { 
                 opacity: 60%;
             }
-            p{
+            
+            .txtcofounder { 
+                padding-top: 50px;
                 opacity: 60%;
             }
 
@@ -206,22 +229,20 @@ body {
         }
 
         .article3 { 
+            width:100%;
 
             display: grid;
-            
-            grid-template-rows: 1fr;
-            gap: 1px 1px;
+            grid-template-columns: 400px 400px 400px;      
+            grid-template-rows: auto;
+            gap: 5px;
             grid-template-areas:"date1 date2 date3";
-            padding-top: 350px;
+            padding-top: 100px;
             padding-bottom: 100px;
 
             .bigmoments { 
-                width:60%;
-                
-                
-                           
+                                           
                 h1 {
-                    font-size: 30px;
+                    font-size: 40px;
                 }
                 p{
                     opacity: 60%;
@@ -230,19 +251,25 @@ body {
                                 
             }
 
-            .date1 {
-                grid-area: date2;
-                padding-bottom: 50px;
+            .datea{
+                padding-left: 167px;
+                width:300px;
 
-                p{
-                    opacity: 60%;
+                .date1 {
+                    grid-area: date2;
+                    padding-bottom: 50px;
+
+                    p{
+                        opacity: 60%;
+                    }
                 }
-            }
 
-            .date2{
-                grid-area:date2;
-                p{
-                    opacity: 60%;
+                .date2{
+                    width:70%;
+                    grid-area:date2;
+                    p{
+                        opacity: 60%;
+                    }
                 }
             }
 
@@ -270,6 +297,102 @@ body {
             margin-left: -633px;
             margin-bottom: 170px;
             }
+          
+        }
+
+        .subvideo { 
+            width:100%;
+            display: inline-block;
+            
+            .subvideo1{
+                
+                width:100%;
+                
+                img {
+                padding-top: 50px;    
+                padding-right:2px;
+                }
+                p {
+                display: inline-block;
+                padding-right: 200px;
+                margin-bottom: 0px;
+                
+                }
+             }
+
+            .subvideo2 {
+                padding-left: 20px; 
+                width:100%;
+                
+                p { 
+                    display: inline-block;
+                    padding-right: 210px;
+                    margin-left: 17px;
+                    margin-top: 0px;
+                    opacity: 60%;
+                }
+
+            } 
+        }
+
+        .articles4 {
+
+            padding-top: 150px;
+
+            h2{
+                width:30%;
+                padding-left: 280px;
+                font-size: 30px;
+            }
+            
+            .heritage {
+                display:grid ;
+                grid-template-columns: 350px 350px;
+                grid-template-rows: 100px;
+                gap:50px;
+                grid-template-areas: "txt1 txt2";
+                padding-left: 200px;
+                width:100%;
+                
+                p {
+                    width:100%;
+                    opacity: 60%;
+                    
+                }
+
+                .txt1 {
+                    grid-area: txt1;
+                }
+
+                .txt2 {
+                    grid-area: txt2;
+                    width:150%;
+                }
+            }    
+                   
+        }
+
+        .article5 {
+            padding-top: 100px;
+
+            h1 {
+                padding-bottom: 50px;
+                padding-left: 350px;
+                font-size: 30px;
+            }
+
+            img{
+                padding:50px;
+            }
+
+
+        }
+
+        .enseigne { 
+
+            img {
+                padding:50px;
+            }
         }
     }    
 
@@ -278,9 +401,11 @@ body {
 
 
     .footerabout {
+        width:100%;
         padding-top: 250px;
+        padding-left: 318px;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 400px 400px 400px 400px;
         grid-template-rows: 1.3fr 0.7fr;
         gap: 1px 1px;
         grid-template-areas: "suproinfos suphelp aboutsup onlinesup" "copyright media media payementfoot";
@@ -332,6 +457,16 @@ body {
       .pproductp{
       color: #555555;
       }
+
+    .copyright { 
+        padding-top: 70px;
+    }
+    .media {
+        padding-top: 70px;
+    }
+    .payementfoot {
+        padding-top: 70px;
+    }
     
-}
+    }
 }
