@@ -258,6 +258,8 @@ html, body {
   gap: 1px 1px;
   grid-template-areas: "reltitle reltitle reltitle reltitle" "rel1 rel2 rel3 rel4";
   grid-area: releted; }
+  .releted img {
+    width: 90%; }
 
 .reltitle {
   grid-area: reltitle;
@@ -286,6 +288,8 @@ html, body {
   gap: 1px 1px;
   grid-template-areas: "uptitle uptitle uptitle uptitle" "up1 up2 up3 up4";
   grid-area: upsell; }
+  .upsell img {
+    width: 90%; }
 
 .uptitle {
   grid-area: uptitle;
