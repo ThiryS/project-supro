@@ -1,53 +1,304 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-html {
-  width: auto; }
-  html body {
-    width: auto;
-    background-color: white;
-    font-family: 'Roboto', sans-serif; }
-    html body nav {
-      width: 122%;
+body {
+  width: auto;
+  background-color: white;
+  font-family: 'Roboto', sans-serif; }
+  body nav {
+    width: 122%;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 70px; }
+    body nav ul img {
+      float: left;
+      position: relative;
+      padding-right: 200px; }
+    body nav ul li {
+      list-style-type: none;
+      float: left;
+      position: relative; }
+      body nav ul li a {
+        padding: 20px 30px;
+        list-style-type: none;
+        text-decoration: none;
+        text-align: center;
+        color: #222; }
+    body nav .about a {
+      color: red; }
+    body nav .searching {
+      left: 400px;
+      display: inline-block;
+      position: relative;
+      opacity: 60%; }
+      body nav .searching .images {
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        padding-left: 100px; }
+      body nav .searching .rechercher {
+        position: relative;
+        padding-right: 100px; }
+      body nav .searching input {
+        border-top-left-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-right: 1px transparent;
+        float: left;
+        position: relative;
+        height: 28px; }
+      body nav .searching button {
+        position: relative;
+        float: right;
+        background-color: white;
+        text-decoration: none;
+        border-left: 1px solid transparent;
+        border-top-right-radius: 35px;
+        border-bottom-right-radius: 35px; }
+  body .aboutus {
+    height: 140px;
+    color: white;
+    background-color: #3E3E3E;
+    text-align: center;
+    padding-top: 50px;
+    width: 122%; }
+  body .submenu {
+    margin-left: 355px; }
+    body .submenu a {
+      text-decoration: none;
+      color: #222;
+      opacity: 60%; }
+    body .submenu li {
+      display: inline-block;
+      position: relative; }
+      body .submenu li a {
+        opacity: 60%;
+        color: #222;
+        text-align: center;
+        padding: 20px 15px;
+        font-size: 12px; }
+    body .submenu .subaboutus {
+      display: inline-block;
+      opacity: 100%;
+      position: relative;
+      padding-bottom: 150px; }
+  body .content {
+    margin-left: 355px;
+    width: 100%; }
+    body .content .article1 {
+      width: 65%;
+      height: 501px; }
+      body .content .article1 img {
+        float: right;
+        position: relative; }
+      body .content .article1 h1 {
+        width: 20%;
+        font-size: 30px; }
+      body .content .article1 h4 {
+        color: #f68773; }
+      body .content .article1 p {
+        opacity: 60%;
+        width: 25%;
+        padding-left: 20px;
+        padding-top: 40px; }
+    body .content .article2 {
+      width: 47%;
+      height: 552px;
+      padding-top: 100px; }
+      body .content .article2 img {
+        float: left;
+        position: relative;
+        padding: 50px;
+        padding-right: 190px; }
+      body .content .article2 h2 {
+        font-style: italic;
+        padding-top: 60px; }
+      body .content .article2 h4 {
+        color: #f68773; }
+      body .content .article2 .cofounder {
+        opacity: 60%; }
+      body .content .article2 .txtcofounder {
+        padding-top: 50px;
+        opacity: 60%; }
+    body .content .article3 {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 400px 400px 400px;
+      grid-template-rows: auto;
+      gap: 5px;
+      grid-template-areas: "date1 date2 date3";
+      padding-top: 100px;
+      padding-bottom: 100px; }
+      body .content .article3 .bigmoments h1 {
+        font-size: 40px; }
+      body .content .article3 .bigmoments p {
+        opacity: 60%; }
+      body .content .article3 .datea {
+        padding-left: 167px;
+        width: 300px; }
+        body .content .article3 .datea .date1 {
+          grid-area: date2;
+          padding-bottom: 50px; }
+          body .content .article3 .datea .date1 p {
+            opacity: 60%; }
+        body .content .article3 .datea .date2 {
+          width: 70%;
+          grid-area: date2; }
+          body .content .article3 .datea .date2 p {
+            opacity: 60%; }
+      body .content .article3 .date3 {
+        grid-area: date3;
+        padding-bottom: 50px; }
+        body .content .article3 .date3 p {
+          opacity: 60%; }
+      body .content .article3 .date4 {
+        grid-area: date3; }
+        body .content .article3 .date4 p {
+          opacity: 60%; }
+    body .content .imagevideo .play {
+      margin-left: -633px;
+      margin-bottom: 170px; }
+    body .content .subvideo {
+      width: 100%;
+      display: inline-block; }
+      body .content .subvideo .subvideo1 {
+        width: 100%; }
+        body .content .subvideo .subvideo1 img {
+          padding-top: 50px;
+          padding-right: 2px; }
+        body .content .subvideo .subvideo1 p {
+          display: inline-block;
+          padding-right: 200px;
+          margin-bottom: 0px; }
+      body .content .subvideo .subvideo2 {
+        padding-left: 20px;
+        width: 100%; }
+        body .content .subvideo .subvideo2 p {
+          display: inline-block;
+          padding-right: 210px;
+          margin-left: 17px;
+          margin-top: 0px;
+          opacity: 60%; }
+    body .content .articles4 {
+      padding-top: 150px; }
+      body .content .articles4 h2 {
+        width: 30%;
+        padding-left: 280px;
+        font-size: 30px; }
+      body .content .articles4 .heritage {
+        display: grid;
+        grid-template-columns: 350px 350px;
+        grid-template-rows: 100px;
+        gap: 50px;
+        grid-template-areas: "txt1 txt2";
+        padding-left: 200px;
+        width: 100%; }
+        body .content .articles4 .heritage p {
+          width: 100%;
+          opacity: 60%; }
+        body .content .articles4 .heritage .txt1 {
+          grid-area: txt1; }
+        body .content .articles4 .heritage .txt2 {
+          grid-area: txt2;
+          width: 150%;
+          padding-left: 30px; }
+    body .content .article5 {
+      padding-top: 100px; }
+      body .content .article5 h1 {
+        padding-bottom: 50px;
+        padding-left: 350px;
+        font-size: 50px; }
+      body .content .article5 img {
+        padding: 50px; }
+    body .content .enseigne img {
+      padding: 50px; }
+  body .footerabout {
+    width: 100%;
+    padding-top: 250px;
+    padding-left: 318px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+    grid-template-rows: 1.3fr 0.7fr;
+    gap: 1px 1px;
+    grid-template-areas: "suproinfos suphelp aboutsup onlinesup" "copyright media media payementfoot";
+    grid-area: footerproduct;
+    color: #8d828d; }
+    body .footerabout a {
+      color: #8d828d;
+      text-decoration: none; }
+  body .suproinfos {
+    grid-area: suproinfos;
+    margin: auto; }
+  body .suphelp {
+    grid-area: suphelp;
+    margin: auto;
+    margin-bottom: 36px; }
+  body .aboutsup {
+    grid-area: aboutsup;
+    margin: auto; }
+  body .onlinesup {
+    grid-area: onlinesup;
+    margin: auto; }
+  body .copyright {
+    grid-area: copyright;
+    margin: auto; }
+  body .media {
+    grid-area: media;
+    margin: auto; }
+  body .payementfoot {
+    grid-area: payementfoot;
+    margin: auto; }
+  body .pproductp {
+    color: #555555; }
+  body .copyright {
+    padding-top: 70px;
+    padding-bottom: 50px; }
+  body .media {
+    padding-top: 70px;
+    padding-bottom: 50px; }
+  body .payementfoot {
+    padding-top: 70px;
+    padding-bottom: 50px; }
+
+@media screen and (max-width: 740px) {
+  body {
+    width: 100%; }
+    body nav {
+      width: 100%;
       padding-right: 10px;
       margin-bottom: 10px;
       padding-top: 20px;
-      padding-bottom: 70px; }
-      html body nav ul img {
+      padding-bottom: 30px; }
+      body nav ul img {
         float: left;
         position: relative;
-        padding-right: 200px; }
-      html body nav ul li {
-        list-style-type: none;
-        float: left;
-        position: relative; }
-        html body nav ul li a {
-          padding: 20px 30px;
+        padding-right: 0px; }
+      body nav ul li {
+        list-style-type: none; }
+        body nav ul li a {
+          padding: 10px 15px;
           list-style-type: none;
           text-decoration: none;
           text-align: center;
           color: #222; }
-      html body nav .about a {
+      body nav .about a {
         color: red; }
-      html body nav .searching {
-        left: 400px;
-        display: inline-block;
-        position: relative;
+      body nav .searching {
+        left: 0px;
         opacity: 60%; }
-        html body nav .searching .images {
-          display: inline-block;
-          position: absolute;
+        body nav .searching .images {
+          left: 214px;
           width: 100%;
-          padding-left: 100px; }
-        html body nav .searching .rechercher {
-          position: relative;
-          padding-right: 100px; }
-        html body nav .searching input {
+          padding-left: 0px;
+          padding-top: 40px; }
+        body nav .searching .rechercher {
+          padding-right: 0px; }
+        body nav .searching input {
           border-top-left-radius: 35px;
           border-bottom-left-radius: 35px;
           border-right: 1px transparent;
           float: left;
           position: relative;
           height: 28px; }
-        html body nav .searching button {
+        body nav .searching button {
           position: relative;
           float: right;
           background-color: white;
@@ -55,203 +306,186 @@ html {
           border-left: 1px solid transparent;
           border-top-right-radius: 35px;
           border-bottom-right-radius: 35px; }
-    html body .aboutus {
+    body .aboutus {
       height: 140px;
       color: white;
       background-color: #3E3E3E;
       text-align: center;
-      padding-top: 50px;
-      width: 122%; }
-    html body .submenu {
-      margin-left: 355px; }
-      html body .submenu a {
+      padding-top: 0px;
+      width: 100%; }
+    body .submenu {
+      margin-left: 0px;
+      height: 50px; }
+      body .submenu a {
         text-decoration: none;
         color: #222;
         opacity: 60%; }
-      html body .submenu li {
-        display: inline-block;
-        position: relative; }
-        html body .submenu li a {
+      body .submenu li {
+        display: inline;
+        position: overflow; }
+        body .submenu li a {
           opacity: 60%;
           color: #222;
           text-align: center;
           padding: 20px 15px;
           font-size: 12px; }
-      html body .submenu .subaboutus {
+      body .submenu .subaboutus {
         display: inline-block;
         opacity: 100%;
         position: relative;
-        padding-bottom: 150px; }
-    html body .content {
-      margin-left: 355px;
+        padding-bottom: 100px; }
+    body .content {
+      margin-left: 0px;
       width: 100%; }
-      html body .content .article1 {
-        width: 65%;
-        height: 501px; }
-        html body .content .article1 img {
-          float: right;
-          position: relative; }
-        html body .content .article1 h1 {
-          width: 20%;
+      body .content .article1 {
+        width: 100%;
+        height: 355px; }
+        body .content .article1 img {
+          width: 100%; }
+        body .content .article1 h1 {
+          width: 100%;
           font-size: 30px; }
-        html body .content .article1 h4 {
+        body .content .article1 h4 {
           color: #f68773; }
-        html body .content .article1 p {
+        body .content .article1 p {
           opacity: 60%;
-          width: 25%;
-          padding-left: 20px;
-          padding-top: 40px; }
-      html body .content .article2 {
-        width: 47%;
-        height: 552px;
-        padding-top: 100px; }
-        html body .content .article2 img {
-          float: left;
-          position: relative;
-          padding: 50px;
-          padding-right: 190px; }
-        html body .content .article2 h2 {
+          width: 100%;
+          padding-left: 1px;
+          padding-top: 10px; }
+      body .content .article2 {
+        display: block;
+        width: 100%;
+        height: 355px;
+        padding-top: 10px; }
+        body .content .article2 img {
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 145px;
+          width: 360px;
+          height: 355px; }
+        body .content .article2 h2 {
           font-style: italic;
-          padding-top: 60px; }
-        html body .content .article2 h4 {
+          padding-top: 5px;
+          width: 100%; }
+        body .content .article2 h4 {
           color: #f68773; }
-        html body .content .article2 .cofounder {
+        body .content .article2 .cofounder {
           opacity: 60%; }
-        html body .content .article2 .txtcofounder {
+        body .content .article2 .txtcofounder {
           padding-top: 50px;
           opacity: 60%; }
-      html body .content .article3 {
+      body .content .article3 {
+        display: block;
         width: 100%;
-        display: grid;
-        grid-template-columns: 400px 400px 400px;
-        grid-template-rows: auto;
-        gap: 5px;
-        grid-template-areas: "date1 date2 date3";
-        padding-top: 100px;
-        padding-bottom: 100px; }
-        html body .content .article3 .bigmoments h1 {
-          font-size: 40px; }
-        html body .content .article3 .bigmoments p {
-          opacity: 60%; }
-        html body .content .article3 .datea {
-          padding-left: 167px;
+        padding-top: 140px;
+        padding-bottom: 25px; }
+        body .content .article3 .bigmoments {
+          padding-top: 370px; }
+          body .content .article3 .bigmoments h1 {
+            font-size: 40px; }
+          body .content .article3 .bigmoments p {
+            opacity: 60%; }
+        body .content .article3 .datea {
+          padding-left: 0px;
           width: 300px; }
-          html body .content .article3 .datea .date1 {
-            grid-area: date2;
-            padding-bottom: 50px; }
-            html body .content .article3 .datea .date1 p {
+          body .content .article3 .datea .date1 {
+            padding-bottom: 25px; }
+            body .content .article3 .datea .date1 p {
               opacity: 60%; }
-          html body .content .article3 .datea .date2 {
-            width: 70%;
-            grid-area: date2; }
-            html body .content .article3 .datea .date2 p {
+          body .content .article3 .datea .date2 {
+            width: 70%; }
+            body .content .article3 .datea .date2 p {
               opacity: 60%; }
-        html body .content .article3 .date3 {
-          grid-area: date3;
-          padding-bottom: 50px; }
-          html body .content .article3 .date3 p {
+        body .content .article3 .date3 {
+          padding-bottom: 25px; }
+          body .content .article3 .date3 p {
             opacity: 60%; }
-        html body .content .article3 .date4 {
-          grid-area: date3; }
-          html body .content .article3 .date4 p {
-            opacity: 60%; }
-      html body .content .imagevideo .play {
-        margin-left: -633px;
-        margin-bottom: 170px; }
-      html body .content .subvideo {
+        body .content .article3 .date4 p {
+          opacity: 60%; }
+      body .content .imagevideo img {
+        width: 360px; }
+      body .content .imagevideo .play {
+        display: none; }
+      body .content .subvideo {
         width: 100%;
-        display: inline-block; }
-        html body .content .subvideo .subvideo1 {
+        display: block; }
+        body .content .subvideo .subvideo1 {
           width: 100%; }
-          html body .content .subvideo .subvideo1 img {
+          body .content .subvideo .subvideo1 img {
             padding-top: 50px;
             padding-right: 2px; }
-          html body .content .subvideo .subvideo1 p {
+          body .content .subvideo .subvideo1 p {
             display: inline-block;
-            padding-right: 200px;
+            padding-right: 10px;
             margin-bottom: 0px; }
-        html body .content .subvideo .subvideo2 {
-          padding-left: 20px;
+        body .content .subvideo .subvideo2 {
+          padding-top: 20px;
+          padding-left: 0px;
           width: 100%; }
-          html body .content .subvideo .subvideo2 p {
-            display: inline-block;
-            padding-right: 210px;
+          body .content .subvideo .subvideo2 p {
+            display: block;
+            padding-right: 50px;
             margin-left: 17px;
             margin-top: 0px;
             opacity: 60%; }
-      html body .content .articles4 {
-        padding-top: 150px; }
-        html body .content .articles4 h2 {
-          width: 30%;
-          padding-left: 280px;
+      body .content .articles4 {
+        padding-top: 25px; }
+        body .content .articles4 h2 {
+          width: 100%;
+          padding-left: 0px;
           font-size: 30px; }
-        html body .content .articles4 .heritage {
-          display: grid;
-          grid-template-columns: 350px 350px;
-          grid-template-rows: 100px;
-          gap: 50px;
-          grid-template-areas: "txt1 txt2";
-          padding-left: 200px;
+        body .content .articles4 .heritage {
+          display: block;
+          padding-left: 0px;
           width: 100%; }
-          html body .content .articles4 .heritage p {
+          body .content .articles4 .heritage p {
             width: 100%;
             opacity: 60%; }
-          html body .content .articles4 .heritage .txt1 {
-            grid-area: txt1; }
-          html body .content .articles4 .heritage .txt2 {
-            grid-area: txt2;
-            width: 150%; }
-      html body .content .article5 {
-        padding-top: 100px; }
-        html body .content .article5 h1 {
-          padding-bottom: 50px;
-          padding-left: 350px;
-          font-size: 30px; }
-        html body .content .article5 img {
-          padding: 50px; }
-      html body .content .enseigne img {
-        padding: 50px; }
-    html body .footerabout {
+          body .content .articles4 .heritage .txt2 {
+            width: 100%;
+            padding-left: 0px; }
+      body .content .article5 {
+        padding-top: 50px; }
+        body .content .article5 h1 {
+          padding-bottom: 25px;
+          padding-left: 0px;
+          font-size: 50px; }
+        body .content .article5 img {
+          padding: 5px; }
+      body .content .enseigne img {
+        padding: 25px; }
+    body .footerabout {
       width: 100%;
-      padding-top: 250px;
-      padding-left: 318px;
-      display: grid;
-      grid-template-columns: 400px 400px 400px 400px;
-      grid-template-rows: 1.3fr 0.7fr;
-      gap: 1px 1px;
-      grid-template-areas: "suproinfos suphelp aboutsup onlinesup" "copyright media media payementfoot";
-      grid-area: footerproduct;
+      padding-top: 75px;
+      padding-left: 0px;
+      display: block;
       color: #8d828d; }
-      html body .footerabout a {
+      body .footerabout a {
         color: #8d828d;
         text-decoration: none; }
-    html body .suproinfos {
-      grid-area: suproinfos;
+    body .suproinfos {
       margin: auto; }
-    html body .suphelp {
-      grid-area: suphelp;
+    body .suphelp {
       margin: auto;
       margin-bottom: 36px; }
-    html body .aboutsup {
-      grid-area: aboutsup;
+    body .aboutsup {
       margin: auto; }
-    html body .onlinesup {
-      grid-area: onlinesup;
+    body .onlinesup {
       margin: auto; }
-    html body .copyright {
-      grid-area: copyright;
+    body .copyright {
       margin: auto; }
-    html body .media {
-      grid-area: media;
+    body .media {
       margin: auto; }
-    html body .payementfoot {
-      grid-area: payementfoot;
+    body .payementfoot {
       margin: auto; }
-    html body .pproductp {
+    body .pproductp {
       color: #555555; }
-    html body .copyright {
-      padding-top: 70px; }
-    html body .media {
-      padding-top: 70px; }
-    html body .payementfoot {
-      padding-top: 70px; }
+    body .copyright {
+      padding-top: 70px;
+      padding-bottom: 50px; }
+    body .media {
+      padding-top: 70px;
+      padding-bottom: 50px; }
+    body .payementfoot {
+      padding-top: 70px;
+      padding-bottom: 50px; } }
