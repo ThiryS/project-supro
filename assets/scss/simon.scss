@@ -1,6 +1,6 @@
 @import './font';
 
-html, body{ height: 100%; margin: 0; font-family: 'Roboto', sans-serif; }
+html, body{ height: 100%; margin: 0; color: #555555; font-family: 'Roboto', sans-serif; }
 
 /* Page Contact */
 
@@ -204,7 +204,7 @@ margin-right: 500px;
 .grid-container-pruduct {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 1px 1px;
   grid-template-areas: "navproduct navproduct navproduct navproduct navproduct navproduct" ". productpro productpro productpro productpro ." ". infoproduc infoproduc infoproduc infoproduc ." ". releted releted releted releted ." ". upsell upsell upsell upsell ." ". footerproduct footerproduct footerproduct footerproduct .";
 }
@@ -257,21 +257,48 @@ margin-right: 500px;
   grid-area: productpro;
 }
 
-.pictureprod { grid-area: pictureprod; }
-
-.otherpic { 
-  grid-area: otherpic;
-  margin-top: auto;
-  align-items: center;
+.pictureprod { 
+  grid-area: pictureprod;
+  p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
   img{
-    padding-left: 20px;
+  width: 100%;
   }
 
  }
 
-.descripic { grid-area: descripic; }
+.otherpic { 
+  grid-area: otherpic;
+  margin-top: 10px;
+  align-items: center;
+  img{
+    padding-left: 10px;
+  }
 
-.mediapic { grid-area: mediapic; }
+ }
+
+.descripic { 
+  grid-area: descripic;
+  a{
+    text-decoration:none;
+    color: #555555;
+  }
+  div{
+    padding-left: 10px;
+    padding-top: 30px;
+  }
+}
+
+.mediapic { 
+  grid-area: mediapic;
+  border-top: 1px solid #cccccc;
+
+  p{
+    padding-top: 15px;
+  }
+ }
 
 .infoproduc {
   display: grid;
@@ -290,7 +317,14 @@ margin-right: 500px;
     text-align: center;
     padding-top: 30px;
     color: #555555;
+    
+    a{
+      text-decoration:none;
+      color: #555555;
+      margin-right: 30px;
+    }
   }
+  
  }
 
 .descinfo { 
@@ -324,6 +358,11 @@ ul{
   grid-area: reltitle;
   margin: auto;
   text-align: center;
+  a{
+    text-decoration:none;
+    color: #555555;
+  }
+  
  }
 
 .rel1 { grid-area: rel1; }
@@ -358,7 +397,7 @@ ul{
 
 .footerproduct {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1.5fr;
   grid-template-rows: 1.3fr 0.7fr;
   gap: 1px 1px;
   grid-template-areas: "suproinfos suphelp aboutsup onlinesup" "copyright media media payementfoot";
@@ -378,7 +417,6 @@ ul{
 .suphelp { 
   grid-area: suphelp;
   margin: auto;
-  margin-bottom: 255px;
  }
 
 .aboutsup { 

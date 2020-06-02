@@ -2,6 +2,7 @@
 html, body {
   height: 100%;
   margin: 0;
+  color: #555555;
   font-family: 'Roboto', sans-serif; }
 
 /* Page Contact */
@@ -153,7 +154,7 @@ html, body {
 .grid-container-pruduct {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 1px 1px;
   grid-template-areas: "navproduct navproduct navproduct navproduct navproduct navproduct" ". productpro productpro productpro productpro ." ". infoproduc infoproduc infoproduc infoproduc ." ". releted releted releted releted ." ". upsell upsell upsell upsell ." ". footerproduct footerproduct footerproduct footerproduct ."; }
 
@@ -189,19 +190,33 @@ html, body {
 
 .pictureprod {
   grid-area: pictureprod; }
+  .pictureprod p {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .pictureprod img {
+    width: 100%; }
 
 .otherpic {
   grid-area: otherpic;
-  margin-top: auto;
+  margin-top: 10px;
   align-items: center; }
   .otherpic img {
-    padding-left: 20px; }
+    padding-left: 10px; }
 
 .descripic {
   grid-area: descripic; }
+  .descripic a {
+    text-decoration: none;
+    color: #555555; }
+  .descripic div {
+    padding-left: 10px;
+    padding-top: 30px; }
 
 .mediapic {
-  grid-area: mediapic; }
+  grid-area: mediapic;
+  border-top: 1px solid #cccccc; }
+  .mediapic p {
+    padding-top: 15px; }
 
 .infoproduc {
   display: grid;
@@ -219,6 +234,10 @@ html, body {
     text-align: center;
     padding-top: 30px;
     color: #555555; }
+    .navinfos p a {
+      text-decoration: none;
+      color: #555555;
+      margin-right: 30px; }
 
 .descinfo {
   grid-area: descinfo; }
@@ -244,6 +263,9 @@ html, body {
   grid-area: reltitle;
   margin: auto;
   text-align: center; }
+  .reltitle a {
+    text-decoration: none;
+    color: #555555; }
 
 .rel1 {
   grid-area: rel1; }
@@ -283,7 +305,7 @@ html, body {
 
 .footerproduct {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1.5fr;
   grid-template-rows: 1.3fr 0.7fr;
   gap: 1px 1px;
   grid-template-areas: "suproinfos suphelp aboutsup onlinesup" "copyright media media payementfoot";
@@ -299,8 +321,7 @@ html, body {
 
 .suphelp {
   grid-area: suphelp;
-  margin: auto;
-  margin-bottom: 255px; }
+  margin: auto; }
 
 .aboutsup {
   grid-area: aboutsup;
