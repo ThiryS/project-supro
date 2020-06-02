@@ -1,4 +1,8 @@
 @import './font';
+html {
+    width:auto;
+
+
 
 body { 
     
@@ -57,7 +61,7 @@ body {
             
             
             
-            opacity: 50%;
+            opacity: 60%;
             
         .images { 
             display:inline-block;
@@ -123,7 +127,7 @@ body {
         a {
             display: inline-block;
             position: relative;
-            opacity: 50%;
+            opacity: 60%;
             text-decoration: none;
             list-style-type: none;
             color:$black;
@@ -167,7 +171,7 @@ body {
                 color:$orange;
             }
             p { 
-                opacity: 50%;
+                opacity: 60%;
                 width:25%;
                 padding-left: 20px;
                 padding-top: 40px;
@@ -175,8 +179,8 @@ body {
         }
 
         .article2 { 
-            width:40%;
-            padding-top: 280px;
+            width:50%;
+            padding-top: 230px;
 
             img { 
                 float:left;
@@ -192,27 +196,80 @@ body {
                 color:$orange;
             }
             .cofounder { 
-                opacity: 50%;
+                opacity: 60%;
             }
             p{
-                opacity: 50%;
+                opacity: 60%;
             }
 
                         
         }
 
         .article3 { 
+
+            display: grid;
             
-            padding-top: 250px;
+            grid-template-rows: 1fr;
+            gap: 1px 1px;
+            grid-template-areas:"date1 date2 date3";
+            padding-top: 350px;
+            padding-bottom: 100px;
 
             .bigmoments { 
-                width:25%;
-                display:inline-block;
-                position: relative;
+                width:60%;
+                
+                
+                           
+                h1 {
+                    font-size: 30px;
+                }
+                p{
+                    opacity: 60%;
+                }
+
+                                
             }
 
+            .date1 {
+                grid-area: date2;
+                padding-bottom: 50px;
+
+                p{
+                    opacity: 60%;
+                }
+            }
+
+            .date2{
+                grid-area:date2;
+                p{
+                    opacity: 60%;
+                }
+            }
+
+            .date3 {
+                grid-area: date3;
+                padding-bottom: 50px;
+                p{
+                    opacity: 60%;
+                }
+            }
+            .date4{
+                grid-area: date3;
+                p{
+                    opacity: 60%;
+                }
+            }
     
         
+        }
+
+        .imagevideo {
+            .play{
+
+            
+            margin-left: -633px;
+            margin-bottom: 170px;
+            }
         }
     }    
 
@@ -276,4 +333,5 @@ body {
       color: #555555;
       }
     
+}
 }
