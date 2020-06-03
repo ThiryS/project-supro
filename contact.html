@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacte</title>
+    <link rel="stylesheet" href="./assets/css/simon.css">
+    <link rel="icon" href="./images/icons8-s-50.png" />
+</head>
+<body>
+    <div class="grid-container-contact">
+        <nav class="contactnav">
+
+            <ul>
+                <img src="images/shop/resources/logo.png"/>
+                <li class="index"> <a href="index.html">Home</a></li>
+                <li class="shop"><a href="shop.html">Shop</a></li>
+                <li class="product"><a href="product.html">Products</a></li>
+                <li class="about"><a href="about.html">Pages</a></li>
+                <li class="blog"><a href="#">Blog</a></li>
+                <li class="contact"><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="searching">
+
+                <form class="rechercher" method="GET" action="rechercher.php">
+                    <input type="text" placeholder="Start Searching">
+                    <button class="loupe" type="submit" value=""><img src="images/stores/resources/search-outline.svg" width="26px" height="27px"/></button>
+                </form>
+
+                <div class="images">
+
+                    <a href="#"><img src="images/stores/resources/person-outline.svg" alt="person" height="30px" width="30px"/></a>
+                    <a href="#"><img src="images/stores/resources/heart-outline.svg" alt="heart" height="30px" width="30px"/></a>
+                    <a href="#"><img src="images/stores/resources/cart-outline.svg" alt="cart" height="30px" width="30px"/></a>
+                    <a href="#"><img src="images/stores/resources/settings-outline.svg" alt="setting" height="30px" width="30px"/></a>
+                </div> 
+
+
+            </div>
+
+        </nav>
+        <div class="banner"><h2>Stor Locator</h2></div>
+        <div class="form1 ">
+            <h5 class="h5contact">SEARCH BY AREA</h5>
+            <form class="container-form1">
+                <div class="item marginBottom marginLeft">
+                    <label for="country">Country:</label><br>
+                    <select style="width: 81%;" name="Country" id="Country">
+                    <option value="">--Please Select--</option>
+                    <option value="Belgium">Belgium</option>
+                    <option value="France">France</option>
+                    <option value="Netherlands">Netherlands</option>
+                    <option value="Luxembourg">Luxembourg</option>
+                    <option value="Duchland">Duchland</option>
+                    </select>
+                </div>
+                <div class="item marginBottom">
+                    <label for="State">State:</label><br>
+                    <input style="width: 80%;" type="text" id="State" name="State">
+                </div>
+                <div class="item marginBottom marginLeft">
+                    <label for="city">City:</label><br>
+                    <input style="width: 80%;" type="text" id="City" name="City">
+                </div>
+                <div class="item marginBottom">
+                    <label for="Zipcode">Zipcode:</label><br>
+                    <input style="width: 80%;" type="text" id="Zipcode" name="Zipcode">
+                </div>
+                <div class="item marginBottom marginLeft">
+                    <input class="BlackBoutton" type="submit" value="SEARCH">
+                </div>
+            </form>
+        </div>
+        <div class="form2">
+            <h5 class="h5contact">SEARCH BY DISTANCE</h5>
+            <form>
+                <label class="marginLeft" for="Location ">Location:</label><br>
+                <input class="marginBottom marginLeft" style="width: 80%;" type="text" id="Location" name="Location" placeholder="Street, City, State, Zipcode, Country"><br>
+                <label class="marginLeft" for="Radius">Radius:</label><br>
+                <input class="marginBottom marginLeft" style="width: 80%;" type="text" id="Radius" name="Radius" placeholder="Miles"><br>
+                <input class="BlackBoutton marginBottom marginLeft" type="submit" value="SEARCH">
+            </form>
+        </div>
+        <div class="scrollbox">
+            <h5 class="h5contact">STORE LIST</h5>
+            <article class="inline container-scrollbox">  
+                <img src="./images/stores/resources/2c558fd397fc98b43c893a15524037a1_1.jpeg" alt="Panda" style="width:30%">
+                <address style="margin: auto;">
+                    <br><strong>Panda</strong><br><br /> 795 Folsom Ave, Suite 600<br /> San Francisco, CA 94107<br /> <abbr title="Phone">P:</abbr> (123) 456-7890 <br><br>
+                    <input class="BlackBoutton" type="submit" value="VIEW MAP">
+                </address>
+            </article>
+            <article class="inline container-scrollbox">  
+                <img src="./images/stores/resources/64e3011babb9cb666c04621c00230857.jpg" alt="Curabitur" style="width:30%">
+                <address style="margin: auto;">
+                    <br><strong>Curabitur</strong><br><br /> 795 Folsom Ave, Suite 600<br /> San Francisco, CA 94107<br /> <abbr title="Phone">P:</abbr> (123) 456-7890 <br><br>
+                    <input class="BlackBoutton" type="submit" value="VIEW MAP">
+                   
+                </address>
+            </article>
+            <article class="inline container-scrollbox">  
+                <img src="./images/stores/resources/9423947432_175211195f_b.jpg" alt="Tandem-C" style="width:30%">
+                <address style="margin: auto;">
+                    <br><strong>Tandem-C</strong><br><br /> 795 Folsom Ave, Suite 600<br /> San Francisco, CA 94107<br /> <abbr title="Phone">P:</abbr> (123) 456-7890 <br><br>
+                    <input class="BlackBoutton" type="submit" value="VIEW MAP">
+                </address>
+            </article>
+            <article class="inline container-scrollbox">  
+                <img src="./images/stores/resources/2c558fd397fc98b43c893a15524037a1_1.jpeg" alt="Panda" style="width:30%">
+                <address style="margin: auto;">
+                    <br><strong>Panda</strong><br><br /> 795 Folsom Ave, Suite 600<br /> San Francisco, CA 94107<br /> <abbr title="Phone">P:</abbr> (123) 456-7890 <br><br>
+                    <input class="BlackBoutton" type="submit" value="VIEW MAP">
+                </address>
+            </article>
+            <article class="inline container-scrollbox">  
+                <img src="./images/stores/resources/2c558fd397fc98b43c893a15524037a1_1.jpeg" alt="Panda" style="width:30%">
+                <address style="margin: auto;">
+                    <br><strong>Panda</strong><br><br /> 795 Folsom Ave, Suite 600<br /> San Francisco, CA 94107<br /> <abbr title="Phone">P:</abbr> (123) 456-7890 <br><br>
+                    <input class="BlackBoutton" type="submit" value="VIEW MAP">
+                </address>
+            </article>
+            <article class="inline container-scrollbox">  
+                <img src="./images/stores/resources/2c558fd397fc98b43c893a15524037a1_1.jpeg" alt="Panda" style="width:30%">
+                <address style="margin: auto;">
+                    <br><strong>Panda</strong><br><br /> 795 Folsom Ave, Suite 600<br /> San Francisco, CA 94107<br /> <abbr title="Phone">P:</abbr> (123) 456-7890 <br><br>
+                    <input class="BlackBoutton" type="submit" value="VIEW MAP">
+                </address>
+            </article>
+        </div>
+        <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10122.530164734366!2d5.582556263611211!3d50.63394268802973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sbe!4v1590565316126!5m2!1sfr!2sbe" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+        <footer class="footerContact">
+            <div class="marginfooter">
+                <a class="afooter" href="#">FACEBOOK</a> <a class="afooter" href="#">TWITTER</a> <a class="afooter" href="#">GOOGLE</a> <a class="afooter" href="#">YOUTUBE</a> <a class="afooter" href="#">INSTAGRAM</a> 
+            </div>
+            <div>
+                <img src="./images/stores/resources/payment1.png" alt="Visa"> <img src="./images/stores/resources/payment2.png" alt="Visa"> <img src="./images/stores/resources/payment3.png" alt="Visa"> <img src="./images/stores/resources/payment4.png" alt="Visa"> <img src="./images/stores/resources/payment5.png" alt="Visa">
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

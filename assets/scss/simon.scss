@@ -1,4 +1,471 @@
-/* scss Simon */
-.classTestSimon{
-    color: salmon;
-};
+@import './font';
+
+html, body{ height: 100%; margin: 0; color: #555555; font-family: 'Roboto', sans-serif; }
+
+/* Page Contact */
+
+.grid-container-contact {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr 0.6fr 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 0.6fr 1.1fr 2.4fr 0.5fr;
+  gap: 1px 1px;
+  grid-template-areas: "contactnav contactnav contactnav contactnav contactnav contactnav" "banner banner banner banner banner banner" ". form1 form1 form2 form2 ." ". scrollbox map map map ." "footerContact footerContact footerContact footerContact footerContact footerContact";
+}
+
+.contactnav { 
+  grid-area: contactnav;
+  /*SCC de Tonio pour le nav*/
+  width:100%;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  ul{
+    img { 
+        float:left;
+        position:relative;
+        padding-right: 100px;
+
+         }
+
+
+    li { 
+
+        list-style-type:none;
+        float:left;
+        position:relative;
+
+
+    a { 
+        padding:20px 30px;
+        list-style-type: none;
+        text-decoration: none;
+        text-align: center;
+        color:$black;
+        }
+
+    }
+}
+.contact {
+    a{
+    color:red;}
+}
+
+
+
+
+}
+.searching { 
+position:relative;
+float:right;
+padding-left:400px;
+
+opacity: 35%;
+
+.images { 
+float:right;
+position: relative;
+}
+
+.rechercher { 
+position:relative;
+float:left;
+padding-right: 100px;
+
+
+
+}
+
+input {
+    float:left;
+    position:relative;
+
+
+
+
+}
+button { 
+    position:relative;
+    float:right;
+    background-color: white;
+    text-decoration:none;
+    border-left:1px transparent;
+
+
+}
+ }
+
+.banner { 
+  grid-area: banner;
+  background-color: #3c3c3c;
+  text-align: center;
+  color: white;
+ }
+
+.form1 { 
+  grid-area: form1; 
+  margin: auto;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.form2 { 
+  grid-area: form2; 
+  margin: auto;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.scrollbox { 
+  grid-area: scrollbox;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  overflow-y: scroll;
+  margin-right: 30px;
+  margin-top: 60px;
+  height: 450px;
+ }
+.inline{
+  display: inline-block;
+  position: relative;
+}
+
+.footerContact { 
+  grid-area: footerContact;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 100px;
+  a{
+    color: #8d828d;
+    text-decoration:none;
+  }
+ }
+
+.map { 
+  grid-area: map;
+  margin-top: 60px;
+  margin: auto;
+ }
+
+.borderFrom{
+  border: 3px #3c3c3c;
+}
+
+.container-form1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-scrollbox {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #cccccc;
+}
+
+.item {
+  width: 100%;
+  flex: 0 45%;
+}
+
+.h5contact{
+  border-bottom: 1px solid #cccccc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.marginBottom{
+  margin-bottom: 15px;
+}
+
+.marginfooter{
+margin-right: 500px;
+}
+
+.BlackBoutton {
+  background-color: black;
+  Color:white;
+  font-weight: bold;
+  padding: 10px 40px;
+  border-radius: 3px;
+  cursor: pointer; 
+  text-decoration: none;
+}
+.BlackBoutton:hover{
+  opacity: 0.7;
+}
+.marginLeft{
+  margin-left: 10px;
+}
+
+@media (max-width: 700px) {
+  .grid-container-contact  {
+    grid-template-areas:
+      'contactnav'
+      'banner'
+      'form1'
+      'form2'
+      'map'
+      'scrollbox'
+      'footerContact';
+  }
+}
+
+
+/* Page Product */
+
+.grid-container-pruduct {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "navproduct navproduct navproduct navproduct navproduct navproduct" ". productpro productpro productpro productpro ." ". infoproduc infoproduc infoproduc infoproduc ." ". releted releted releted releted ." ". upsell upsell upsell upsell ." ". footerproduct footerproduct footerproduct footerproduct .";
+}
+
+.navproduct { 
+  grid-area: navproduct;
+  /*SCC de Tonio pour le nav*/
+  width:100%;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  ul{
+    img { 
+        float:left;
+        position:relative;
+        padding-right: 100px;
+
+         }
+
+
+    li { 
+
+        list-style-type:none;
+        float:left;
+        position:relative;
+
+
+    a { 
+        padding:20px 30px;
+        list-style-type: none;
+        text-decoration: none;
+        text-align: center;
+        color:$black;
+        }
+
+    }
+}
+.product {
+    a{
+    color:red;}
+}
+
+
+ }
+
+.productpro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1.7fr 0.3fr;
+  gap: 1px 1px;
+  grid-template-areas: "pictureprod descripic" "otherpic mediapic";
+  grid-area: productpro;
+}
+
+.pictureprod { 
+  grid-area: pictureprod;
+  p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  img{
+  width: 100%;
+  }
+
+ }
+
+.otherpic { 
+  grid-area: otherpic;
+  margin-top: 10px;
+  align-items: center;
+  img{
+    padding-left: 10px;
+  }
+
+ }
+
+.descripic { 
+  grid-area: descripic;
+  a{
+    text-decoration:none;
+    color: #555555;
+  }
+  div{
+    padding-left: 10px;
+    padding-top: 30px;
+  }
+}
+
+.mediapic { 
+  grid-area: mediapic;
+  border-top: 1px solid #cccccc;
+
+  p{
+    padding-top: 15px;
+  }
+ }
+
+.infoproduc {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 1.6fr;
+  gap: 1px 1px;
+  grid-template-areas: "navinfos navinfos navinfos" "descinfo descinfo pisctureinfo";
+  grid-area: infoproduc;
+}
+
+.navinfos { 
+  grid-area: navinfos;
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  p{
+    text-align: center;
+    padding-top: 30px;
+    color: #555555;
+    
+    a{
+      text-decoration:none;
+      color: #555555;
+      margin-right: 30px;
+    }
+  }
+  
+ }
+
+.descinfo { 
+  grid-area: descinfo;
+
+p{
+  color: #555555;
+}
+ul{
+  color: #555555;
+  li{
+    padding-bottom: 20px;
+  }
+}
+  
+
+ }
+
+.pisctureinfo { grid-area: pisctureinfo; }
+
+.releted {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 1.6fr;
+  gap: 1px 1px;
+  grid-template-areas: "reltitle reltitle reltitle reltitle" "rel1 rel2 rel3 rel4";
+  grid-area: releted;
+  img{
+    width: 90%;
+  }
+}
+
+.reltitle { 
+  grid-area: reltitle;
+  margin: auto;
+  text-align: center;
+  a{
+    text-decoration:none;
+    color: #555555;
+  }
+  
+ }
+
+.rel1 { grid-area: rel1; }
+
+.rel2 { grid-area: rel2; }
+
+.rel3 { grid-area: rel3; }
+
+.rel4 { grid-area: rel4; }
+
+.upsell {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 1.6fr;
+  gap: 1px 1px;
+  grid-template-areas: "uptitle uptitle uptitle uptitle" "up1 up2 up3 up4";
+  grid-area: upsell;
+  img{
+    width: 90%;
+  }
+}
+
+.uptitle { 
+  grid-area: uptitle;
+  margin: auto;
+ }
+
+.up1 { grid-area: up1; }
+
+.up2 { grid-area: up2; }
+
+.up3 { grid-area: up3; }
+
+.up4 { grid-area: up4; }
+
+.footerproduct {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1.5fr;
+  grid-template-rows: 1.3fr 0.7fr;
+  gap: 1px 1px;
+  grid-template-areas: "suproinfos suphelp aboutsup onlinesup" "copyright media media payementfoot";
+  grid-area: footerproduct;
+  a{
+    color: #8d828d;
+    text-decoration:none;
+  }
+  color: #8d828d;
+}
+
+.suproinfos { 
+  grid-area: suproinfos;
+  margin: auto;
+ }
+
+.suphelp { 
+  grid-area: suphelp;
+  margin: auto;
+ }
+
+.aboutsup { 
+  grid-area: aboutsup;
+  margin: auto;
+ }
+
+.onlinesup { 
+  grid-area: onlinesup;
+  margin: auto;
+ }
+
+.copyright { 
+  grid-area: copyright;
+  margin: auto;
+ }
+
+.media { 
+  grid-area: media;
+  margin: auto;
+ }
+
+.payementfoot { 
+  grid-area: payementfoot;
+  margin: auto;
+ }
+
+
+.pproductp{
+color: #555555;
+}
+>>>>>>> simon
