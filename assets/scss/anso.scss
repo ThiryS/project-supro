@@ -76,7 +76,7 @@ header .home-logo-supro-nav, img {
      height: 30px;
      width: 190px;
      border-radius: 20px;
-     background: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/search.ico) right no-repeat ;
+     background: url(../../images/homepage/resources/search.ico) right no-repeat ;
      background-size: 20px;
      margin-left: 25%;
      opacity: 0.4;
@@ -111,7 +111,7 @@ header .home-logo-supro-nav, img {
 
 .home-deux {
    
-    background-image: url(/images/homepage/resources/abc.jpg) ;
+    background-image: url(../../images/homepage/resources/abc.jpg) ;
     background-size: 1000px;
 }
 .home-trois-media{
@@ -167,7 +167,7 @@ header .home-logo-supro-nav, img {
 }
 
 .home-img1-sect2 {
-    background-image: url(/images/homepage/resources/banner_h1_1.jpg);
+    background-image: url(../../images/homepage/resources/banner_h1_1.jpg);
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -210,7 +210,7 @@ header .home-logo-supro-nav, img {
 }
 
 .home-img2-sect2 {
-    background-image: url(/images/homepage/resources/banner_h1_2.jpg);
+    background-image: url(../../images/homepage/resources/banner_h1_2.jpg);
     background-position: center;
     background-size:400px ;
     
@@ -246,7 +246,7 @@ header .home-logo-supro-nav, img {
 }
 
 .home-img3-sect2 {
-    background-image: url(/images/homepage/resources/banner_h1_3.jpg);
+    background-image: url(../../images/homepage/resources/banner_h1_3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -356,7 +356,7 @@ header .home-logo-supro-nav, img {
  }
 .home-img1-sect4 {
       
-      background-image: url(/images/homepage/resources/bsl1.jpg);
+      background-image: url(../../images/homepage/resources/bsl1.jpg);
       background-size: 200px;
       background-repeat: no-repeat;
     background-position: top 48% left 90%;
@@ -396,7 +396,7 @@ header .home-logo-supro-nav, img {
 }
 .home-img2-sect4 {
    
-    background-image: url(/images/homepage/resources/bsl2.jpg);
+    background-image: url(../../images/homepage/resources/bsl2.jpg);
     background-size: 320px 320px;
      background-repeat: no-repeat;
     background-position:top 10% left 60% ;
@@ -438,7 +438,7 @@ header .home-logo-supro-nav, img {
 }
 .home-sect5-img1 {
    
-    background-image: url(/images/homepage/resources/bsl3.jpg);
+    background-image: url(../../images/homepage/resources/bsl3.jpg);
     background-size: 350px 350px;
     background-repeat: no-repeat;
     background-position: top 65% left 80%;
@@ -446,7 +446,7 @@ header .home-logo-supro-nav, img {
 
 .home-sect5-img2 {
    
-    background-image: url(/images/homepage/resources/bsl4.jpg);
+    background-image: url(../../images/homepage/resources/bsl4.jpg);
     background-size:200px;
     background-repeat: no-repeat;
     background-position: top 50% left 45%;
@@ -568,20 +568,20 @@ header .home-logo-supro-nav, img {
 }
 .h-s7-part1 {
     
-    background-image: url(/images/homepage/resources/prd_09_1_1_5.jpg);
+    background-image: url(../../images/homepage/resources/prd_09_1_1_5.jpg);
     background-repeat: no-repeat;
     background-size:220px 220px  ;
 
 }
 .h-s7-part2{
     
-    background-image: url(/images/homepage/resources/prd_08_1_6.jpg);
+    background-image: url(../../images/homepage/resources/prd_08_1_6.jpg);
     background-repeat: no-repeat;
     background-size:220px 220px  ;
 }
 .h-s7-part3{
     
-    background-image: url(/images/homepage/resources/prd_07_1_2.jpg);
+    background-image: url(../../images/homepage/resources/prd_07_1_2.jpg);
     background-repeat: no-repeat;
     background-size:220px 220px  ;
 }
@@ -681,19 +681,19 @@ header .home-logo-supro-nav, img {
 }
 .h-s8-part1 {
     
-    background-image: url(/images/homepage/resources/prd_06_1_2.jpg);
+    background-image: url(../../images/homepage/resources/prd_06_1_2.jpg);
     background-repeat: no-repeat;
     background-size:220px 220px  ;
 
 }.h-s8-part2 {
     
-    background-image: url(/images/homepage/resources/prd_05_1_2.jpg);
+    background-image: url(../../images/homepage/resources/prd_05_1_2.jpg);
     background-repeat: no-repeat;
     background-size:220px 220px  ;
 
 }.h-s8-part3 {
     
-    background-image: url(/images/homepage/resources/prd_04_1_1.jpg);
+    background-image: url(../../images/homepage/resources/prd_04_1_1.jpg);
     background-repeat: no-repeat;
     background-size:220px 220px  ;
 
@@ -779,7 +779,7 @@ header .home-logo-supro-nav, img {
     grid-template-columns: 1fr;
     grid-template-rows: 400px;
     // border: 1px solid $black;
-    background-image: url(/images/homepage/resources/deals_image.jpg);
+    background-image: url(../../images/homepage/resources/deals_image.jpg);
     background-size: 1280px 400px;
     background-repeat: no-repeat;
     background-position: center;
@@ -1011,7 +1011,7 @@ font-family: 'Roboto', sans-serif;
 .h-s11-img1{
     grid-row: 1 / 2;
     grid-column: 2 / 3;
-    background-image: url(/images/homepage/resources/latest2_1.jpg);
+    background-image: url(../../images/homepage/resources/latest2_1.jpg);
      background-repeat: no-repeat;
     background-size: 250px 170px;
    
@@ -1024,7 +1024,7 @@ font-family: 'Roboto', sans-serif;
 .h-s11-img2{
     grid-row: 1 / 2;
     grid-column: 3 / 4;
-    background-image: url(/images/homepage/resources/blog9.jpg);
+    background-image: url(../../images/homepage/resources/blog9.jpg);
     background-repeat: no-repeat;
     background-size:250px 170px ;
     width: 100%;
@@ -1033,7 +1033,7 @@ font-family: 'Roboto', sans-serif;
 }.h-s11-img3{
     grid-row: 1 / 2;
     grid-column: 4 / 5;
-    background-image: url(/images/homepage/resources/blog8.jpg);
+    background-image: url(../../images/homepage/resources/blog8.jpg);
     background-size: 250px 170px;
     background-repeat: no-repeat;
 }
@@ -1184,37 +1184,37 @@ font-family: 'Roboto', sans-serif;
 }
 
 .h-s13-part1-img1{
-    background-image:url(/images/shop/resources/prd_14_1_2.jpg);
+    background-image:url(../../images/shop/resources/prd_14_1_2.jpg);
     background-size:200px ;
     background-position: left;
     background-repeat: no-repeat;
 }.h-s13-part1-img2{
-    background-image:url(/images/stores/resources/64e3011babb9cb666c04621c00230857.jpg);
+    background-image:url(../../images/stores/resources/64e3011babb9cb666c04621c00230857.jpg);
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
 }.h-s13-part1-img3{
-    background-image:url(/images/homepage/resources/prd_09_1_1_5.jpg);
+    background-image:url(../../images/homepage/resources/prd_09_1_1_5.jpg);
     background-size:200px;
     background-position: left;
     background-repeat: no-repeat;
 }.h-s13-part1-img4{
-    background-image:url(/images/about/resources/ab2.jpg);
+    background-image:url(../../images/about/resources/ab2.jpg);
     background-size:200px;
     background-position: left;
     background-repeat: no-repeat;
 }.h-s13-part1-img5{
-    background-image:url(/images/homepage/resources/blog6_1.jpg);
+    background-image:url(../../images/homepage/resources/blog6_1.jpg);
     background-size:250px;
     background-position: center;
     background-repeat: no-repeat;
 }.h-s13-part1-img6{
-    background-image:url(/images/shop/resources/prd_02_1_2_1.jpg);
+    background-image:url(../../images/shop/resources/prd_02_1_2_1.jpg);
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
 }.h-s13-part1-img7{
-    background-image:url(/images/homepage/resources/blog1.jpg);
+    background-image:url(../../images/homepage/resources/blog1.jpg);
     background-size:cover;
     background-position: left;
     background-repeat: no-repeat;
