@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  width: 100%;
+  background-color: white;
+  font-family: 'Roboto', sans-serif; }
+  body nav {
+    padding-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    width: 100%;
+    padding-bottom: 70px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+    body nav ul img {
+      float: left;
+      position: relative;
+      padding-right: 200px; }
+    body nav ul li {
+      list-style-type: none;
+      float: left;
+      position: relative; }
+      body nav ul li a {
+        padding: 20px 30px;
+        list-style-type: none;
+        text-decoration: none;
+        text-align: center;
+        color: #222; }
+    body nav .shop a {
+      color: red; }
+    body nav .searching {
+      left: 400px;
+      display: inline-block;
+      position: relative;
+      opacity: 50%; }
+      body nav .searching .images {
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        padding-left: 100px; }
+      body nav .searching .rechercher {
+        position: relative;
+        padding-right: 100px; }
+      body nav .searching input {
+        border-top-left-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-right: 1px transparent;
+        float: left;
+        position: relative;
+        height: 28px; }
+      body nav .searching button {
+        position: relative;
+        float: right;
+        background-color: white;
+        text-decoration: none;
+        border-left: 1px solid transparent;
+        border-top-right-radius: 35px;
+        border-bottom-right-radius: 35px; }
+  body .submenu {
+    margin-left: 355px;
+    padding: 20px 0px;
+    display: inline-block; }
+    body .submenu a {
+      text-decoration: none;
+      list-style-type: none;
+      color: #222;
+      text-align: center;
+      padding: 20px 15px;
+      font-size: 12px; }
+  body .shoes {
+    height: 50px;
+    margin-left: 368px;
+    margin-top: 50px; }
+    body .shoes .titreshoes {
+      display: inline-block;
+      padding-right: 200px; }
+    body .shoes .shopby {
+      display: inline-block;
+      margin-left: 250px;
+      font-size: 20px;
+      list-style-type: bold; }
+    body .shoes .items {
+      display: inline-block;
+      padding-right: 200px; }
+    body .shoes .sort {
+      display: inline-block; }
+      body .shoes .sort span {
+        opacity: 35%; }
+  body .articles {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 100px 50px;
+    margin-left: 262px;
+    margin-right: 450px;
+    height: 2100px; }
+    body .articles .prix {
+      opacity: 35%; }
+    body .articles .noir, body .articles .bleu, body .articles .brun {
+      padding-bottom: 10px; }
+    body .articles .black {
+      display: inline-block;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: #222;
+      border-radius: 35px; }
+    body .articles .textblack {
+      margin-left: 30px;
+      opacity: 35%; }
+    body .articles .blue {
+      display: inline-block;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: blue;
+      border-radius: 35px; }
+    body .articles .textblue {
+      margin-left: 30px;
+      opacity: 35%; }
+    body .articles .brown {
+      display: inline-block;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: brown;
+      border-radius: 35px; }
+    body .articles .textbrown {
+      margin-left: 30px;
+      opacity: 35%; }
+    body .articles .xs {
+      display: inline-block;
+      position: absolute;
+      border: 1px solid grey;
+      padding: 10px;
+      opacity: 35%;
+      width: 39.5px; }
+    body .articles .s {
+      display: inline-block;
+      position: absolute;
+      margin-left: 50px;
+      border: 1px solid grey;
+      padding: 10px;
+      opacity: 35%;
+      width: 39.5px; }
+    body .articles .m {
+      display: inline-block;
+      position: absolute;
+      margin-left: 100px;
+      border: 1px solid grey;
+      padding: 10px;
+      opacity: 35%;
+      width: 39.5px; }
+    body .articles .price {
+      margin-top: 100px;
+      padding-top: 10px; }
+    body .articles .prix {
+      padding-top: 15px; }
+    body .articles .scroller scrollbar {
+      opacity: 50%;
+      object-position: top; }
+      body .articles .scroller scrollbar #fromPrice {
+        color: #f68773;
+        width: 263px;
+        scrollbar-color: #f68773;
+        text-decoration: #f68773; }
+    body .articles .scroller img {
+      padding-top: 2px; }
+    body .articles .brand input {
+      margin: 5px;
+      margin-left: 155px; }
+    body .articles .brand label {
+      width: 65px;
+      opacity: 35%; }
+    body .articles .brand .creative {
+      margin-left: 161px; }
+    body .articles .brand .compare {
+      padding-top: 50px; }
+    body .articles .brand p {
+      opacity: 35%; }
+    body .articles .blueshort {
+      display: inline-block;
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background-color: blue;
+      border-radius: 35px;
+      margin-left: 25px; }
+    body .articles .blackshort {
+      display: inline-block;
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background-color: black;
+      border-radius: 35px; }
+    body .articles .mxs {
+      display: inline-block;
+      background-color: lightgrey;
+      border-radius: 30px;
+      font-size: 14px;
+      opacity: 60%; }
+  body .numeropage {
+    display: inline-block;
+    position: relative;
+    padding-left: 675px;
+    width: 159px; }
+    body .numeropage a {
+      text-decoration: none;
+      list-style-type: none;
+      color: black;
+      padding: 20px 10px; }
+      body .numeropage a span {
+        border-bottom: 2px solid black;
+        padding-bottom: 2px; }
+    body .numeropage .next {
+      margin-left: -70px;
+      margin: 0px;
+      float: right;
+      position: relative;
+      padding: 0px;
+      border-radius: 10px;
+      bottom: 5px;
+      opacity: 50%; }
+  body footer {
+    display: block;
+    padding-top: 300px;
+    padding-bottom: 50px;
+    margin-left: 450px; }
+    body footer a {
+      color: #8d828d;
+      text-decoration: none;
+      text-align: center;
+      padding-right: 10px; }
+    body footer .footerimg {
+      padding-left: 700px; }
+
+@media screen and (max-width: 360px) {
+  body {
+    margin: 0px;
+    padding: 0px; }
+    body nav {
+      width: 100%;
+      padding-right: 0px;
+      margin-bottom: 0px;
+      padding-top: 0px;
+      padding-bottom: 30px; }
+      body nav ul img {
+        float: left;
+        position: relative;
+        padding-right: 0px; }
+      body nav ul li {
+        list-style-type: none; }
+        body nav ul li a {
+          padding: 10px 10px;
+          list-style-type: none;
+          text-decoration: none;
+          text-align: center;
+          color: #222; }
+      body nav .about .shop {
+        color: red; }
+      body nav .searching {
+        left: 0px;
+        opacity: 60%; }
+        body nav .searching .images {
+          left: 214px;
+          width: 100%;
+          padding-left: 0px;
+          padding-top: 40px; }
+        body nav .searching .rechercher {
+          padding-right: 0px; }
+        body nav .searching input {
+          border-top-left-radius: 35px;
+          border-bottom-left-radius: 35px;
+          border-right: 1px transparent;
+          float: left;
+          position: relative;
+          height: 28px;
+          width: 150px; }
+        body nav .searching button {
+          position: relative;
+          float: right;
+          background-color: white;
+          text-decoration: none;
+          border-left: 1px solid transparent;
+          border-top-right-radius: 35px;
+          border-bottom-right-radius: 35px; }
+    body .shoes {
+      display: none; }
+    body .submenu {
+      margin-left: 0px; }
+    body .articles {
+      display: block;
+      margin-left: 0px;
+      margin-right: 0px;
+      height: auto; }
+      body .articles .brand {
+        display: none; }
+      body .articles img {
+        padding-left: 30px; }
+      body .articles .row4 {
+        padding-left: 40px; }
+    body .numeropage {
+      display: block;
+      position: relative;
+      padding-left: 100px;
+      padding-bottom: 5px; }
+      body .numeropage a {
+        text-decoration: none;
+        list-style-type: none;
+        color: black;
+        padding: 20px 10px; }
+        body .numeropage a span {
+          border-bottom: 2px solid black;
+          padding-bottom: 2px; }
+    body footer {
+      display: block;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin-left: 5px; }
+      body footer a {
+        color: #8d828d;
+        text-decoration: none;
+        text-align: center;
+        padding-right: 10px; }
+      body footer .footerimg {
+        display: inline;
+        padding-left: 0px; }
+      body footer .marginfooter {
+        display: inline;
+        padding-left: 120px; } }
