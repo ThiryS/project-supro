@@ -150,6 +150,10 @@ html, body {
 .marginLeft {
   margin-left: 10px; }
 
+@media (max-width: 700px) {
+  .grid-container-contact {
+    grid-template-areas: 'contactnav' 'banner' 'form1' 'form2' 'map' 'scrollbox' 'footerContact'; } }
+
 /* Page Product */
 .grid-container-pruduct {
   display: grid;
