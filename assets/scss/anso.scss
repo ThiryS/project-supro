@@ -7,17 +7,22 @@ $white:white;
 
 
 
-html, body {
+ html, body {
+     box-sizing: border-box;
     height: 100%vh;
     padding: 0;
-    margin: 0;
+    margin: 0 ;
     background:rgb(242, 237, 233);
-    
+  
+   
 }
+
 // ----- homepage navbar desktop ----- //
 header {
     width: 100%;
     height: 200px;
+    margin: 0 auto;
+    width: 1050px;
     
 }
 .home-logo-supro-nav {
@@ -98,12 +103,19 @@ header .home-logo-supro-nav, img {
     position: relative;
     top: 50px;
     margin: 0;
-    line-height: 1.5;
+    line-height:2em ;
+    img{
+        width: 10px;
+    }
 }
 
 .home-deux {
-    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/abc.jpg) ;
+   
+    background-image: url(/images/homepage/resources/abc.jpg) ;
     background-size: 1000px;
+}
+.home-trois-media{
+    display: none;
 }
 .home-sect1-text1 {
     color: $orange;
@@ -131,7 +143,7 @@ header .home-logo-supro-nav, img {
     font-weight:800 ;
     padding: 5px;
     position: relative;
-    right:-698px;
+    right:-700px;
     top: -90px;
     display: inline;
 }
@@ -144,10 +156,10 @@ header .home-logo-supro-nav, img {
         padding-bottom:2px;
     }
 }
-/*------ homepage desktop section2--------*/
+/*------ homepage desktop section 2--------*/
 .home-part2 {
         display: grid;
-        grid-template-columns: 1.2fr 1.2fr 1.2fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 260px;
         margin-top: 80px;
        
@@ -155,10 +167,11 @@ header .home-logo-supro-nav, img {
 }
 
 .home-img1-sect2 {
-    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/banner_h1_1.jpg);
+    background-image: url(/images/homepage/resources/banner_h1_1.jpg);
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 .home-txt1-img1-sect2{
     font-family: 'Roboto', sans-serif;
@@ -197,9 +210,10 @@ header .home-logo-supro-nav, img {
 }
 
 .home-img2-sect2 {
-    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/banner_h1_2.jpg);
+    background-image: url(/images/homepage/resources/banner_h1_2.jpg);
     background-position: center;
     background-size:400px ;
+    
   
 }
 .home-txt1-img2-sect2 {
@@ -232,7 +246,7 @@ header .home-logo-supro-nav, img {
 }
 
 .home-img3-sect2 {
-    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/banner_h1_3.jpg);
+    background-image: url(/images/homepage/resources/banner_h1_3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -255,31 +269,34 @@ header .home-logo-supro-nav, img {
  }
 .home-txt1-img3-sect2 {
     position: relative;
-    left: 60%;
-    top: 22%;
+    left: 61%;
+    top: 55px;
     color: $black;
     opacity: 0.4;
     font-family: 'Roboto', sans-serif;
     font-size: 0.8em;
     font-weight: 500;
+    display: inline;
 }
 .home-txt2-img3-sect2 {
     position: relative;
-    left:60%;
-    top:26%;
+    left:40%;
+    top:96px;
     font-size:2em;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+    display: inline;
 }
 .home-txt3-img3-sect2 {
     position: relative;
-    left:60%;
-    top:24%;
+    left:2%;
+    top:130px;
     font-size:2em;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+    display: inline;
 }
 .home-discover-img3-sect2 {
     font-family: 'Roboto', sans-serif;
@@ -287,7 +304,7 @@ header .home-logo-supro-nav, img {
     letter-spacing: 0.1em;
     font-weight:800;
     position: relative;
-    top: 35%;
+    top: 155px;
     left:62% ;
         a {
             color: $black;
@@ -313,6 +330,9 @@ header .home-logo-supro-nav, img {
     position: relative;
     left: 17%;
     top: 50px;
+    width: 500px;
+     height: 50px;
+    
 }
 .txt2-topSellers-sect3 {
     position: relative;
@@ -321,6 +341,7 @@ header .home-logo-supro-nav, img {
     color: $grey;
     font-size: 0.7em;
     font-family: 'Roboto', sans-serif;
+    width: 600px;
     
 }
 /* ----- homepage desktop section 4 ----- */
@@ -335,7 +356,7 @@ header .home-logo-supro-nav, img {
  }
 .home-img1-sect4 {
       
-      background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/bsl1.jpg);
+      background-image: url(/images/homepage/resources/bsl1.jpg);
       background-size: 200px;
       background-repeat: no-repeat;
     background-position: top 48% left 90%;
@@ -375,7 +396,7 @@ header .home-logo-supro-nav, img {
 }
 .home-img2-sect4 {
    
-    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/bsl2.jpg);
+    background-image: url(/images/homepage/resources/bsl2.jpg);
     background-size: 320px 320px;
      background-repeat: no-repeat;
     background-position:top 10% left 60% ;
@@ -417,7 +438,7 @@ header .home-logo-supro-nav, img {
 }
 .home-sect5-img1 {
    
-    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/bsl3.jpg);
+    background-image: url(/images/homepage/resources/bsl3.jpg);
     background-size: 350px 350px;
     background-repeat: no-repeat;
     background-position: top 65% left 80%;
@@ -425,7 +446,7 @@ header .home-logo-supro-nav, img {
 
 .home-sect5-img2 {
    
-    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/bsl4.jpg);
+    background-image: url(/images/homepage/resources/bsl4.jpg);
     background-size:200px;
     background-repeat: no-repeat;
     background-position: top 50% left 45%;
@@ -501,14 +522,7 @@ header .home-logo-supro-nav, img {
     
    
 }
-// .home-sect6-part1 {
-//     // border: 1px solid $black;
-// }
-// .home-sect6-part2 {
-//     // border: 1px solid $black;
-    
-   
-// }
+
 .home-sect6-part1-txt1 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
@@ -524,22 +538,24 @@ header .home-logo-supro-nav, img {
     top: 5%;
     left: 28%;
 }
+.home-sect6-part2{
+    width: 380px;
+}
 .home-sect6-part2-txt{
     position: relative;
-    left: 17%;
+    left: 27%;
     top: 20%;
     color: $grey;
+    display: inline;
 }
 .home-sect6-part2-txt1, .home-sect6-part2-txt2, .home-sect6-part2-txt3,
 .home-sect6-part2-txt4, .home-sect6-part2-txt5 {
-        padding-right: 25px;
+        padding-right: 20px;
         font-size: 0.7em;
         font-weight: 600;
         font-family: 'Roboto', sans-serif;
 }
-// .home-sect6-part2-txt1{
-//     // color: $black;
-// }
+
 /*  ------------- Section7 -------------*/
 .home-sect7{
     display: grid;
@@ -551,21 +567,21 @@ header .home-logo-supro-nav, img {
     
 }
 .h-s7-part1 {
-    // border: 1px solid $black;
-    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/prd_09_1_1_5.jpg);
+    
+    background-image: url(/images/homepage/resources/prd_09_1_1_5.jpg);
     background-repeat: no-repeat;
     background-size:220px 220px  ;
 
 }
 .h-s7-part2{
-    // border: 1px solid $black;
-    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/prd_08_1_6.jpg);
+    
+    background-image: url(/images/homepage/resources/prd_08_1_6.jpg);
     background-repeat: no-repeat;
     background-size:220px 220px  ;
 }
 .h-s7-part3{
-    // border: 1px solid $black;
-    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/prd_07_1_2.jpg);
+    
+    background-image: url(/images/homepage/resources/prd_07_1_2.jpg);
     background-repeat: no-repeat;
     background-size:220px 220px  ;
 }
@@ -660,24 +676,24 @@ header .home-logo-supro-nav, img {
     grid-template-columns: 220px 220px 220px;
     grid-template-rows: 380px;
     grid-gap:80px;
-    // margin-right: 80px;
+    
      margin-left: 165px;
 }
 .h-s8-part1 {
-    // border: 1px solid $black;
-    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/prd_06_1_2.jpg);
+    
+    background-image: url(/images/homepage/resources/prd_06_1_2.jpg);
     background-repeat: no-repeat;
     background-size:220px 220px  ;
 
 }.h-s8-part2 {
-    // border: 1px solid $black;
-    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/prd_05_1_2.jpg);
+    
+    background-image: url(/images/homepage/resources/prd_05_1_2.jpg);
     background-repeat: no-repeat;
     background-size:220px 220px  ;
 
 }.h-s8-part3 {
-    // border: 1px solid $black;
-    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/prd_04_1_1.jpg);
+    
+    background-image: url(/images/homepage/resources/prd_04_1_1.jpg);
     background-repeat: no-repeat;
     background-size:220px 220px  ;
 
@@ -736,6 +752,7 @@ header .home-logo-supro-nav, img {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 100px;
+    display: inline;
     
         a{
             text-decoration: underline;
@@ -747,6 +764,7 @@ header .home-logo-supro-nav, img {
             padding: 5px;
             position: relative;
             left: 45%;
+            top:- 50px;
                 span{
                     span{
                         display:inline-block;
@@ -761,7 +779,7 @@ header .home-logo-supro-nav, img {
     grid-template-columns: 1fr;
     grid-template-rows: 400px;
     // border: 1px solid $black;
-    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/deals_image.jpg);
+    background-image: url(/images/homepage/resources/deals_image.jpg);
     background-size: 1280px 400px;
     background-repeat: no-repeat;
     background-position: center;
@@ -935,13 +953,14 @@ font-family: 'Roboto', sans-serif;
     letter-spacing: 0.1em;
     font-weight:600 ;
 }
+/* ----- Section 10 ---------*/
 .home-sect10{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 100px;
     // border: 1px solid $black;
 }
-/* ----- Section 10 ---------*/
+
 .h-s10-txt1{
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
@@ -949,6 +968,10 @@ font-family: 'Roboto', sans-serif;
     position: relative;
     left: 15%;
     top: 70px;
+    // display: inline;
+     width: 300px;
+     height:30px
+
 }
 .h-s10-txt2{
     color: $grey;
@@ -957,6 +980,8 @@ font-family: 'Roboto', sans-serif;
     position: relative;
     top: -20%;
     left: 15%;
+    
+    width: 300px;
 }
 .h-s10-seeMore{
     font-family: 'Roboto', sans-serif;
@@ -966,6 +991,8 @@ font-family: 'Roboto', sans-serif;
     position: relative;
     left: 77%;
     top: -20px;
+    width: 100px;
+    
 } /* ------------  Section 11 -----------------*/
 .container-home-sect11, .container-home-sect12{
     max-width: 90%;
@@ -984,7 +1011,7 @@ font-family: 'Roboto', sans-serif;
 .h-s11-img1{
     grid-row: 1 / 2;
     grid-column: 2 / 3;
-    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/latest2_1.jpg);
+    background-image: url(/images/homepage/resources/latest2_1.jpg);
      background-repeat: no-repeat;
     background-size: 250px 170px;
    
@@ -997,7 +1024,7 @@ font-family: 'Roboto', sans-serif;
 .h-s11-img2{
     grid-row: 1 / 2;
     grid-column: 3 / 4;
-    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/blog9.jpg);
+    background-image: url(/images/homepage/resources/blog9.jpg);
     background-repeat: no-repeat;
     background-size:250px 170px ;
     width: 100%;
@@ -1006,7 +1033,7 @@ font-family: 'Roboto', sans-serif;
 }.h-s11-img3{
     grid-row: 1 / 2;
     grid-column: 4 / 5;
-    background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/blog8.jpg);
+    background-image: url(/images/homepage/resources/blog8.jpg);
     background-size: 250px 170px;
     background-repeat: no-repeat;
 }
@@ -1128,13 +1155,15 @@ font-family: 'Roboto', sans-serif;
     grid-row: 1 / 2;
     grid-column: 2 / 3;
     position: relative;
-    left:480px ;
+    left:495px ;
     font-family: 'Roboto', sans-serif;
     font-size: 0.5em;
     letter-spacing: 0.1em;
     font-weight:600 ;
     position: relative;
-    top: 15px;
+    top: 17px;
+    width: 50px;
+    height: 10px;;
 }
 .h-s12-part2-trait{
     border-top: 1px solid $grey;
@@ -1155,37 +1184,37 @@ font-family: 'Roboto', sans-serif;
 }
 
 .h-s13-part1-img1{
-    background-image:url(/home/as/Documents/Becode/project-supro/images/shop/resources/prd_14_1_2.jpg);
+    background-image:url(/images/shop/resources/prd_14_1_2.jpg);
     background-size:200px ;
     background-position: left;
     background-repeat: no-repeat;
 }.h-s13-part1-img2{
-    background-image:url(/home/as/Documents/Becode/project-supro/images/stores/resources/64e3011babb9cb666c04621c00230857.jpg);
+    background-image:url(/images/stores/resources/64e3011babb9cb666c04621c00230857.jpg);
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
 }.h-s13-part1-img3{
-    background-image:url(/home/as/Documents/Becode/project-supro/images/homepage/resources/prd_09_1_1_5.jpg);
+    background-image:url(/images/homepage/resources/prd_09_1_1_5.jpg);
     background-size:200px;
     background-position: left;
     background-repeat: no-repeat;
 }.h-s13-part1-img4{
-    background-image:url(/home/as/Documents/Becode/project-supro/images/about/resources/ab2.jpg);
+    background-image:url(/images/about/resources/ab2.jpg);
     background-size:200px;
     background-position: left;
     background-repeat: no-repeat;
 }.h-s13-part1-img5{
-    background-image:url(/home/as/Documents/Becode/project-supro/images/homepage/resources/blog6_1.jpg);
+    background-image:url(/images/homepage/resources/blog6_1.jpg);
     background-size:250px;
     background-position: center;
     background-repeat: no-repeat;
 }.h-s13-part1-img6{
-    background-image:url(/home/as/Documents/Becode/project-supro/images/shop/resources/prd_02_1_2_1.jpg);
+    background-image:url(/images/shop/resources/prd_02_1_2_1.jpg);
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
 }.h-s13-part1-img7{
-    background-image:url(/home/as/Documents/Becode/project-supro/images/homepage/resources/blog1.jpg);
+    background-image:url(/images/homepage/resources/blog1.jpg);
     background-size:cover;
     background-position: left;
     background-repeat: no-repeat;
@@ -1445,9 +1474,9 @@ font-family: 'Roboto', sans-serif;
     grid-row:1/2 ;
     grid-column:4/5 ;
 }
-.h-footer-part4{
-    // border: 1px solid black;
-}
+// .h-footer-part4{
+//     // border: 1px solid black;
+// }
 .h-footer-date, .h-footer-droit{
     color: $grey;
     font-size: 0.7em;
@@ -1485,6 +1514,7 @@ font-family: 'Roboto', sans-serif;
    top:-50px ;
    left: 150px; 
 }
+
 
 
 

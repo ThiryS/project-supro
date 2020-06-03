@@ -3,6 +3,7 @@
   box-sizing: border-box; }
 
 html, body {
+  box-sizing: border-box;
   height: 100%vh;
   padding: 0;
   margin: 0;
@@ -10,7 +11,9 @@ html, body {
 
 header {
   width: 100%;
-  height: 200px; }
+  height: 200px;
+  margin: 0 auto;
+  width: 1050px; }
 
 .home-logo-supro-nav {
   position: relative;
@@ -82,11 +85,16 @@ header .home-logo-supro-nav, img {
   position: relative;
   top: 50px;
   margin: 0;
-  line-height: 1.5; }
+  line-height: 2em; }
+  .home-ico-sect1 img {
+    width: 10px; }
 
 .home-deux {
-  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/abc.jpg);
+  background-image: url(/images/homepage/resources/abc.jpg);
   background-size: 1000px; }
+
+.home-trois-media {
+  display: none; }
 
 .home-sect1-text1 {
   color: #f68773;
@@ -114,7 +122,7 @@ header .home-logo-supro-nav, img {
   font-weight: 800;
   padding: 5px;
   position: relative;
-  right: -698px;
+  right: -700px;
   top: -90px;
   display: inline; }
 
@@ -126,15 +134,15 @@ header .home-logo-supro-nav, img {
     border-bottom: 2px solid black;
     padding-bottom: 2px; }
 
-/*------ homepage desktop section2--------*/
+/*------ homepage desktop section 2--------*/
 .home-part2 {
   display: grid;
-  grid-template-columns: 1.2fr 1.2fr 1.2fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 260px;
   margin-top: 80px; }
 
 .home-img1-sect2 {
-  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/banner_h1_1.jpg);
+  background-image: url(/images/homepage/resources/banner_h1_1.jpg);
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -172,7 +180,7 @@ header .home-logo-supro-nav, img {
       padding-bottom: 2px; }
 
 .home-img2-sect2 {
-  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/banner_h1_2.jpg);
+  background-image: url(/images/homepage/resources/banner_h1_2.jpg);
   background-position: center;
   background-size: 400px; }
 
@@ -205,7 +213,7 @@ header .home-logo-supro-nav, img {
   left: 35%; }
 
 .home-img3-sect2 {
-  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/banner_h1_3.jpg);
+  background-image: url(/images/homepage/resources/banner_h1_3.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -226,31 +234,34 @@ header .home-logo-supro-nav, img {
 
 .home-txt1-img3-sect2 {
   position: relative;
-  left: 60%;
-  top: 22%;
+  left: 61%;
+  top: 55px;
   color: #222;
   opacity: 0.4;
   font-family: 'Roboto', sans-serif;
   font-size: 0.8em;
-  font-weight: 500; }
+  font-weight: 500;
+  display: inline; }
 
 .home-txt2-img3-sect2 {
   position: relative;
-  left: 60%;
-  top: 26%;
+  left: 40%;
+  top: 96px;
   font-size: 2em;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  display: inline; }
 
 .home-txt3-img3-sect2 {
   position: relative;
-  left: 60%;
-  top: 24%;
+  left: 2%;
+  top: 130px;
   font-size: 2em;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  display: inline; }
 
 .home-discover-img3-sect2 {
   font-family: 'Roboto', sans-serif;
@@ -258,7 +269,7 @@ header .home-logo-supro-nav, img {
   letter-spacing: 0.1em;
   font-weight: 800;
   position: relative;
-  top: 35%;
+  top: 155px;
   left: 62%; }
   .home-discover-img3-sect2 a {
     color: #222; }
@@ -280,7 +291,9 @@ header .home-logo-supro-nav, img {
   font-weight: 600;
   position: relative;
   left: 17%;
-  top: 50px; }
+  top: 50px;
+  width: 500px;
+  height: 50px; }
 
 .txt2-topSellers-sect3 {
   position: relative;
@@ -288,7 +301,8 @@ header .home-logo-supro-nav, img {
   top: -120%;
   color: #999;
   font-size: 0.7em;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  width: 600px; }
 
 /* ----- homepage desktop section 4 ----- */
 .home-part4 {
@@ -299,7 +313,7 @@ header .home-logo-supro-nav, img {
   grid-gap: 60px; }
 
 .home-img1-sect4 {
-  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/bsl1.jpg);
+  background-image: url(/images/homepage/resources/bsl1.jpg);
   background-size: 200px;
   background-repeat: no-repeat;
   background-position: top 48% left 90%; }
@@ -334,7 +348,7 @@ header .home-logo-supro-nav, img {
       padding-bottom: 2px; }
 
 .home-img2-sect4 {
-  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/bsl2.jpg);
+  background-image: url(/images/homepage/resources/bsl2.jpg);
   background-size: 320px 320px;
   background-repeat: no-repeat;
   background-position: top 10% left 60%; }
@@ -373,13 +387,13 @@ header .home-logo-supro-nav, img {
   margin-bottom: 150px; }
 
 .home-sect5-img1 {
-  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/bsl3.jpg);
+  background-image: url(/images/homepage/resources/bsl3.jpg);
   background-size: 350px 350px;
   background-repeat: no-repeat;
   background-position: top 65% left 80%; }
 
 .home-sect5-img2 {
-  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/bsl4.jpg);
+  background-image: url(/images/homepage/resources/bsl4.jpg);
   background-size: 200px;
   background-repeat: no-repeat;
   background-position: top 50% left 45%;
@@ -462,15 +476,19 @@ header .home-logo-supro-nav, img {
   top: 5%;
   left: 28%; }
 
+.home-sect6-part2 {
+  width: 380px; }
+
 .home-sect6-part2-txt {
   position: relative;
-  left: 17%;
+  left: 27%;
   top: 20%;
-  color: #999; }
+  color: #999;
+  display: inline; }
 
 .home-sect6-part2-txt1, .home-sect6-part2-txt2, .home-sect6-part2-txt3,
 .home-sect6-part2-txt4, .home-sect6-part2-txt5 {
-  padding-right: 25px;
+  padding-right: 20px;
   font-size: 0.7em;
   font-weight: 600;
   font-family: 'Roboto', sans-serif; }
@@ -484,17 +502,17 @@ header .home-logo-supro-nav, img {
   margin-left: 165px; }
 
 .h-s7-part1 {
-  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/prd_09_1_1_5.jpg);
+  background-image: url(/images/homepage/resources/prd_09_1_1_5.jpg);
   background-repeat: no-repeat;
   background-size: 220px 220px; }
 
 .h-s7-part2 {
-  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/prd_08_1_6.jpg);
+  background-image: url(/images/homepage/resources/prd_08_1_6.jpg);
   background-repeat: no-repeat;
   background-size: 220px 220px; }
 
 .h-s7-part3 {
-  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/prd_07_1_2.jpg);
+  background-image: url(/images/homepage/resources/prd_07_1_2.jpg);
   background-repeat: no-repeat;
   background-size: 220px 220px; }
 
@@ -592,17 +610,17 @@ header .home-logo-supro-nav, img {
   margin-left: 165px; }
 
 .h-s8-part1 {
-  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/prd_06_1_2.jpg);
+  background-image: url(/images/homepage/resources/prd_06_1_2.jpg);
   background-repeat: no-repeat;
   background-size: 220px 220px; }
 
 .h-s8-part2 {
-  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/prd_05_1_2.jpg);
+  background-image: url(/images/homepage/resources/prd_05_1_2.jpg);
   background-repeat: no-repeat;
   background-size: 220px 220px; }
 
 .h-s8-part3 {
-  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/prd_04_1_1.jpg);
+  background-image: url(/images/homepage/resources/prd_04_1_1.jpg);
   background-repeat: no-repeat;
   background-size: 220px 220px; }
 
@@ -658,7 +676,8 @@ header .home-logo-supro-nav, img {
 .h-discover {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 100px; }
+  grid-template-rows: 100px;
+  display: inline; }
   .h-discover a {
     text-decoration: underline;
     color: #222;
@@ -668,7 +687,8 @@ header .home-logo-supro-nav, img {
     font-weight: 800;
     padding: 5px;
     position: relative;
-    left: 45%; }
+    left: 45%;
+    top: -50px; }
     .h-discover a span span {
       display: inline-block;
       border-bottom: 2px solid #222;
@@ -678,7 +698,7 @@ header .home-logo-supro-nav, img {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 400px;
-  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/deals_image.jpg);
+  background-image: url(/images/homepage/resources/deals_image.jpg);
   background-size: 1280px 400px;
   background-repeat: no-repeat;
   background-position: center; }
@@ -845,19 +865,21 @@ header .home-logo-supro-nav, img {
   letter-spacing: 0.1em;
   font-weight: 600; }
 
+/* ----- Section 10 ---------*/
 .home-sect10 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 100px; }
 
-/* ----- Section 10 ---------*/
 .h-s10-txt1 {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
   font-weight: 600;
   position: relative;
   left: 15%;
-  top: 70px; }
+  top: 70px;
+  width: 300px;
+  height: 30px; }
 
 .h-s10-txt2 {
   color: #999;
@@ -865,7 +887,8 @@ header .home-logo-supro-nav, img {
   font-family: 'Roboto', sans-serif;
   position: relative;
   top: -20%;
-  left: 15%; }
+  left: 15%;
+  width: 300px; }
 
 .h-s10-seeMore {
   font-family: 'Roboto', sans-serif;
@@ -874,7 +897,8 @@ header .home-logo-supro-nav, img {
   font-weight: 600;
   position: relative;
   left: 77%;
-  top: -20px; }
+  top: -20px;
+  width: 100px; }
 
 /* ------------  Section 11 -----------------*/
 .container-home-sect11, .container-home-sect12 {
@@ -892,7 +916,7 @@ header .home-logo-supro-nav, img {
 .h-s11-img1 {
   grid-row: 1 / 2;
   grid-column: 2 / 3;
-  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/latest2_1.jpg);
+  background-image: url(/images/homepage/resources/latest2_1.jpg);
   background-repeat: no-repeat;
   background-size: 250px 170px; }
   .h-s11-img1 img {
@@ -903,7 +927,7 @@ header .home-logo-supro-nav, img {
 .h-s11-img2 {
   grid-row: 1 / 2;
   grid-column: 3 / 4;
-  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/blog9.jpg);
+  background-image: url(/images/homepage/resources/blog9.jpg);
   background-repeat: no-repeat;
   background-size: 250px 170px;
   width: 100%;
@@ -912,7 +936,7 @@ header .home-logo-supro-nav, img {
 .h-s11-img3 {
   grid-row: 1 / 2;
   grid-column: 4 / 5;
-  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/blog8.jpg);
+  background-image: url(/images/homepage/resources/blog8.jpg);
   background-size: 250px 170px;
   background-repeat: no-repeat; }
 
@@ -1025,13 +1049,15 @@ header .home-logo-supro-nav, img {
   grid-row: 1 / 2;
   grid-column: 2 / 3;
   position: relative;
-  left: 480px;
+  left: 495px;
   font-family: 'Roboto', sans-serif;
   font-size: 0.5em;
   letter-spacing: 0.1em;
   font-weight: 600;
   position: relative;
-  top: 15px; }
+  top: 17px;
+  width: 50px;
+  height: 10px; }
 
 .h-s12-part2-trait {
   border-top: 1px solid #999;
@@ -1050,43 +1076,43 @@ header .home-logo-supro-nav, img {
   position: relative; }
 
 .h-s13-part1-img1 {
-  background-image: url(/home/as/Documents/Becode/project-supro/images/shop/resources/prd_14_1_2.jpg);
+  background-image: url(/images/shop/resources/prd_14_1_2.jpg);
   background-size: 200px;
   background-position: left;
   background-repeat: no-repeat; }
 
 .h-s13-part1-img2 {
-  background-image: url(/home/as/Documents/Becode/project-supro/images/stores/resources/64e3011babb9cb666c04621c00230857.jpg);
+  background-image: url(/images/stores/resources/64e3011babb9cb666c04621c00230857.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
 
 .h-s13-part1-img3 {
-  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/prd_09_1_1_5.jpg);
+  background-image: url(/images/homepage/resources/prd_09_1_1_5.jpg);
   background-size: 200px;
   background-position: left;
   background-repeat: no-repeat; }
 
 .h-s13-part1-img4 {
-  background-image: url(/home/as/Documents/Becode/project-supro/images/about/resources/ab2.jpg);
+  background-image: url(/images/about/resources/ab2.jpg);
   background-size: 200px;
   background-position: left;
   background-repeat: no-repeat; }
 
 .h-s13-part1-img5 {
-  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/blog6_1.jpg);
+  background-image: url(/images/homepage/resources/blog6_1.jpg);
   background-size: 250px;
   background-position: center;
   background-repeat: no-repeat; }
 
 .h-s13-part1-img6 {
-  background-image: url(/home/as/Documents/Becode/project-supro/images/shop/resources/prd_02_1_2_1.jpg);
+  background-image: url(/images/shop/resources/prd_02_1_2_1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
 
 .h-s13-part1-img7 {
-  background-image: url(/home/as/Documents/Becode/project-supro/images/homepage/resources/blog1.jpg);
+  background-image: url(/images/homepage/resources/blog1.jpg);
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat; }
