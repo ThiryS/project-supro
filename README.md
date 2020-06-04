@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # project-supro
 ## Projet de reproduction de site Web.
 ### Technologies utilisées HTML CSS SASS
