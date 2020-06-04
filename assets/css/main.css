@@ -367,7 +367,8 @@ html, body {
   height: 100%vh;
   padding: 0;
   margin: 0;
-  background: #f2ede9; }
+  background: #f2ede9;
+  overflow-x: hidden; }
 
 header {
   width: 100%;
