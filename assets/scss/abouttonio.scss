@@ -13,7 +13,7 @@ body {
 
 
     nav {
-        width:122%;
+        width:100%;
         padding-right:10px;
         margin-bottom:10px;
         padding-top: 20px;
@@ -85,7 +85,7 @@ body {
             border-right: 1px transparent;
             float:left;
             position:relative;
-            height:28px;
+            height:29px;
           
             
         }
@@ -528,10 +528,10 @@ body {
             
         .images { 
             
-            left:214px;
+            left:208px;
             width: 100%;
             padding-left: 0px;
-            padding-top: 40px;
+            padding-top: 2px;
         }
                     
         .rechercher {
@@ -549,7 +549,7 @@ body {
             border-right: 1px transparent;
             float:left;
             position:relative;
-            height:28px;
+            height:29px;
             width:150px;
           
             
@@ -986,10 +986,10 @@ body {
             
         .images { 
             
-            left:214px;
+            left:236px;
             width: 100%;
             padding-left: 0px;
-            padding-top: 40px;
+            padding-top: 0px;
         }
                     
         .rechercher {
@@ -1007,7 +1007,7 @@ body {
             border-right: 1px transparent;
             float:left;
             position:relative;
-            height:28px;
+            height:29px;
             width:150px;
           
             
@@ -1088,7 +1088,7 @@ body {
         
         .article1 {
             width:100%;
-            height:600px;
+            height:auto;
 
             img { 
                 width: 100%;
@@ -1116,12 +1116,12 @@ body {
         .article2 {
             display:block; 
             width:100%;
-            height:370px;
+            height:auto;
             padding-top:30px;
 
             img {
-                padding-left: 0px;
-                padding-right:0px; 
+                padding-left: 5px;
+                padding-right:5px; 
                 padding-top: 30px;
                 width:360px;
                 height:355px;
@@ -1151,12 +1151,14 @@ body {
         }
 
         .article3 { 
-            display: block;
+            display: inline;
             width:100%;
             padding-top: 0px;
             padding-bottom: 25px;
+            height:auto;
 
             .bigmoments { 
+                height:auto;
                 padding-top: 20px;
                                            
                 h1 {
@@ -1323,6 +1325,7 @@ body {
         display:grid;
         grid-template-columns: auto;
         grid-template-rows: auto;
+        gap:2px;
        
         a{
           color: #8d828d;
@@ -1363,8 +1366,9 @@ body {
        }
       
       .payementfoot { 
-        
-        margin: auto;
+        display:inline-block;
+        padding-top: 45px;
+        padding-bottom: 25px;
        }
       
       
@@ -1380,15 +1384,12 @@ body {
         padding-top: 45px;
         padding-bottom: 25px;
     }
-    .payementfoot {
-        padding-top: 45px;
-        padding-bottom: 25px;
-    }
+    
     
     }
 }
 
-@media only screen and (min-width:741px) and (max-width:1024px){
+@media only screen and (min-width:741px) and (max-width:1550px) {
 
     body {
         margin:0px;
@@ -1450,7 +1451,7 @@ body {
             left:214px;
             width: 100%;
             padding-left: 0px;
-            padding-top: 40px;
+            padding-top: 3px;
         }
                     
         .rechercher {
@@ -1468,7 +1469,7 @@ body {
             border-right: 1px transparent;
             float:left;
             position:relative;
-            height:28px;
+            height:29px;
             width:150px;
           
             
@@ -1551,7 +1552,7 @@ body {
         
         .article1 {
             width:100%;
-            height:715px;
+            height:auto;
 
             img { 
                 width: 100%;
@@ -1579,15 +1580,15 @@ body {
         .article2 {
             display:block; 
             width:100%;
-            height:370px;
+            height:auto;
             padding-top:30px;
 
             img {
-                padding-left: 0px;
-                padding-right:0px; 
+                padding-left: 10px;
+                padding-right:10px; 
                 padding-top: 30px;
                 width:360px;
-                height:355px;
+                height:auto;
                 
                 
             }
@@ -1605,7 +1606,8 @@ body {
                 opacity: 60%;
             }
             
-            .txtcofounder { 
+            .txtcofounder {
+                height:auto; 
                 padding-top: 50px;
                 opacity: 60%;
             }
@@ -1618,14 +1620,18 @@ body {
             width:100%;
             padding-top: 0px;
             padding-bottom: 25px;
+            height:auto;
 
             .bigmoments { 
-                padding-top: 20px;
+                height:auto;
+                padding-top: 85px;
                                            
                 h1 {
+                    height:auto;
                     font-size: 40px;
                 }
                 p{
+                    height:auto;
                     opacity: 60%;
                 }
 
@@ -1723,7 +1729,7 @@ body {
         }
 
         .articles4 {
-
+            height:auto;
             padding-top: 25px;
 
             h2{
