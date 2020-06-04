@@ -258,7 +258,7 @@ body {
     padding-top: 70px;
     padding-bottom: 50px; }
 
-@media screen and (max-width: 360px) {
+@media only screen and (max-width: 360px) {
   body {
     margin: 0px;
     padding: 0px;
@@ -316,6 +316,8 @@ body {
       text-align: center;
       padding-top: 0px;
       width: 100%; }
+      body .aboutus h1 {
+        padding-top: 40px; }
     body .submenu {
       margin-left: 0px;
       height: 50px; }
@@ -484,16 +486,16 @@ body {
     body .pproductp {
       color: #555555; }
     body .copyright {
-      padding-top: 70px;
-      padding-bottom: 50px; }
+      padding-top: 25px;
+      padding-bottom: 25px; }
     body .media {
-      padding-top: 70px;
-      padding-bottom: 50px; }
+      padding-top: 25px;
+      padding-bottom: 25px; }
     body .payementfoot {
-      padding-top: 70px;
-      padding-bottom: 50px; } }
+      padding-top: 25px;
+      padding-bottom: 25px; } }
 
-@media screen and (min-width: 740px) {
+@media only screen and (min-width: 361px) and (max-width: 740px) {
   body {
     margin: 0px;
     padding: 0px;
@@ -519,6 +521,7 @@ body {
       body nav .about a {
         color: red; }
       body nav .searching {
+        padding-top: 10px;
         left: 0px;
         opacity: 60%; }
         body nav .searching .images {
@@ -551,6 +554,8 @@ body {
       text-align: center;
       padding-top: 0px;
       width: 100%; }
+      body .aboutus h1 {
+        padding-top: 40px; }
     body .submenu {
       margin-left: 0px;
       height: 50px; }
@@ -719,16 +724,16 @@ body {
     body .pproductp {
       color: #555555; }
     body .copyright {
-      padding-top: 70px;
-      padding-bottom: 50px; }
+      padding-top: 25px;
+      padding-bottom: 25px; }
     body .media {
-      padding-top: 70px;
-      padding-bottom: 50px; }
+      padding-top: 25px;
+      padding-bottom: 25px; }
     body .payementfoot {
-      padding-top: 70px;
-      padding-bottom: 50px; } }
+      padding-top: 25px;
+      padding-bottom: 25px; } }
 
-@media screen and (min-width: 1024px) {
+@media only screen and (min-width: 741px) and (max-width: 1024px) {
   body {
     margin: 0px;
     padding: 0px;
@@ -787,6 +792,8 @@ body {
       text-align: center;
       padding-top: 0px;
       width: 100%; }
+      body .aboutus h1 {
+        padding-top: 40px; }
     body .submenu {
       margin-left: 0px;
       height: 50px; }
@@ -933,6 +940,10 @@ body {
       width: 100%;
       padding-top: 10px;
       padding-left: 0px;
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      gap: 10px;
       color: #8d828d; }
       body .footerabout a {
         color: #8d828d;

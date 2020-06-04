@@ -472,7 +472,7 @@ body {
 
 
 
-@media screen and (max-width:360px) { 
+@media only screen and (max-width:360px) { 
 
     body {
         margin:0px;
@@ -571,7 +571,9 @@ body {
     }
     
     .aboutus {
-        
+            h1 {
+                padding-top:40px;
+            }
         height : 140px; 
         color:white; 
         background-color: #3E3E3E;
@@ -912,22 +914,22 @@ body {
       }
 
     .copyright { 
-        padding-top: 70px;
-        padding-bottom: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
     .media {
-        padding-top: 70px;
-        padding-bottom: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
     .payementfoot {
-        padding-top: 70px;
-        padding-bottom: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
     
     }
 }
 
-@media screen and (min-width:740px) {
+@media only screen and (min-width:361px) and (max-width:740px) {
 
 
     body {
@@ -979,6 +981,7 @@ body {
         }
 
         .searching {
+            padding-top:10px;
             left:0px;
             opacity: 60%;
             
@@ -1026,7 +1029,9 @@ body {
     }
     
     .aboutus {
-        
+            h1 {
+                padding-top: 40px;
+            }
         height : 140px; 
         color:white; 
         background-color: #3E3E3E;
@@ -1367,22 +1372,22 @@ body {
       }
 
     .copyright { 
-        padding-top: 70px;
-        padding-bottom: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
     .media {
-        padding-top: 70px;
-        padding-bottom: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
     .payementfoot {
-        padding-top: 70px;
-        padding-bottom: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
     
     }
 }
 
-@media screen and (min-width:1024px) {
+@media only screen and (min-width:741px) and (max-width:1024px){
 
     body {
         margin:0px;
@@ -1429,6 +1434,8 @@ body {
             }
         }
         .about {  
+
+            
             a{
             color:red;}
         }
@@ -1481,7 +1488,11 @@ body {
     }
     
     .aboutus {
-        
+
+        h1 {
+                padding-top:40px;
+        }
+             
         height : 140px; 
         color:white; 
         background-color: #3E3E3E;
@@ -1773,6 +1784,11 @@ body {
         width:100%;
         padding-top:10px;
         padding-left: 0px;
+        display:grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        gap:10px;
+
        
         
         
