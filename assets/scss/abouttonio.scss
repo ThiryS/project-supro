@@ -1320,7 +1320,9 @@ body {
         width:100%;
         padding-top:75px;
         padding-left: 0px;
-        display:block;
+        display:grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
        
         a{
           color: #8d828d;
@@ -1361,7 +1363,7 @@ body {
        }
       
       .payementfoot { 
-       
+        
         margin: auto;
        }
       
@@ -1371,15 +1373,15 @@ body {
       }
 
     .copyright { 
-        padding-top: 25px;
+        padding-top: 45px;
         padding-bottom: 25px;
     }
     .media {
-        padding-top: 25px;
+        padding-top: 45px;
         padding-bottom: 25px;
     }
     .payementfoot {
-        padding-top: 25px;
+        padding-top: 45px;
         padding-bottom: 25px;
     }
     

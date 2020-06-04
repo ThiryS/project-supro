@@ -701,7 +701,9 @@ body {
       width: 100%;
       padding-top: 75px;
       padding-left: 0px;
-      display: block;
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
       color: #8d828d; }
       body .footerabout a {
         color: #8d828d;
@@ -724,13 +726,13 @@ body {
     body .pproductp {
       color: #555555; }
     body .copyright {
-      padding-top: 25px;
+      padding-top: 45px;
       padding-bottom: 25px; }
     body .media {
-      padding-top: 25px;
+      padding-top: 45px;
       padding-bottom: 25px; }
     body .payementfoot {
-      padding-top: 25px;
+      padding-top: 45px;
       padding-bottom: 25px; } }
 
 @media only screen and (min-width: 741px) and (max-width: 1024px) {
