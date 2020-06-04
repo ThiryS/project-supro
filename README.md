@@ -1,31 +1,9 @@
 <<<<<<< HEAD
 # project-supro
-<<<<<<< HEAD
-<<<<<<< HEAD
-test
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-test simon
-=======
-test anso
->>>>>>> origin/anso
-=======
-TEstTonio
->>>>>>> origin/tonio
-=======
-# project-supro
-test
-
-test simon
->>>>>>> simon
-=======
-
-#Page Shop du project supro
->>>>>>> tonio
-=======
 ## Projet de reproduction de site Web.
 ### Technologies utilisées HTML CSS SASS
+
+https://thirys.github.io/project-supro/
 
 Equipe SANA composée de Simon Thiry - Antonio Maita - Anne-Sophie Simana.
 
@@ -37,4 +15,3 @@ https://becode.org/
 
 Liège, Juin 2020.
 
->>>>>>> origin/anso
