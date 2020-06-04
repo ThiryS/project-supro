@@ -5,7 +5,8 @@ html, body {
   height: 100%;
   margin: 0;
   color: #555555;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden; }
 
 /* Page Contact */
 .grid-container-contact {
@@ -36,28 +37,38 @@ html, body {
       color: #222; }
   .contactnav .contact a {
     color: red; }
+  .contactnav .searching {
+    display: inline-block;
+    position: relative;
+    opacity: 50%; }
+    .contactnav .searching .images {
+      display: inline-block;
+      position: absolute;
+      width: 100%;
+      padding-left: 100px; }
+    .contactnav .searching .rechercher {
+      position: relative;
+      padding-right: 100px; }
+    .contactnav .searching input {
+      border-top-left-radius: 35px;
+      border-bottom-left-radius: 35px;
+      border-right: 1px transparent;
+      float: left;
+      position: relative;
+      height: 29px; }
+    .contactnav .searching button {
+      position: relative;
+      float: right;
+      background-color: white;
+      text-decoration: none;
+      border-left: 1px solid transparent;
+      border-top-right-radius: 35px;
+      border-bottom-right-radius: 35px; }
 
-.searching {
-  position: relative;
-  float: right;
-  padding-left: 400px;
-  opacity: 35%; }
-  .searching .images {
-    float: right;
-    position: relative; }
-  .searching .rechercher {
-    position: relative;
-    float: left;
-    padding-right: 100px; }
-  .searching input {
-    float: left;
-    position: relative; }
-  .searching button {
-    position: relative;
-    float: right;
-    background-color: white;
-    text-decoration: none;
-    border-left: 1px transparent; }
+.searchborder {
+  border: none;
+  border: solid 1px #ccc;
+  border-radius: 10px; }
 
 .banner {
   grid-area: banner;
@@ -185,6 +196,33 @@ html, body {
       color: #222; }
   .navproduct .product a {
     color: red; }
+  .navproduct .searching {
+    display: inline-block;
+    position: relative;
+    opacity: 50%; }
+    .navproduct .searching .images {
+      display: inline-block;
+      position: absolute;
+      width: 100%;
+      padding-left: 100px; }
+    .navproduct .searching .rechercher {
+      position: relative;
+      padding-right: 100px; }
+    .navproduct .searching input {
+      border-top-left-radius: 35px;
+      border-bottom-left-radius: 35px;
+      border-right: 1px transparent;
+      float: left;
+      position: relative;
+      height: 29px; }
+    .navproduct .searching button {
+      position: relative;
+      float: right;
+      background-color: white;
+      text-decoration: none;
+      border-left: 1px solid transparent;
+      border-top-right-radius: 35px;
+      border-bottom-right-radius: 35px; }
 
 .productpro {
   display: grid;

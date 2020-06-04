@@ -1,6 +1,6 @@
 @import './font';
 
-html, body{ height: 100%; margin: 0; color: #555555; font-family: 'Roboto', sans-serif; }
+html, body{ height: 100%; margin: 0; color: #555555; font-family: 'Roboto', sans-serif; overflow-x: hidden; }
 
 /* Page Contact */
 
@@ -48,49 +48,62 @@ html, body{ height: 100%; margin: 0; color: #555555; font-family: 'Roboto', sans
     color:red;}
 }
 
-
-
-
-}
-.searching { 
-position:relative;
-float:right;
-padding-left:400px;
-
-opacity: 35%;
-
+.searching {
+  display:inline-block; 
+  position:relative;
+  
+  
+  
+  opacity: 50%;
+  
 .images { 
-float:right;
-position: relative;
+  display:inline-block;
+  position: absolute;
+  width: 100%;
+  padding-left: 100px;
 }
-
-.rechercher { 
-position:relative;
-float:left;
-padding-right: 100px;
-
-
-
+          
+.rechercher {
+  
+  position:relative;
+  
+  padding-right: 100px;
+  
 }
-
+ 
 input {
-    float:left;
-    position:relative;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+  border-right: 1px transparent;
+  float:left;
+  position:relative;
+  height:29px;
 
-
-
-
+  
 }
+  
 button { 
-    position:relative;
-    float:right;
-    background-color: white;
-    text-decoration:none;
-    border-left:1px transparent;
+  position:relative;
+  float:right;
+  background-color: white;
+  text-decoration:none;
+  border-left:1px solid transparent;
+  border-top-right-radius:35px;
+  border-bottom-right-radius: 35px;
+  
+}
+
+}
 
 
 }
- }
+
+.searchborder{
+  border: none;
+  border:solid 1px #ccc;
+  border-radius: 10px;
+}
+
 
 .banner { 
   grid-area: banner;
@@ -258,7 +271,52 @@ margin-right: 500px;
     a{
     color:red;}
 }
+.searching {
+  display:inline-block; 
+  position:relative;
+  
+  
+  
+  opacity: 50%;
+  
+.images { 
+  display:inline-block;
+  position: absolute;
+  width: 100%;
+  padding-left: 100px;
+}
+          
+.rechercher {
+  
+  position:relative;
+  
+  padding-right: 100px;
+  
+}
+ 
+input {
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+  border-right: 1px transparent;
+  float:left;
+  position:relative;
+  height:29px;
 
+  
+}
+  
+button { 
+  position:relative;
+  float:right;
+  background-color: white;
+  text-decoration:none;
+  border-left:1px solid transparent;
+  border-top-right-radius:35px;
+  border-bottom-right-radius: 35px;
+  
+}
+
+}
 
  }
 
