@@ -4,7 +4,7 @@ body {
   background-color: white;
   font-family: 'Roboto', sans-serif; }
   body nav {
-    width: 122%;
+    width: 100%;
     padding-right: 10px;
     margin-bottom: 10px;
     padding-top: 20px;
@@ -44,7 +44,7 @@ body {
         border-right: 1px transparent;
         float: left;
         position: relative;
-        height: 28px; }
+        height: 29px; }
       body nav .searching button {
         position: relative;
         float: right;
@@ -287,10 +287,10 @@ body {
         left: 0px;
         opacity: 60%; }
         body nav .searching .images {
-          left: 214px;
+          left: 208px;
           width: 100%;
           padding-left: 0px;
-          padding-top: 40px; }
+          padding-top: 2px; }
         body nav .searching .rechercher {
           padding-right: 0px; }
         body nav .searching input {
@@ -299,7 +299,7 @@ body {
           border-right: 1px transparent;
           float: left;
           position: relative;
-          height: 28px;
+          height: 29px;
           width: 150px; }
         body nav .searching button {
           position: relative;
@@ -525,10 +525,10 @@ body {
         left: 0px;
         opacity: 60%; }
         body nav .searching .images {
-          left: 214px;
+          left: 236px;
           width: 100%;
           padding-left: 0px;
-          padding-top: 40px; }
+          padding-top: 0px; }
         body nav .searching .rechercher {
           padding-right: 0px; }
         body nav .searching input {
@@ -537,7 +537,7 @@ body {
           border-right: 1px transparent;
           float: left;
           position: relative;
-          height: 28px;
+          height: 29px;
           width: 150px; }
         body nav .searching button {
           position: relative;
@@ -582,7 +582,7 @@ body {
       width: 100%; }
       body .content .article1 {
         width: 100%;
-        height: 600px; }
+        height: auto; }
         body .content .article1 img {
           width: 100%; }
         body .content .article1 h1 {
@@ -598,11 +598,11 @@ body {
       body .content .article2 {
         display: block;
         width: 100%;
-        height: 370px;
+        height: auto;
         padding-top: 30px; }
         body .content .article2 img {
-          padding-left: 0px;
-          padding-right: 0px;
+          padding-left: 5px;
+          padding-right: 5px;
           padding-top: 30px;
           width: 360px;
           height: 355px; }
@@ -618,11 +618,13 @@ body {
           padding-top: 50px;
           opacity: 60%; }
       body .content .article3 {
-        display: block;
+        display: inline;
         width: 100%;
         padding-top: 0px;
-        padding-bottom: 25px; }
+        padding-bottom: 25px;
+        height: auto; }
         body .content .article3 .bigmoments {
+          height: auto;
           padding-top: 20px; }
           body .content .article3 .bigmoments h1 {
             font-size: 40px; }
@@ -704,6 +706,7 @@ body {
       display: grid;
       grid-template-columns: auto;
       grid-template-rows: auto;
+      gap: 2px;
       color: #8d828d; }
       body .footerabout a {
         color: #8d828d;
@@ -722,7 +725,9 @@ body {
     body .media {
       margin: auto; }
     body .payementfoot {
-      margin: auto; }
+      display: inline-block;
+      padding-top: 45px;
+      padding-bottom: 25px; }
     body .pproductp {
       color: #555555; }
     body .copyright {
@@ -730,12 +735,9 @@ body {
       padding-bottom: 25px; }
     body .media {
       padding-top: 45px;
-      padding-bottom: 25px; }
-    body .payementfoot {
-      padding-top: 45px;
       padding-bottom: 25px; } }
 
-@media only screen and (min-width: 741px) and (max-width: 1024px) {
+@media only screen and (min-width: 741px) and (max-width: 1550px) {
   body {
     margin: 0px;
     padding: 0px;
@@ -768,7 +770,7 @@ body {
           left: 214px;
           width: 100%;
           padding-left: 0px;
-          padding-top: 40px; }
+          padding-top: 3px; }
         body nav .searching .rechercher {
           padding-right: 0px; }
         body nav .searching input {
@@ -777,7 +779,7 @@ body {
           border-right: 1px transparent;
           float: left;
           position: relative;
-          height: 28px;
+          height: 29px;
           width: 150px; }
         body nav .searching button {
           position: relative;
@@ -822,7 +824,7 @@ body {
       width: 100%; }
       body .content .article1 {
         width: 100%;
-        height: 715px; }
+        height: auto; }
         body .content .article1 img {
           width: 100%; }
         body .content .article1 h1 {
@@ -838,14 +840,14 @@ body {
       body .content .article2 {
         display: block;
         width: 100%;
-        height: 370px;
+        height: auto;
         padding-top: 30px; }
         body .content .article2 img {
-          padding-left: 0px;
-          padding-right: 0px;
+          padding-left: 10px;
+          padding-right: 10px;
           padding-top: 30px;
           width: 360px;
-          height: 355px; }
+          height: auto; }
         body .content .article2 h2 {
           font-style: italic;
           padding-top: 45px;
@@ -855,18 +857,23 @@ body {
         body .content .article2 .cofounder {
           opacity: 60%; }
         body .content .article2 .txtcofounder {
+          height: auto;
           padding-top: 50px;
           opacity: 60%; }
       body .content .article3 {
         display: block;
         width: 100%;
         padding-top: 0px;
-        padding-bottom: 25px; }
+        padding-bottom: 25px;
+        height: auto; }
         body .content .article3 .bigmoments {
-          padding-top: 20px; }
+          height: auto;
+          padding-top: 85px; }
           body .content .article3 .bigmoments h1 {
+            height: auto;
             font-size: 40px; }
           body .content .article3 .bigmoments p {
+            height: auto;
             opacity: 60%; }
         body .content .article3 .datea {
           padding-left: 0px;
@@ -912,6 +919,7 @@ body {
             margin-top: 0px;
             opacity: 60%; }
       body .content .articles4 {
+        height: auto;
         padding-top: 25px; }
         body .content .articles4 h2 {
           width: 100%;
