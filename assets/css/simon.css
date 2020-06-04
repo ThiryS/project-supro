@@ -199,6 +199,9 @@ html, body {
     padding-bottom: 10px; }
   .pictureprod img {
     width: 100%; }
+  .pictureprod a {
+    text-decoration: none;
+    color: #555555; }
 
 .otherpic {
   grid-area: otherpic;
