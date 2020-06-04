@@ -948,7 +948,7 @@ body {
     body .footerabout {
       height: auto;
       width: 100%;
-      padding-top: 10px;
+      padding-top: 70px;
       padding-left: 0px;
       display: grid;
       grid-template-columns: auto;
