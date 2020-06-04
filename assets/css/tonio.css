@@ -232,66 +232,56 @@ body {
     body footer .footerimg {
       padding-left: 700px; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 360px) {
   body {
     margin: 0px;
     padding: 0px; }
     body nav {
+      width: 100%;
       padding-right: 0px;
       margin-bottom: 0px;
       padding-top: 0px;
-      padding-bottom: 60px;
-      border-bottom: 1px solid rgba(0, 0, 0, 0); }
+      padding-bottom: 30px; }
       body nav ul img {
         float: left;
         position: relative;
-        padding-right: 0px;
-        margin-left: 0px; }
+        padding-right: 0px; }
       body nav ul li {
-        list-style-type: none;
-        float: left;
-        position: relative; }
+        list-style-type: none; }
         body nav ul li a {
           padding: 10px 10px;
           list-style-type: none;
           text-decoration: none;
           text-align: center;
           color: #222; }
-      body nav .shop a {
+      body nav .about .shop {
         color: red; }
       body nav .searching {
-        position: relative;
-        float: right;
-        margin-left: 0px;
-        padding-left: 0px;
-        padding-top: 26px;
         left: 0px;
-        opacity: 50%; }
+        opacity: 60%; }
         body nav .searching .images {
-          float: right;
-          position: relative; }
+          left: 214px;
+          width: 100%;
+          padding-left: 0px;
+          padding-top: 40px; }
         body nav .searching .rechercher {
-          position: relative;
-          float: left;
-          padding-right: 0px;
-          width: 50px; }
-        body nav .searching button {
-          position: relative;
-          float: right;
-          left: 60px;
-          background-color: white;
-          text-decoration: none;
-          border-left: 1px solid transparent;
-          border-top-right-radius: 35px;
-          border-bottom-right-radius: 35px; }
+          padding-right: 0px; }
         body nav .searching input {
           border-top-left-radius: 35px;
           border-bottom-left-radius: 35px;
           border-right: 1px transparent;
           float: left;
-          position: absolute;
+          position: relative;
           height: 28px;
-          margin-left: -133px; }
+          width: 150px; }
+        body nav .searching button {
+          position: relative;
+          float: right;
+          background-color: white;
+          text-decoration: none;
+          border-left: 1px solid transparent;
+          border-top-right-radius: 35px;
+          border-bottom-right-radius: 35px; }
     body .shoes {
       display: none; }
     body .submenu {
@@ -300,13 +290,18 @@ body {
       display: block;
       margin-left: 0px;
       margin-right: 0px;
-      height: 2100px; }
+      height: auto; }
       body .articles .brand {
         display: none; }
+      body .articles img {
+        padding-left: 30px; }
+      body .articles .row4 {
+        padding-left: 40px; }
     body .numeropage {
       display: block;
       position: relative;
-      padding-left: 675px; }
+      padding-left: 100px;
+      padding-bottom: 5px; }
       body .numeropage a {
         text-decoration: none;
         list-style-type: none;
@@ -315,18 +310,19 @@ body {
         body .numeropage a span {
           border-bottom: 2px solid black;
           padding-bottom: 2px; }
-    body .footer {
-      display: inline;
+    body footer {
+      display: block;
       padding-top: 5px;
       padding-bottom: 5px;
       margin-left: 5px; }
-      body .footer a {
+      body footer a {
         color: #8d828d;
         text-decoration: none;
         text-align: center;
         padding-right: 10px; }
-      body .footer .footerimg {
+      body footer .footerimg {
         display: inline;
         padding-left: 0px; }
-      body .footer .marginfooter {
-        display: inline; } }
+      body footer .marginfooter {
+        display: inline;
+        padding-left: 120px; } }
