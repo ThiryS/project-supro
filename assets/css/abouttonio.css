@@ -106,8 +106,8 @@ body {
       body .content .article2 img {
         float: left;
         position: relative;
-        padding: 50px;
-        padding-right: 190px; }
+        padding: 25px;
+        padding-right: 100px; }
       body .content .article2 h2 {
         font-style: italic;
         padding-top: 60px; }
@@ -258,14 +258,16 @@ body {
     padding-top: 70px;
     padding-bottom: 50px; }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 360px) {
   body {
+    margin: 0px;
+    padding: 0px;
     width: 100%; }
     body nav {
       width: 100%;
-      padding-right: 10px;
-      margin-bottom: 10px;
-      padding-top: 20px;
+      padding-right: 0px;
+      margin-bottom: 0px;
+      padding-top: 0px;
       padding-bottom: 30px; }
       body nav ul img {
         float: left;
@@ -274,7 +276,7 @@ body {
       body nav ul li {
         list-style-type: none; }
         body nav ul li a {
-          padding: 10px 15px;
+          padding: 10px 20px;
           list-style-type: none;
           text-decoration: none;
           text-align: center;
@@ -297,7 +299,8 @@ body {
           border-right: 1px transparent;
           float: left;
           position: relative;
-          height: 28px; }
+          height: 28px;
+          width: 150px; }
         body nav .searching button {
           position: relative;
           float: right;
@@ -339,7 +342,7 @@ body {
       width: 100%; }
       body .content .article1 {
         width: 100%;
-        height: 355px; }
+        height: 455px; }
         body .content .article1 img {
           width: 100%; }
         body .content .article1 h1 {
@@ -355,17 +358,17 @@ body {
       body .content .article2 {
         display: block;
         width: 100%;
-        height: 355px;
-        padding-top: 10px; }
+        height: 720px;
+        padding-top: 30px; }
         body .content .article2 img {
           padding-left: 0px;
           padding-right: 0px;
-          padding-top: 145px;
+          padding-top: 30px;
           width: 360px;
           height: 355px; }
         body .content .article2 h2 {
           font-style: italic;
-          padding-top: 5px;
+          padding-top: 45px;
           width: 100%; }
         body .content .article2 h4 {
           color: #f68773; }
@@ -377,10 +380,10 @@ body {
       body .content .article3 {
         display: block;
         width: 100%;
-        padding-top: 140px;
+        padding-top: 0px;
         padding-bottom: 25px; }
         body .content .article3 .bigmoments {
-          padding-top: 370px; }
+          padding-top: 20px; }
           body .content .article3 .bigmoments h1 {
             font-size: 40px; }
           body .content .article3 .bigmoments p {
@@ -474,6 +477,478 @@ body {
       margin: auto; }
     body .copyright {
       margin: auto; }
+    body .media {
+      margin: auto; }
+    body .payementfoot {
+      margin: auto; }
+    body .pproductp {
+      color: #555555; }
+    body .copyright {
+      padding-top: 70px;
+      padding-bottom: 50px; }
+    body .media {
+      padding-top: 70px;
+      padding-bottom: 50px; }
+    body .payementfoot {
+      padding-top: 70px;
+      padding-bottom: 50px; } }
+
+@media screen and (min-width: 740px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%; }
+    body nav {
+      width: 100%;
+      padding-right: 0px;
+      margin-bottom: 0px;
+      padding-top: 0px;
+      padding-bottom: 30px; }
+      body nav ul img {
+        float: left;
+        position: relative;
+        padding-right: 0px; }
+      body nav ul li {
+        list-style-type: none; }
+        body nav ul li a {
+          padding: 10px 20px;
+          list-style-type: none;
+          text-decoration: none;
+          text-align: center;
+          color: #222; }
+      body nav .about a {
+        color: red; }
+      body nav .searching {
+        left: 0px;
+        opacity: 60%; }
+        body nav .searching .images {
+          left: 214px;
+          width: 100%;
+          padding-left: 0px;
+          padding-top: 40px; }
+        body nav .searching .rechercher {
+          padding-right: 0px; }
+        body nav .searching input {
+          border-top-left-radius: 35px;
+          border-bottom-left-radius: 35px;
+          border-right: 1px transparent;
+          float: left;
+          position: relative;
+          height: 28px;
+          width: 150px; }
+        body nav .searching button {
+          position: relative;
+          float: right;
+          background-color: white;
+          text-decoration: none;
+          border-left: 1px solid transparent;
+          border-top-right-radius: 35px;
+          border-bottom-right-radius: 35px; }
+    body .aboutus {
+      height: 140px;
+      color: white;
+      background-color: #3E3E3E;
+      text-align: center;
+      padding-top: 0px;
+      width: 100%; }
+    body .submenu {
+      margin-left: 0px;
+      height: 50px; }
+      body .submenu a {
+        text-decoration: none;
+        color: #222;
+        opacity: 60%; }
+      body .submenu li {
+        display: inline;
+        position: overflow; }
+        body .submenu li a {
+          opacity: 60%;
+          color: #222;
+          text-align: center;
+          padding: 20px 15px;
+          font-size: 12px; }
+      body .submenu .subaboutus {
+        display: inline-block;
+        opacity: 100%;
+        position: relative;
+        padding-bottom: 100px; }
+    body .content {
+      margin-left: 0px;
+      width: 100%; }
+      body .content .article1 {
+        width: 100%;
+        height: 600px; }
+        body .content .article1 img {
+          width: 100%; }
+        body .content .article1 h1 {
+          width: 100%;
+          font-size: 30px; }
+        body .content .article1 h4 {
+          color: #f68773; }
+        body .content .article1 p {
+          opacity: 60%;
+          width: 100%;
+          padding-left: 1px;
+          padding-top: 10px; }
+      body .content .article2 {
+        display: block;
+        width: 100%;
+        height: 370px;
+        padding-top: 30px; }
+        body .content .article2 img {
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 30px;
+          width: 360px;
+          height: 355px; }
+        body .content .article2 h2 {
+          font-style: italic;
+          padding-top: 45px;
+          width: 100%; }
+        body .content .article2 h4 {
+          color: #f68773; }
+        body .content .article2 .cofounder {
+          opacity: 60%; }
+        body .content .article2 .txtcofounder {
+          padding-top: 50px;
+          opacity: 60%; }
+      body .content .article3 {
+        display: block;
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 25px; }
+        body .content .article3 .bigmoments {
+          padding-top: 20px; }
+          body .content .article3 .bigmoments h1 {
+            font-size: 40px; }
+          body .content .article3 .bigmoments p {
+            opacity: 60%; }
+        body .content .article3 .datea {
+          padding-left: 0px;
+          width: 300px; }
+          body .content .article3 .datea .date1 {
+            padding-bottom: 25px; }
+            body .content .article3 .datea .date1 p {
+              opacity: 60%; }
+          body .content .article3 .datea .date2 {
+            width: 70%; }
+            body .content .article3 .datea .date2 p {
+              opacity: 60%; }
+        body .content .article3 .date3 {
+          padding-bottom: 25px; }
+          body .content .article3 .date3 p {
+            opacity: 60%; }
+        body .content .article3 .date4 p {
+          opacity: 60%; }
+      body .content .imagevideo img {
+        width: 360px; }
+      body .content .imagevideo .play {
+        display: none; }
+      body .content .subvideo {
+        width: 100%;
+        display: block; }
+        body .content .subvideo .subvideo1 {
+          width: 100%; }
+          body .content .subvideo .subvideo1 img {
+            padding-top: 50px;
+            padding-right: 2px; }
+          body .content .subvideo .subvideo1 p {
+            display: inline-block;
+            padding-right: 10px;
+            margin-bottom: 0px; }
+        body .content .subvideo .subvideo2 {
+          padding-top: 20px;
+          padding-left: 0px;
+          width: 100%; }
+          body .content .subvideo .subvideo2 p {
+            display: block;
+            padding-right: 50px;
+            margin-left: 17px;
+            margin-top: 0px;
+            opacity: 60%; }
+      body .content .articles4 {
+        padding-top: 25px; }
+        body .content .articles4 h2 {
+          width: 100%;
+          padding-left: 0px;
+          font-size: 30px; }
+        body .content .articles4 .heritage {
+          display: block;
+          padding-left: 0px;
+          width: 100%; }
+          body .content .articles4 .heritage p {
+            width: 100%;
+            opacity: 60%; }
+          body .content .articles4 .heritage .txt2 {
+            width: 100%;
+            padding-left: 0px; }
+      body .content .article5 {
+        padding-top: 50px; }
+        body .content .article5 h1 {
+          padding-bottom: 25px;
+          padding-left: 0px;
+          font-size: 50px; }
+        body .content .article5 img {
+          padding: 5px; }
+      body .content .enseigne img {
+        padding: 25px; }
+    body .footerabout {
+      width: 100%;
+      padding-top: 75px;
+      padding-left: 0px;
+      display: block;
+      color: #8d828d; }
+      body .footerabout a {
+        color: #8d828d;
+        text-decoration: none; }
+    body .suproinfos {
+      margin: auto; }
+    body .suphelp {
+      margin: auto;
+      margin-bottom: 36px; }
+    body .aboutsup {
+      margin: auto; }
+    body .onlinesup {
+      margin: auto; }
+    body .copyright {
+      margin: auto; }
+    body .media {
+      margin: auto; }
+    body .payementfoot {
+      margin: auto; }
+    body .pproductp {
+      color: #555555; }
+    body .copyright {
+      padding-top: 70px;
+      padding-bottom: 50px; }
+    body .media {
+      padding-top: 70px;
+      padding-bottom: 50px; }
+    body .payementfoot {
+      padding-top: 70px;
+      padding-bottom: 50px; } }
+
+@media screen and (min-width: 1024px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto; }
+    body nav {
+      width: 100%;
+      padding-right: 0px;
+      margin-bottom: 0px;
+      padding-top: 0px;
+      padding-bottom: 30px; }
+      body nav ul img {
+        float: left;
+        position: relative;
+        padding-right: 0px; }
+      body nav ul li {
+        list-style-type: none; }
+        body nav ul li a {
+          padding: 10px 20px;
+          list-style-type: none;
+          text-decoration: none;
+          text-align: center;
+          color: #222; }
+      body nav .about a {
+        color: red; }
+      body nav .searching {
+        left: 0px;
+        opacity: 60%; }
+        body nav .searching .images {
+          left: 214px;
+          width: 100%;
+          padding-left: 0px;
+          padding-top: 40px; }
+        body nav .searching .rechercher {
+          padding-right: 0px; }
+        body nav .searching input {
+          border-top-left-radius: 35px;
+          border-bottom-left-radius: 35px;
+          border-right: 1px transparent;
+          float: left;
+          position: relative;
+          height: 28px;
+          width: 150px; }
+        body nav .searching button {
+          position: relative;
+          float: right;
+          background-color: white;
+          text-decoration: none;
+          border-left: 1px solid transparent;
+          border-top-right-radius: 35px;
+          border-bottom-right-radius: 35px; }
+    body .aboutus {
+      height: 140px;
+      color: white;
+      background-color: #3E3E3E;
+      text-align: center;
+      padding-top: 0px;
+      width: 100%; }
+    body .submenu {
+      margin-left: 0px;
+      height: 50px; }
+      body .submenu a {
+        text-decoration: none;
+        color: #222;
+        opacity: 60%; }
+      body .submenu li {
+        display: inline;
+        position: overflow; }
+        body .submenu li a {
+          opacity: 60%;
+          color: #222;
+          text-align: center;
+          padding: 20px 15px;
+          font-size: 12px; }
+      body .submenu .subaboutus {
+        display: inline-block;
+        opacity: 100%;
+        position: relative;
+        padding-bottom: 100px; }
+    body .content {
+      margin-left: 0px;
+      width: 100%; }
+      body .content .article1 {
+        width: 100%;
+        height: 715px; }
+        body .content .article1 img {
+          width: 100%; }
+        body .content .article1 h1 {
+          width: 100%;
+          font-size: 30px; }
+        body .content .article1 h4 {
+          color: #f68773; }
+        body .content .article1 p {
+          opacity: 60%;
+          width: 100%;
+          padding-left: 1px;
+          padding-top: 10px; }
+      body .content .article2 {
+        display: block;
+        width: 100%;
+        height: 370px;
+        padding-top: 30px; }
+        body .content .article2 img {
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 30px;
+          width: 360px;
+          height: 355px; }
+        body .content .article2 h2 {
+          font-style: italic;
+          padding-top: 45px;
+          width: 100%; }
+        body .content .article2 h4 {
+          color: #f68773; }
+        body .content .article2 .cofounder {
+          opacity: 60%; }
+        body .content .article2 .txtcofounder {
+          padding-top: 50px;
+          opacity: 60%; }
+      body .content .article3 {
+        display: block;
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 25px; }
+        body .content .article3 .bigmoments {
+          padding-top: 20px; }
+          body .content .article3 .bigmoments h1 {
+            font-size: 40px; }
+          body .content .article3 .bigmoments p {
+            opacity: 60%; }
+        body .content .article3 .datea {
+          padding-left: 0px;
+          width: 300px; }
+          body .content .article3 .datea .date1 {
+            padding-bottom: 25px; }
+            body .content .article3 .datea .date1 p {
+              opacity: 60%; }
+          body .content .article3 .datea .date2 {
+            width: 70%; }
+            body .content .article3 .datea .date2 p {
+              opacity: 60%; }
+        body .content .article3 .date3 {
+          padding-bottom: 25px; }
+          body .content .article3 .date3 p {
+            opacity: 60%; }
+        body .content .article3 .date4 p {
+          opacity: 60%; }
+      body .content .imagevideo img {
+        width: 360px; }
+      body .content .imagevideo .play {
+        display: none; }
+      body .content .subvideo {
+        width: 100%;
+        display: block; }
+        body .content .subvideo .subvideo1 {
+          width: 100%; }
+          body .content .subvideo .subvideo1 img {
+            padding-top: 50px;
+            padding-right: 2px; }
+          body .content .subvideo .subvideo1 p {
+            display: inline-block;
+            padding-right: 10px;
+            margin-bottom: 0px; }
+        body .content .subvideo .subvideo2 {
+          padding-top: 20px;
+          padding-left: 0px;
+          width: 100%; }
+          body .content .subvideo .subvideo2 p {
+            display: block;
+            padding-right: 50px;
+            margin-left: 17px;
+            margin-top: 0px;
+            opacity: 60%; }
+      body .content .articles4 {
+        padding-top: 25px; }
+        body .content .articles4 h2 {
+          width: 100%;
+          padding-left: 0px;
+          font-size: 30px; }
+        body .content .articles4 .heritage {
+          display: block;
+          padding-left: 0px;
+          width: 100%; }
+          body .content .articles4 .heritage p {
+            width: 100%;
+            opacity: 60%; }
+          body .content .articles4 .heritage .txt2 {
+            width: 100%;
+            padding-left: 0px; }
+      body .content .article5 {
+        padding-top: 50px; }
+        body .content .article5 h1 {
+          padding-bottom: 25px;
+          padding-left: 0px;
+          font-size: 50px; }
+        body .content .article5 img {
+          padding: 5px; }
+      body .content .enseigne img {
+        padding: 25px; }
+    body .footerabout {
+      height: auto;
+      width: 100%;
+      padding-top: 10px;
+      padding-left: 0px;
+      color: #8d828d; }
+      body .footerabout a {
+        color: #8d828d;
+        text-decoration: none; }
+    body .suproinfos {
+      margin: auto; }
+    body .suphelp {
+      margin: auto;
+      margin-bottom: 36px; }
+    body .aboutsup {
+      margin: auto; }
+    body .onlinesup {
+      width: 100%;
+      margin: auto; }
+    body .copyright {
+      width: 100%; }
     body .media {
       margin: auto; }
     body .payementfoot {
